@@ -1,0 +1,17 @@
+{"path": "Assets/Resources/Framework/catalog.json", "sha256": "f1dcd03243e10b70da12a43390d9c75241c3d0ce8ad5367f5ab7832fe7dc5cca", "bytes": 447871, "evidence": "reimplemented"}
+{"path": "Assets/Resources/Framework/app_config.json", "sha256": "7ae9c5dd2a1d54c927b444ae2f0b57bc2f6ac2bc33d335b33c9b23744d00136a", "bytes": 501, "evidence": "reimplemented"}
+{"path": "Assets/Original/framework_recovery_manifest.json", "sha256": "1575a1c338bc03ba4745b99f6000a156efefff3145e3808411f64fd0e6a165e6", "bytes": 13259, "evidence": "recovered"}
+{"path": "Builds/YarnScapesOffline.exe", "sha256": "5cc71bf032f440ac46a5d24bb4101050a37001dd8f1b8325aec1067ea0d1ff52", "bytes": 666624, "evidence": "observed"}
+{"path": "Builds/YarnScapesOffline_Data/Managed/Assembly-CSharp.dll", "sha256": "08d404ec0d37b2cd7d09c0ab92dd943c7252f5206060ec64d0cdfed89803af35", "bytes": 84480, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/final/01_library.png", "sha256": "bd2d848241b22f86a41253041b36237afb0abae0ed8e7544b1246a838e355c12", "bytes": 264875, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/final/02_daily.png", "sha256": "d0f12e76c65b8923542ca5ca96a2607c31acecf45de321d0519493248d8b5e68", "bytes": 75065, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/final/03_before_settings.png", "sha256": "bebcc025fc0e076aa97141c42d2ac7e9e7bb88d36d5f2de649589d2f6aa46596", "bytes": 81033, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/final/03_settings.png", "sha256": "d3af9da00fd1ac9b1d614ac3881e74f0526062d8ca57a2c3d24b2c61613503e3", "bytes": 35011, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/final/04_playing.png", "sha256": "cad7b3988e67dd3bd9c3d5ad35f00eefcc18120f614e575903c1af8f4e2e2889", "bytes": 320521, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/final/05_my.png", "sha256": "8292881107fcb63c314b1c04fb9ab9f4cb6bb9f3aedd67a1f4841946c20e229d", "bytes": 91188, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/final/06_complete.png", "sha256": "e11ad43133f16fb6c763c44e01debef4ef7cc077e153433edf924cb473f2a615", "bytes": 197841, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/source_checks.json", "sha256": "36f681a8ff374cc2c0fe13ab9078906b0549d0913b916488a25fbdca1bbf8727", "bytes": 5756, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/configuration_checks.json", "sha256": "c7800e14e6908713b0625bf5c5dfa833f5c4554399f34e96173477b449878e7d", "bytes": 14504, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/final/runtime_checks.json", "sha256": "c63c8dc2de779d7e27239f505bdf8873245393b0dc1083cfcff3afac65f4e107", "bytes": 887, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/final/resume_checks.json", "sha256": "e98f549695316b3ca4609ec6e3ac42e8fdc23c39afcf0a7c639e657992df1fc5", "bytes": 421, "evidence": "observed"}
+{"path": "Acceptance/2026-11-16/framework/gameplay-smoke/interaction_report.json", "sha256": "97ce16560923480220753ba3d54d5f151c6a1cde3750c4af1f7e4c5e8dc82194", "bytes": 3806, "evidence": "observed"}

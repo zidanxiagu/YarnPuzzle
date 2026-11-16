@@ -1,0 +1,25 @@
+{
+    "method": "UGUI raycast navigation, real region playback for one recovered level; isolated progress + separate process resume",
+    "checks": [
+        "boot_to_library",
+        "pagination_changes_items",
+        "daily_tab",
+        "my_tab",
+        "settings_page",
+        "music_setting_persisted",
+        "card_opens_correct_level",
+        "music_setting_applied",
+        "pointer_starts_weaving",
+        "back_saves_partial_and_stops_game",
+        "continue_restores_exact_progress",
+        "cancel_restart_preserves_cells",
+        "ongoing_gallery_has_saved_work",
+        "natural_completion_routes_to_result",
+        "completed_art_opens_result_directly",
+        "cancel_replay_preserves_completed_work",
+        "missing_asset_is_explicit_and_does_not_start_game",
+        "no_duplicate_sessions",
+        "user_progress_untouched"
+    ],
+    "failures": []
+}

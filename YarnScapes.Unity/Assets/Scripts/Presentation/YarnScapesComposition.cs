@@ -32,7 +32,7 @@ namespace YarnScapes.Presentation
                 UnfilledTexture = unfilled != null ? unfilled : Resources.Load<Texture2D>(level.unfilledImageResource ?? ""),
                 SmoothUnfilledTexture = unfilled != null,
                 ShadowTexture = Resources.Load<Texture2D>("YarnMaterialsV1/" + level.levelId + "_shadow"),
-                CellPulseSeconds = level.fillAnimationSeconds, RouteStepSeconds = .045f,
+                CellPulseSeconds = level.fillAnimationSeconds, RouteStepSeconds = level.routeStepSeconds,
                 Wool = WoolAssets()
             };
         }

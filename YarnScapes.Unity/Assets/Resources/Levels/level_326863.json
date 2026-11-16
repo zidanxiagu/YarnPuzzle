@@ -3695,7 +3695,18 @@
   "starThreshold": 0,
   "sourceNote": "Pixel map recovered from APK finished_url PNG; alpha >=100, D65 Lab deltaE<=2; source-order groups. i512 is presentation art only.",
   "pixelMapSha256": "823cde076b9ab6e6d526592c230dec955ba8c85352db716e067ec5d2eda88af2",
-  "dataEvidenceStatus": "recovered; pending runtime cache comparison",
-  "animationEvidenceStatus": "reimplemented placeholders; timing unverified",
-  "unfilledMaterialEvidenceStatus": "reimplemented grayscale approximation; original GL material pending"
+  "dataEvidenceStatus": "pixel map recovered; original runtime cache comparison pending",
+  "animationEvidenceStatus": "reimplemented; timing unverified",
+  "unfilledMaterialEvidenceStatus": "reimplemented grayscale approximation; original GL material pending",
+  "paintId": "f4d6df4e-2832-453a-a266-955b42530843",
+  "categories": "For You,Emoji,New",
+  "sourceUrl": "https://d155twajtn14q1.cloudfront.net/imgs/87df05f3782ccb63edaf2f5d7025e9b4d2147920.webp",
+  "pixelMapUrl": "https://d155twajtn14q1.cloudfront.net/imgs/2320034429bf51d66262753d57c35415cabe28a6.png",
+  "gifUrl": "",
+  "unlockType": 0,
+  "cornerMarker": 4,
+  "distributeFlag": 0,
+  "onlineDate": 1787788800,
+  "timeZone": "UTC",
+  "routeStepSeconds": 0.045
 }

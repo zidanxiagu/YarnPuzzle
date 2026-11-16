@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using YarnScapes.Core;
 using YarnScapes.Infrastructure;
@@ -9,7 +10,13 @@ using WeaveKit.Unity;
 
 public sealed class YarnScapesRuntime : MonoBehaviour
 {
+    public string LaunchLevelId;
+    public LocalProgressStore SharedProgress;
+    public System.Action HomeRequested;
+    public System.Action<string> LevelCompleted;
+    private bool leaving;
     private const string FirstLevelId = "level_326863";
+    private static string requestedLevelId;
     private static readonly Color PageBackground = new Color(0.93f, 0.93f, 0.93f, 1f);
     private static readonly Color PanelBackground = new Color(0.98f, 0.98f, 0.98f, 1f);
     private static readonly Color Ink = new Color(0.12f, 0.14f, 0.18f, 1f);
@@ -24,6 +31,7 @@ public sealed class YarnScapesRuntime : MonoBehaviour
     private Text selectedColorText;
     private Text titleText;
     private GameObject completionOverlay;
+    private GameObject levelPickerOverlay;
     private Transform canvasRoot;
     private int selectedColor;
     private AudioSource audioSource;
@@ -40,13 +48,26 @@ public sealed class YarnScapesRuntime : MonoBehaviour
     private float lastStitchSound;
     public static bool AcceptanceMode => System.Array.IndexOf(System.Environment.GetCommandLineArgs(), "--acceptance-output") >= 0;
 
+    public static void RequestLevel(string levelId)
+    {
+        requestedLevelId = NormalizeLevelId(levelId);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     private void Start()
     {
         Application.targetFrameRate = 60;
         Screen.orientation = ScreenOrientation.Portrait;
+        var target = NormalizeLevelId(LaunchLevelId) ?? requestedLevelId ?? CommandLineLevelId();
+        if (target == null && !AcceptanceMode)
+        {
+            gameObject.AddComponent<YarnScapesApp>();
+            enabled = false;
+            return;
+        }
         levelRepository = new ResourcesLevelRepository();
-        progressStore = new LocalProgressStore();
-        level = levelRepository.Load(FirstLevelId);
+        progressStore = SharedProgress ?? new LocalProgressStore();
+        level = levelRepository.Load(target ?? FirstLevelId);
         if (level == null)
         {
             level = levelRepository.Load("level_0001");
@@ -59,7 +80,32 @@ public sealed class YarnScapesRuntime : MonoBehaviour
         rubikRegular = Resources.Load<Font>("Fonts/Rubik-Regular");
         rubikMedium = Resources.Load<Font>("Fonts/Rubik-Medium");
         rubikBold = Resources.Load<Font>("Fonts/Rubik-Bold");
+        if (!AcceptanceMode) rubikRegular = rubikMedium = rubikBold = FrameworkUI.Font;
         BuildInterface();
+    }
+
+    private static string CommandLineLevelId()
+    {
+        var args = System.Environment.GetCommandLineArgs();
+        for (var i = 0; i < args.Length; i++)
+        {
+            const string prefix = "--level-id=";
+            if (args[i].StartsWith(prefix, System.StringComparison.OrdinalIgnoreCase))
+            {
+                return NormalizeLevelId(args[i].Substring(prefix.Length));
+            }
+            if (string.Equals(args[i], "--level-id", System.StringComparison.OrdinalIgnoreCase) && i + 1 < args.Length)
+            {
+                return NormalizeLevelId(args[i + 1]);
+            }
+        }
+        return null;
+    }
+
+    private static string NormalizeLevelId(string value)
+    {
+        if (string.IsNullOrEmpty(value)) return null;
+        return value.StartsWith("level_", System.StringComparison.OrdinalIgnoreCase) ? value : "level_" + value;
     }
 
     private void BuildInterface()
@@ -93,9 +139,14 @@ public sealed class YarnScapesRuntime : MonoBehaviour
         var topBar = CreatePanel(canvasRoot, "TopBar", PanelBackground);
         Anchor(topBar.rectTransform, new Vector2(0f, 0.91f), Vector2.one, Vector2.zero, Vector2.zero);
         titleText = CreateText(topBar.transform, level.displayName, 31, TextAnchor.MiddleLeft, Ink, rubikBold);
-        Anchor(titleText.rectTransform, new Vector2(0.065f, 0.14f), new Vector2(0.78f, 0.86f), Vector2.zero, Vector2.zero);
+        Anchor(titleText.rectTransform, new Vector2(0.065f, 0.14f), new Vector2(0.59f, 0.86f), Vector2.zero, Vector2.zero);
+        var levelButton = CreateButton(topBar.transform, "选关", 21, new Color(1f, 1f, 1f, 0.9f), Ink);
+        levelButton.name = "LevelPicker";
+        Anchor(levelButton.GetComponent<RectTransform>(), new Vector2(0.60f, 0.16f), new Vector2(0.77f, 0.84f), Vector2.zero, Vector2.zero);
+        levelButton.onClick.AddListener(HomeRequested != null ? (UnityEngine.Events.UnityAction)LeaveLevel : ShowLevelPicker);
+        if (HomeRequested != null) { levelButton.name = "BackHome"; levelButton.GetComponentInChildren<Text>().text = "返回"; }
         progressText = CreateText(topBar.transform, "0%", 27, TextAnchor.MiddleRight, MutedInk, rubikMedium);
-        Anchor(progressText.rectTransform, new Vector2(0.78f, 0.14f), new Vector2(0.94f, 0.86f), Vector2.zero, Vector2.zero);
+        Anchor(progressText.rectTransform, new Vector2(0.80f, 0.14f), new Vector2(0.94f, 0.86f), Vector2.zero, Vector2.zero);
 
         var boardPanel = CreatePanel(canvasRoot, "BoardPanel", new Color(1f, 1f, 1f, 0.82f));
         Anchor(boardPanel.rectTransform, new Vector2(0.035f, 0.275f), new Vector2(0.965f, 0.86f), Vector2.zero, Vector2.zero);
@@ -155,7 +206,7 @@ public sealed class YarnScapesRuntime : MonoBehaviour
         var resetButton = CreateButton(canvasRoot, "重置", 20, new Color(1f, 1f, 1f, 0.9f), Ink);
         resetButton.name = "ResetLevel";
         Anchor(resetButton.GetComponent<RectTransform>(), new Vector2(0.08f, 0.012f), new Vector2(0.31f, 0.052f), Vector2.zero, Vector2.zero);
-        resetButton.onClick.AddListener(ResetLevel);
+        resetButton.onClick.AddListener(AcceptanceMode ? (UnityEngine.Events.UnityAction)ResetLevel : ConfirmReset);
         var saveButton = CreateButton(canvasRoot, "保存", 20, new Color(1f, 1f, 1f, 0.9f), Ink);
         saveButton.name = "SaveProgress";
         Anchor(saveButton.GetComponent<RectTransform>(), new Vector2(0.69f, 0.012f), new Vector2(0.92f, 0.052f), Vector2.zero, Vector2.zero);
@@ -198,15 +249,112 @@ public sealed class YarnScapesRuntime : MonoBehaviour
         {
             audioSource.clip = music;
             audioSource.volume = 0.14f;
-            audioSource.Play();
+            if (progressStore.Settings.musicEnabled) audioSource.Play();
         }
         UpdateProgressText();
         RefreshPalette();
+        if (!AcceptanceMode && board.FilledCount == board.TotalCount) ShowCompletionOverlay();
+    }
+
+    public void LeaveLevel()
+    {
+        if (leaving) return;
+        SaveCurrentProgress();
+        if (progressStore.LastError != null) { statusText.text = "保存失败，请重试：" + progressStore.LastError; return; }
+        leaving = true;
+        StopAllCoroutines();
+        HomeRequested?.Invoke();
+    }
+    private void SaveCurrentProgress()
+    {
+        if (!AcceptanceMode && board != null && level != null && progressStore != null)
+            progressStore.SaveLevel(level, board.FilledCount, board.FilledCount == board.TotalCount, board.GetFilledIndices());
+    }
+    private void OnApplicationPause(bool paused) { if (paused && !leaving) SaveCurrentProgress(); }
+    private void OnApplicationQuit() { if (!leaving) SaveCurrentProgress(); }
+    private void ConfirmReset()
+    {
+        if (levelPickerOverlay != null) return;
+        var panel = CreatePanel(canvasRoot, "RestartConfirmation", new Color(.98f,.98f,.98f,.98f));
+        levelPickerOverlay = panel.gameObject; Stretch(panel.rectTransform);
+        var label = CreateText(panel.transform,"重新开始？\n这张作品的进度将被清除。",32,TextAnchor.MiddleCenter,Ink,rubikRegular);
+        Anchor(label.rectTransform,new Vector2(.1f,.52f),new Vector2(.9f,.7f),Vector2.zero,Vector2.zero);
+        var cancel = CreateButton(panel.transform,"取消",28,Color.white,Ink); cancel.name = "CancelRestart";
+        Anchor(cancel.GetComponent<RectTransform>(),new Vector2(.1f,.35f),new Vector2(.47f,.43f),Vector2.zero,Vector2.zero);
+        cancel.onClick.AddListener(()=> { Destroy(levelPickerOverlay); levelPickerOverlay=null; });
+        var confirm = CreateButton(panel.transform,"重新开始",28,Color.white,Ink); confirm.name = "ConfirmRestart";
+        Anchor(confirm.GetComponent<RectTransform>(),new Vector2(.53f,.35f),new Vector2(.9f,.43f),Vector2.zero,Vector2.zero);
+        confirm.onClick.AddListener(()=> { Destroy(levelPickerOverlay); levelPickerOverlay=null; ResetLevel(); });
+    }
+
+    private void ShowLevelPicker()
+    {
+        if (levelPickerOverlay != null) return;
+
+        var overlay = CreatePanel(canvasRoot, "LevelPickerOverlay", new Color(0.97f, 0.97f, 0.98f, 0.98f));
+        levelPickerOverlay = overlay.gameObject;
+        Stretch(overlay.rectTransform);
+
+        var heading = CreateText(overlay.transform, "选择关卡", 34, TextAnchor.MiddleLeft, Ink, rubikBold);
+        Anchor(heading.rectTransform, new Vector2(0.08f, 0.91f), new Vector2(0.62f, 0.98f), Vector2.zero, Vector2.zero);
+        var close = CreateButton(overlay.transform, "关闭", 21, new Color(1f, 1f, 1f, 0.95f), Ink);
+        close.name = "CloseLevelPicker";
+        Anchor(close.GetComponent<RectTransform>(), new Vector2(0.76f, 0.91f), new Vector2(0.92f, 0.98f), Vector2.zero, Vector2.zero);
+        close.onClick.AddListener(() =>
+        {
+            Destroy(levelPickerOverlay);
+            levelPickerOverlay = null;
+        });
+
+        var viewport = CreatePanel(overlay.transform, "LevelPickerViewport", new Color(1f, 1f, 1f, 0.7f));
+        Anchor(viewport.rectTransform, new Vector2(0.08f, 0.08f), new Vector2(0.92f, 0.89f), Vector2.zero, Vector2.zero);
+        viewport.gameObject.AddComponent<RectMask2D>();
+
+        var contentObject = new GameObject("LevelPickerContent", typeof(RectTransform), typeof(VerticalLayoutGroup), typeof(ContentSizeFitter));
+        contentObject.transform.SetParent(viewport.transform, false);
+        var contentRect = contentObject.GetComponent<RectTransform>();
+        contentRect.anchorMin = new Vector2(0f, 1f);
+        contentRect.anchorMax = new Vector2(1f, 1f);
+        contentRect.pivot = new Vector2(0.5f, 1f);
+        contentRect.sizeDelta = Vector2.zero;
+        var layout = contentObject.GetComponent<VerticalLayoutGroup>();
+        layout.spacing = 10f;
+        layout.padding = new RectOffset(14, 14, 14, 14);
+        layout.childAlignment = TextAnchor.UpperCenter;
+        layout.childForceExpandWidth = true;
+        layout.childForceExpandHeight = false;
+        var fitter = contentObject.GetComponent<ContentSizeFitter>();
+        fitter.verticalFit = ContentSizeFitter.FitMode.PreferredSize;
+
+        var scroll = viewport.gameObject.AddComponent<ScrollRect>();
+        scroll.content = contentRect;
+        scroll.viewport = viewport.rectTransform;
+        scroll.horizontal = false;
+        scroll.vertical = true;
+        scroll.movementType = ScrollRect.MovementType.Clamped;
+
+        var entries = levelRepository.LoadCatalog();
+        for (var i = 0; i < entries.Length; i++)
+        {
+            var entry = entries[i];
+            var entryId = entry.levelId;
+            var caption = string.IsNullOrEmpty(entry.displayName) ? entryId : entry.displayName;
+            var button = CreateButton(contentObject.transform, caption, 20, Color.white, Ink);
+            button.name = "Level_" + entryId;
+            var element = button.gameObject.AddComponent<LayoutElement>();
+            element.preferredHeight = 72f;
+            button.onClick.AddListener(() => RequestLevel(entryId));
+        }
     }
 
     private void Update()
     {
         if (board != null && board.IsFilling) UpdateProgressText();
+        if (Input.GetKeyDown(KeyCode.Escape) && HomeRequested != null)
+        {
+            if (levelPickerOverlay != null) { Destroy(levelPickerOverlay); levelPickerOverlay = null; }
+            else LeaveLevel();
+        }
     }
 
     private void ApplyTiledBackground(Image background)
@@ -334,7 +482,7 @@ public sealed class YarnScapesRuntime : MonoBehaviour
             viewportInput.Fit();
             StartCoroutine(CompleteRoutine());
         }
-        else if (board.Remaining(selectedColor) == 0)
+        else if (board.Remaining(selectedColor) == 0 && progressStore.Settings.autoSwitchColor)
         {
             for (var i = 1; i < level.palette.Length; i++)
             {
@@ -352,6 +500,7 @@ public sealed class YarnScapesRuntime : MonoBehaviour
         statusText.text = "全部编织完成";
         Play("sound_finished");
         completionBurst.Play();
+        if (LevelCompleted != null && !AcceptanceMode) { LevelCompleted(level.levelId); yield break; }
         ShowCompletionOverlay();
     }
 
@@ -403,7 +552,7 @@ public sealed class YarnScapesRuntime : MonoBehaviour
     private void SaveProgress()
     {
         if (!AcceptanceMode) progressStore.SaveLevel(level, board.FilledCount, board.FilledCount == board.TotalCount, board.GetFilledIndices());
-        statusText.text = "进度已保存";
+        statusText.text = progressStore.LastError == null ? "进度已保存" : "保存失败：" + progressStore.LastError;
     }
 
     private void UpdateProgressText()
@@ -418,7 +567,7 @@ public sealed class YarnScapesRuntime : MonoBehaviour
     private void Play(string clipName)
     {
         var clip = Resources.Load<AudioClip>("Audio/" + clipName);
-        if (clip != null && audioSource != null)
+        if (clip != null && audioSource != null && progressStore.Settings.soundEnabled)
         {
             audioSource.PlayOneShot(clip, 0.8f);
         }
@@ -487,7 +636,7 @@ public sealed class YarnScapesRuntime : MonoBehaviour
         };
         if (!string.IsNullOrEmpty(caption))
         {
-            var label = CreateText(objectInstance.transform, caption, size, TextAnchor.MiddleCenter, textColor, Resources.Load<Font>("Fonts/Rubik-Medium"));
+            var label = CreateText(objectInstance.transform, caption, size, TextAnchor.MiddleCenter, textColor, AcceptanceMode ? Resources.Load<Font>("Fonts/Rubik-Medium") : FrameworkUI.Font);
             Stretch(label.rectTransform);
         }
         return button;

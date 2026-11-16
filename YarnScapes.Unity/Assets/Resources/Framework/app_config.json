@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "defaultCategory": "For You",
+  "pageSize": 12,
+  "tabs": [
+    "Library",
+    "Daily",
+    "My"
+  ],
+  "hideUnavailableByDefault": true,
+  "settings": {
+    "musicEnabled": true,
+    "soundEnabled": true,
+    "autoSwitchColor": true,
+    "showCompleted": true
+  },
+  "evidenceStatus": "navigation/categories recovered; Unity layout and pagination reimplemented",
+  "remotePolicy": "offline snapshot; no synthetic daily selection, purchases, rewards or remote experiments"
+}

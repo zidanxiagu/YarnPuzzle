@@ -1,0 +1,15 @@
+{
+    "method": "UGUI raycast navigation, real region playback for one recovered level; isolated progress + separate process resume",
+    "checks": [
+        "boot_to_library",
+        "pagination_changes_items",
+        "daily_tab",
+        "my_tab",
+        "settings_page",
+        "user_progress_untouched"
+    ],
+    "failures": [
+        "music_setting_persisted",
+        "System.Exception: Failed: music_setting_persisted\r\n  at YarnScapes.Presentation.FrameworkAcceptanceCapture.Require (System.String name, System.Boolean pass) [0x00016] in <d82d9146b0ad4233ae0e8d02962d4b68>:0 \r\n  at YarnScapes.Presentation.FrameworkAcceptanceCapture+<Run>d__7.MoveNext () [0x00430] in <d82d9146b0ad4233ae0e8d02962d4b68>:0 \r\n  at YarnScapes.Presentation.FrameworkAcceptanceCapture+<Start>d__6.MoveNext () [0x00081] in <d82d9146b0ad4233ae0e8d02962d4b68>:0 "
+    ]
+}

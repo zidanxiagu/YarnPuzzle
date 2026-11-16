@@ -1,0 +1,12 @@
+{
+    "method": "UGUI raycast navigation, real region playback for one recovered level; isolated progress + separate process resume",
+    "checks": [
+        "boot_to_library",
+        "settings_survive_process_restart",
+        "ongoing_survives_process_restart",
+        "cells_restored_after_process_restart",
+        "completion_survives_process_restart",
+        "user_progress_untouched"
+    ],
+    "failures": []
+}

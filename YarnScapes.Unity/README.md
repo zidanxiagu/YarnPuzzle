@@ -1,5 +1,16 @@
 # YarnScapes Offline Core
 
+## Current application framework (2026-11-16)
+
+The default boot now opens the original three-tab Home structure: Library,
+Daily, My. Library categories lead into the existing weaving engine; progress,
+completion, replay confirmation, return navigation and settings are connected.
+The APK snapshot contains 577 unique metadata entries in 15 categories plus
+dated daily records; 103 entries have recovered playable local assets.
+See [FRAMEWORK.md](FRAMEWORK.md) for configuration paths, evidence boundaries,
+the editor catalog, and executable acceptance. The older reports below describe
+earlier milestones and are not claims of full original-game parity.
+
 Acceptance status on 2026-11-09: **FAILED**. This is a reconstruction prototype,
 not a visually faithful version. See `Acceptance/2026-11-09/REPORT.md` and the
 original runtime captures in that directory before evaluating completion.
@@ -185,12 +196,18 @@ and trilinear mipmaps for both fit and zoom views. Other levels retain the
 original art fallback. Runtime images and checks are recorded separately under
 `Acceptance/2026-11-09/yarn-material-v1`.
 
-The current runtime starts with `Assets/Resources/Levels/level_326863.json`, a
-60x60 pixel map recovered from the small `finished_url` PNG. Its 13 color groups
-use the recovered alpha >= 100 and D65 Lab delta-E <= 2 rules, ordered by first
-pixel occurrence. The textured `i512_url` image is presentation art only; it is
-not the authoritative source of cell numbers. The previous
-`level_0001.json` remains as a small deterministic fixture for smoke tests.
+The runtime includes all 103 unique levels captured from the APK. Each
+`Assets/Resources/Levels/level_<id>.json` uses the small `finished_url` PNG as
+its authoritative pixel map: alpha >= 100, D65 Lab delta-E <= 2, and palette
+groups ordered by first pixel occurrence. The larger `i512_url` art is kept as
+local presentation art under `Assets/Resources/LevelImages/Local`.
+
+Use **选关** in the top bar to open the offline level picker. A desktop player
+can also start directly with `--level-id 326861` (or `--level-id=level_326861`).
+The generated `Assets/Resources/Levels/level_catalog.json` is the runtime
+catalog, while `Assets/Original/recovered_level_manifest.json` records each
+source hash, dimensions, palette count and recovered resource path. The
+`level_0001.json` fixture remains available for smoke tests.
 
 The recovered local level catalog is stored in `Assets/Original/level_catalog.json`
 and the imported source/finished images are under

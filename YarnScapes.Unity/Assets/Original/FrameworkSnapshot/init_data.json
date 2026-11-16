@@ -1,0 +1,112 @@
+{
+    "banner": [],
+    "category": [
+        {
+            "id": 484,
+            "category_uid": "bec6835d-17bc-4f87-8466-690996404f8c",
+            "attribute_type": 0,
+            "language_category_name": "New",
+            "category_name": "New",
+            "new_tag": true
+        },
+        {
+            "id": 485,
+            "category_uid": "1485342a-14f1-44e1-930e-68fcfe72859b",
+            "attribute_type": 0,
+            "language_category_name": "For You",
+            "category_name": "For You",
+            "for_your_tag": true
+        },
+        {
+            "id": 487,
+            "category_uid": "e8a9a142-2fe7-4460-863c-30d775f31596",
+            "attribute_type": 0,
+            "language_category_name": "Animal",
+            "category_name": "Animal"
+        },
+        {
+            "id": 488,
+            "category_uid": "9303478f-1808-464a-80cf-2d107f26d6cf",
+            "attribute_type": 0,
+            "language_category_name": "Objects",
+            "category_name": "Objects"
+        },
+        {
+            "id": 491,
+            "category_uid": "fadf5e12-f8b0-4165-8c32-da01261ba4db",
+            "attribute_type": 0,
+            "language_category_name": "Festival",
+            "category_name": "Festival"
+        },
+        {
+            "id": 494,
+            "category_uid": "3993c4ac-a371-49d4-8e97-8a487d29f5ad",
+            "attribute_type": 0,
+            "language_category_name": "People",
+            "category_name": "People"
+        },
+        {
+            "id": 489,
+            "category_uid": "e3b87712-e083-481e-8e02-def8ec87f25b",
+            "attribute_type": 0,
+            "language_category_name": "Nature",
+            "category_name": "Nature"
+        },
+        {
+            "id": 486,
+            "category_uid": "54c99cea-067a-4522-b4e7-47ca83e1caef",
+            "attribute_type": 0,
+            "language_category_name": "Cute",
+            "category_name": "Cute"
+        },
+        {
+            "id": 490,
+            "category_uid": "b7baedcb-86f0-42ed-a9f0-78ad1c7b798f",
+            "attribute_type": 0,
+            "language_category_name": "Mandala",
+            "category_name": "Mandala"
+        },
+        {
+            "id": 492,
+            "category_uid": "c8f128d1-c41c-4a87-9c88-2e56ec172b9b",
+            "attribute_type": 0,
+            "language_category_name": "Emoji",
+            "category_name": "Emoji"
+        },
+        {
+            "id": 493,
+            "category_uid": "2965aba3-4850-4f48-95c4-b28c7dc60875",
+            "attribute_type": 0,
+            "language_category_name": "Food",
+            "category_name": "Food"
+        },
+        {
+            "id": 495,
+            "category_uid": "1ac1e01a-aaac-4029-892c-849eb3cede0e",
+            "attribute_type": 0,
+            "language_category_name": "Fantasy",
+            "category_name": "Fantasy"
+        },
+        {
+            "id": 496,
+            "category_uid": "5848f71a-36be-47f1-94f7-9655cb232906",
+            "attribute_type": 0,
+            "language_category_name": "House",
+            "category_name": "House"
+        },
+        {
+            "id": 497,
+            "category_uid": "8bae2653-8188-4ef3-84fc-36b3a221adde",
+            "attribute_type": 0,
+            "language_category_name": "Fashion",
+            "category_name": "Fashion"
+        },
+        {
+            "id": 557,
+            "category_uid": "8a490993-f50c-41cd-891e-c64f2ca9fbb1",
+            "attribute_type": 0,
+            "language_category_name": "Faith",
+            "category_name": "Faith"
+        }
+    ]
+}
