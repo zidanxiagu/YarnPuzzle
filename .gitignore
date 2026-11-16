@@ -1,0 +1,45 @@
+# Unity-generated data (also covers the standalone reuse acceptance project).
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# IDE, OS and Python caches.
+.vs/
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local editor/build logs; preserve historical Acceptance logs as evidence.
+/YarnScapes.Unity/*.log
+
+# Local credentials and signing material are never project assets.
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore

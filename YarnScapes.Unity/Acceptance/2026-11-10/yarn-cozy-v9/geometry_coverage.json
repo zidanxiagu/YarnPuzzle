@@ -1,0 +1,11 @@
+{
+  "v8": {
+    "opaqueLoopCoverage": 0.7761400078887345,
+    "exposedBedFraction": 0.22385999211126545
+  },
+  "v9": {
+    "opaqueLoopCoverage": 0.8367289190718732,
+    "exposedBedFraction": 0.16327108092812675
+  },
+  "meaning": "Same 4x4-cell interior crop of neutral swatches; measures visible opaque loop coverage, not fur quality."
+}

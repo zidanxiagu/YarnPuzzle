@@ -1,0 +1,127 @@
+﻿[
+    {
+        "path":  "Assets/Scripts/YarnScapesRuntime.cs",
+        "sha256":  "AC4654DAC625483CB9E1661DBBBB6CF9E68F4878EB8704A3B494034B6EF75338",
+        "bytes":  25667
+    },
+    {
+        "path":  "Assets/Scripts/Presentation/PixelBoardRenderer.cs",
+        "sha256":  "6CD123AA41D954124495A650E96DABDF9829A147719FE7BFBDE236D54138D80D",
+        "bytes":  10615
+    },
+    {
+        "path":  "Assets/Scripts/Presentation/PixelCellView.cs",
+        "sha256":  "FA2426B215E3A35BB00E069CBED035AB5289F8C4E2F23DBDA555022F571D0CAD",
+        "bytes":  3721
+    },
+    {
+        "path":  "Assets/Scripts/Presentation/BoardViewportInput.cs",
+        "sha256":  "1108C22EBC35B4C3C4BF4D2BE6D30C4B624051F1304D5413D4A30FFACCBE675A",
+        "bytes":  4723
+    },
+    {
+        "path":  "Assets/Scripts/Presentation/YarnThreadGraphic.cs",
+        "sha256":  "DEA88C4281172BDD804E94CE939DB0AECBAC34D1320308E8EE89C0AFFE2B30B7",
+        "bytes":  4683
+    },
+    {
+        "path":  "Assets/Scripts/Presentation/RuntimeAcceptanceCapture.cs",
+        "sha256":  "11F6EF67D62B46BF9F975D7EF0EAC2579120161C607D7CF75668963C6FBDE2F5",
+        "bytes":  12822
+    },
+    {
+        "path":  "Assets/Scripts/Infrastructure/LocalProgressStore.cs",
+        "sha256":  "22EAA85C58E37CC040265182420FA4D63B34783C11A314FBE860D0E3C06EDC92",
+        "bytes":  2362
+    },
+    {
+        "path":  "Assets/Editor/ProjectBuilder.cs",
+        "sha256":  "5080035AA91F44A545A5EB1F01A32110CCADA6E1168DA67F490C1C9CAF5F4F94",
+        "bytes":  2647
+    },
+    {
+        "path":  "Tools/PrepareUiMasks.py",
+        "sha256":  "6F8750CE43F77177952C8A80FE2049E85E59E48CE9C5AD7598AA794D0A6DDCFE",
+        "bytes":  531
+    },
+    {
+        "path":  "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+        "sha256":  "83DD7238A21D9FFC22E71631B0615B1963699937E9128EFD7485A20EC1EBF79A",
+        "bytes":  603
+    },
+    {
+        "path":  "Assets/Resources/Textures/pixel_style_mask_tintable.png",
+        "sha256":  "61B238F8DCEDA05934B4D00390532B72CDC0F65F7BA0D3012F96D33DA5247D41",
+        "bytes":  20027
+    },
+    {
+        "path":  "Builds/YarnScapesOffline_Data/Managed/Assembly-CSharp.dll",
+        "sha256":  "6CEA64161989D81C2E82F88A9D1710B7448F50E5366EB26904DE000443ACA665",
+        "bytes":  50176
+    },
+    {
+        "path":  "README.md",
+        "sha256":  "E282E95E90593B6F05DEFDAD786A4B94F823C4496585FC2160AF248438D3F591",
+        "bytes":  5995
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-portrait\\01_fit.png",
+        "sha256":  "A897EEEE5EFF36D6CBC6E7AFC89B2CAE294FD4786AF16D9E48F3FA9E14FA3907",
+        "bytes":  300571
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-portrait\\02_selected_zoom.png",
+        "sha256":  "F3684BBC9D00B89433FDD664D3B9AB31B521F02D4FF9A4119F2782563A59856B",
+        "bytes":  271361
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-portrait\\03_thread_in_progress.png",
+        "sha256":  "3FB261F47AA3CA3425AE40B575D01627FD965AC6EFBC01814FC2F5945A5C3A21",
+        "bytes":  274418
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-portrait\\04_region_filled.png",
+        "sha256":  "6C4BCB0BE18B2ED0C6CE473F196F93D47FC583ABF09D02A35CAE008521B65F54",
+        "bytes":  281711
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-portrait\\05_completion.png",
+        "sha256":  "E01F3EB6DC06EC07CBE649D5211C6E69F1741D792E624D79AE632CD1E4F5CC26",
+        "bytes":  131016
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-portrait\\06_finished_art.png",
+        "sha256":  "EE465A32DD7B02477C461CF9B27907C8E53BFD098CA69E1D8C0E29A396A78CB0",
+        "bytes":  430204
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-portrait\\interaction_report.json",
+        "sha256":  "000BE23DB2B3F1EC7F9D192080B8E64871529D392A10308E9B2004F8C2D6439B",
+        "bytes":  4889
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-landscape\\01_fit.png",
+        "sha256":  "A437A7305AAF0972F1053C3DC471DE4B62BCFF61BDE0A67D2C6539C484D229E7",
+        "bytes":  126879
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-landscape\\02_selected_zoom.png",
+        "sha256":  "AACF635BA2FC04F587CA1ECE04DDAD4E501136330CF2F20F49BB739876B31E4C",
+        "bytes":  129664
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-landscape\\03_thread_in_progress.png",
+        "sha256":  "158536C9B9F636B06D28D84C6C21539B2B2ECCA3D80CD864DD658F50F1385F4C",
+        "bytes":  132072
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-landscape\\04_region_filled.png",
+        "sha256":  "7E87A3222C5BC16FCE924F10996374F1C47741515BF6D4160FEB3AABD1E2DEEC",
+        "bytes":  135149
+    },
+    {
+        "path":  "Acceptance\\2026-11-09\\interaction-fix\\final-landscape\\interaction_report.json",
+        "sha256":  "853A122D47A28E82F0C2331E13F9D1F7150C17E1DED978EB5101698485781F88",
+        "bytes":  2059
+    }
+]

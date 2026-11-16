@@ -1,0 +1,15 @@
+{
+  "passed": 58,
+  "total": 58,
+  "regions": 32,
+  "filled": 1334,
+  "vertices": 5568936,
+  "boundaryFibers": 77808,
+  "resetMeanChannelDifference": 0.0,
+  "restoreMeanChannelDifference": 0.008226156234741211,
+  "restoreMaxChannelDifference": 156,
+  "restoreChangedPixels": 22861,
+  "restorePixelsOver10": 1750,
+  "platform": "Windows / Unity 2022.3.62f2 / D3D11",
+  "levelJsonUnchanged": true
+}

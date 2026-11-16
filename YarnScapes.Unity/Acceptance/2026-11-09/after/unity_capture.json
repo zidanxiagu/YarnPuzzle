@@ -1,0 +1,50 @@
+{
+    "screenWidth": 540,
+    "screenHeight": 960,
+    "paintableCells": 1334,
+    "filledCells": 1334,
+    "wrongColorRejected": true,
+    "singleCorrectClickFilledCells": 1,
+    "expectedConnectedCells": 10,
+    "connectedFillParityPass": false,
+    "filledFrameIsRenderingFixture": true,
+    "completionAnimationVerified": false,
+    "writesProgress": false,
+    "elements": [
+        {
+            "name": "Canvas",
+            "left": 0.0,
+            "bottom": 0.0,
+            "width": 540.0,
+            "height": 960.0
+        },
+        {
+            "name": "Palette",
+            "left": 18.900009155273439,
+            "bottom": 76.80000305175781,
+            "width": 502.199951171875,
+            "height": 148.80001831054688
+        },
+        {
+            "name": "PixelBoard",
+            "left": 18.900009155273439,
+            "bottom": 264.0000305175781,
+            "width": 502.199951171875,
+            "height": 561.60009765625
+        },
+        {
+            "name": "BoardPanel",
+            "left": 18.900009155273439,
+            "bottom": 264.0000305175781,
+            "width": 502.199951171875,
+            "height": 561.60009765625
+        },
+        {
+            "name": "TopBar",
+            "left": 0.0,
+            "bottom": 873.60009765625,
+            "width": 540.0,
+            "height": 86.39990234375
+        }
+    ]
+}

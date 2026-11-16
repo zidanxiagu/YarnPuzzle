@@ -1,0 +1,9 @@
+{
+  "name": "com.weavekit.runtime",
+  "version": "0.1.0",
+  "displayName": "WeaveKit",
+  "description": "Reusable grid fill gameplay, playback, UI interaction and wool rendering.",
+  "unity": "2022.3",
+  "dependencies": { "com.unity.ugui": "1.0.0" },
+  "samples": [{ "displayName": "Minimal Weave", "description": "A standalone two-color board without YarnScapes data or UI.", "path": "Samples~/MinimalWeave" }]
+}

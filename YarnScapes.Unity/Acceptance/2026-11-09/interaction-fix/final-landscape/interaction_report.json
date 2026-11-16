@@ -1,0 +1,90 @@
+{
+    "method": "UGUI raycast and pointer event playback in a rendered Windows player",
+    "screenWidth": 960,
+    "screenHeight": 540,
+    "paintableCells": 1334,
+    "filledCells": 10,
+    "firstRegionExpected": 10,
+    "firstRegionActual": 10,
+    "regionsPlayed": 1,
+    "failed": 0,
+    "writesProgress": false,
+    "fullPlaythrough": false,
+    "originalVisualParityVerified": false,
+    "physicalTouchPinchVerified": false,
+    "checks": [
+        {
+            "name": "runtime_started",
+            "pass": true
+        },
+        {
+            "name": "plus_button_hit",
+            "pass": true
+        },
+        {
+            "name": "plus_zoom",
+            "pass": true
+        },
+        {
+            "name": "wheel_zoom",
+            "pass": true
+        },
+        {
+            "name": "minus_button_zoom",
+            "pass": true
+        },
+        {
+            "name": "drag_pan",
+            "pass": true
+        },
+        {
+            "name": "drag_does_not_fill",
+            "pass": true
+        },
+        {
+            "name": "fit_button",
+            "pass": true
+        },
+        {
+            "name": "all_13_spools_select_via_raycast",
+            "pass": true
+        },
+        {
+            "name": "select_auto_focus",
+            "pass": true
+        },
+        {
+            "name": "wrong_color_rejected",
+            "pass": true
+        },
+        {
+            "name": "cell_pointer_hit",
+            "pass": true
+        },
+        {
+            "name": "color_locked_during_fill",
+            "pass": true
+        },
+        {
+            "name": "thread_visible_during_fill",
+            "pass": true
+        },
+        {
+            "name": "connected_region_count",
+            "pass": true
+        },
+        {
+            "name": "reset_clears_board_and_thread",
+            "pass": true
+        },
+        {
+            "name": "reset_fits_board",
+            "pass": true
+        },
+        {
+            "name": "progress_file_unchanged",
+            "pass": true
+        }
+    ],
+    "errors": []
+}

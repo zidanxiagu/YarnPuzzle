@@ -1,0 +1,34 @@
+{
+    "method": "Material rendering fixture via RestoreProgress; no gameplay coverage",
+    "screenWidth": 540,
+    "screenHeight": 960,
+    "paintableCells": 1334,
+    "filledCells": 0,
+    "firstRegionExpected": 0,
+    "firstRegionActual": 0,
+    "regionsPlayed": 0,
+    "failed": 0,
+    "plushVertices": 7663316,
+    "boundaryFibers": 77808,
+    "stitchesPerCell": 9,
+    "stitchVariation": 0.023355182260274888,
+    "writesProgress": false,
+    "fullPlaythrough": false,
+    "originalVisualParityVerified": false,
+    "physicalTouchPinchVerified": false,
+    "checks": [
+        {
+            "name": "runtime_started",
+            "pass": true
+        },
+        {
+            "name": "reference_yarn_material_loaded",
+            "pass": true
+        },
+        {
+            "name": "plush_3d_geometry_active",
+            "pass": true
+        }
+    ],
+    "errors": []
+}

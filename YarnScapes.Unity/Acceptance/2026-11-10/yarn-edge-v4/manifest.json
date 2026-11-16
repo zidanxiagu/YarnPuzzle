@@ -1,0 +1,157 @@
+[
+  {
+    "path": "Assets\\Scripts\\Presentation\\PlushYarnBoard.cs",
+    "bytes": 24536,
+    "sha256": "6de7505bf0993b4f243bbfc8e08153ce65d71b2489560bed0c750e27571c94e0"
+  },
+  {
+    "path": "Assets\\Scripts\\Presentation\\RuntimeAcceptanceCapture.cs",
+    "bytes": 17003,
+    "sha256": "8c049ef760b76f0ccfa121f22385f7febbbb0aac5f273c5c585289fd15615c64"
+  },
+  {
+    "path": "Tools\\ReviewYarnEdges.py",
+    "bytes": 1931,
+    "sha256": "5bed29e8bb1fb87d75b0be55bc5e28e9985045b994a7b87df49eb56ec7f65577"
+  },
+  {
+    "path": "Tools\\RecordYarnEdgeDelivery.py",
+    "bytes": 6606,
+    "sha256": "f4353595c802a637bbe5ef680f4792c4d2b5c0a39886499970e559841e420bca"
+  },
+  {
+    "path": "README.md",
+    "bytes": 9441,
+    "sha256": "abca506d009d2724f8e116a460e77c2cb12d9fe5e2dede562def3bbff864f384"
+  },
+  {
+    "path": "Assets\\Resources\\Levels\\level_326863.json",
+    "bytes": 33650,
+    "sha256": "c7338c3adbbe2b8e96f29fdc826221e0ce60bc18d95120d2464eb99c01049251"
+  },
+  {
+    "path": "Builds\\YarnScapesOffline_Data\\Managed\\Assembly-CSharp.dll",
+    "bytes": 69120,
+    "sha256": "890953e519431241e4354684766f56d3b101cd42cce14379f58d6e279d83cd81"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV4\\BoundaryWoolFiber.shader",
+    "bytes": 2351,
+    "sha256": "40304928140cc1ff88d186666bcb8f22797418c83da9fa6467b62358c646f275"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV4\\BoundaryWoolFiber.shader.meta",
+    "bytes": 204,
+    "sha256": "30124fdbe0c59192dd4a108b153970a524120ac99889bee02df918a1d4104a98"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV4\\RecessedWoolBed.shader",
+    "bytes": 4407,
+    "sha256": "b0dfe26f6be2c9d253f24ae1d8fca54a48593f40a8cddb75372b58b5a98411ed"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV4\\RecessedWoolBed.shader.meta",
+    "bytes": 204,
+    "sha256": "6ed88a5b88f27db4312e6918e5184c2eeb626bc1311455661e99433a37136cac"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\01_fit.png",
+    "bytes": 314449,
+    "sha256": "1e6b96592a1b217427d05af045e7c74046293c0f14d1c79f969cc7fd592de4ca"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\02_selected_zoom.png",
+    "bytes": 339790,
+    "sha256": "20a372514c1fff21e7264de58515235b90a8f3af69852e143099eb471497772e"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\03_thread_in_progress.png",
+    "bytes": 351425,
+    "sha256": "cecddd03edd363f61431013aa76b6a3dad512fcce4e2bf415052ed5ab6b49dd9"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\04_region_filled.png",
+    "bytes": 363607,
+    "sha256": "1e176edc167aae225a15b96266a6d33e9c205c36f7cf05c601a3a02675c7cf28"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\05_completion.png",
+    "bytes": 142844,
+    "sha256": "3876d2dbab50e764f5b27bd1e10b63c5aef3d7f07664500266af4be667825d37"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\06_finished_art.png",
+    "bytes": 456125,
+    "sha256": "93f7b27f52218bff6dedbe2e1f525b5d4f32558e81a09805ded9fae657c805eb"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\07_yarn_material_closeup.png",
+    "bytes": 624078,
+    "sha256": "646adb1cbd210c0398d0e562a76fc55f94edf837c8bd3170294c6d37e09efd2d"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\08_geometry_oblique.png",
+    "bytes": 6320605,
+    "sha256": "fc830ddd0b1d30bf4dda40858e12fab769b0f1b5357196a37bb738be56436cd5"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\09_reset.png",
+    "bytes": 310438,
+    "sha256": "922e496521f941608da9fdd6d5d08a9c2a06d416866fd3069a160fc971006878"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\10_fiber_edge.png",
+    "bytes": 4676265,
+    "sha256": "43283fb04a1d5117510c70165577efbf60550b36156e16ecc35fb219a4838732"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\11_outer_edge.png",
+    "bytes": 3627136,
+    "sha256": "010acabddc5da5a024e810a94ccb1dc6e67e5da46784ee9f8615dcf21bf70bcf"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\12_restored_geometry.png",
+    "bytes": 6321590,
+    "sha256": "1e7bd0c75268d90deee03140c2c94ea06c9a242908c3e54d5039bcd94010c8e2"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime\\interaction_report.json",
+    "bytes": 5674,
+    "sha256": "e9d171562c2d5755b3985ab63181fe3a02a08c63d25a9775e6ba67baf678ce31"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime-edge-comparison.png",
+    "bytes": 591797,
+    "sha256": "4df960d7b6d7d40fb8f731d5caf972fde4b98b3b5fa386342f7ba2de828da8ce"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime-stitch-comparison.png",
+    "bytes": 646495,
+    "sha256": "7becb438648fb535e7266291d68c2e6fdb039922db2b13ed72994378e3d6413b"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\runtime-outer-detail.png",
+    "bytes": 753705,
+    "sha256": "a0e95c449b1f32aaa57e38da350a196965db6fbfd5157ad3dfa613a1862baf63"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\visual_checks.json",
+    "bytes": 410,
+    "sha256": "e90b5b38bec10aa83370ef452b3bff711489052930f5271aa2af7cb32b941d41"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\REPORT.md",
+    "bytes": 2890,
+    "sha256": "5d94104f575ad7e3193c6aea183f9d6af835939b7eb6ec8e1571bafe9b29e8d1"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\build-step4.log",
+    "bytes": 189870,
+    "sha256": "f9464bd59592a53a46a8d11ce55fb2734865b51f4f93de9842fe4024386bfd45"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-edge-v4\\player-runtime.log",
+    "bytes": 13253,
+    "sha256": "51b8f8fa146a505e4f607d81ce2193f47f9b35a5c33e8c02e79cc0e65bcf9cf2"
+  }
+]

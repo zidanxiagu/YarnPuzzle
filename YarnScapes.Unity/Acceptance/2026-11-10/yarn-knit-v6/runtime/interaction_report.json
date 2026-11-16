@@ -1,0 +1,294 @@
+{
+    "method": "UGUI raycast and pointer event playback in a rendered Windows player",
+    "screenWidth": 540,
+    "screenHeight": 960,
+    "paintableCells": 1334,
+    "filledCells": 1334,
+    "firstRegionExpected": 10,
+    "firstRegionActual": 10,
+    "regionsPlayed": 32,
+    "failed": 0,
+    "plushVertices": 4326572,
+    "boundaryFibers": 38904,
+    "stitchesPerCell": 9,
+    "stitchVariation": 0.03237180411815643,
+    "geometryGenerationMilliseconds": 1849.2469000000008,
+    "meshUploadMilliseconds": 1139.2308999999998,
+    "managedHeapBytes": 107765760,
+    "managedHeapBytesBeforeCollection": 123056128,
+    "unityAllocatedBytes": 109889691,
+    "renderTextureWidth": 2048,
+    "graphicsDevice": "NVIDIA GeForce RTX 5060",
+    "graphicsApi": "Direct3D11",
+    "writesProgress": false,
+    "fullPlaythrough": true,
+    "originalVisualParityVerified": false,
+    "physicalTouchPinchVerified": false,
+    "checks": [
+        {
+            "name": "runtime_started",
+            "pass": true
+        },
+        {
+            "name": "reference_yarn_material_loaded",
+            "pass": true
+        },
+        {
+            "name": "plush_3d_geometry_active",
+            "pass": true
+        },
+        {
+            "name": "nonblank_capture_01_fit.png",
+            "pass": true
+        },
+        {
+            "name": "plus_button_hit",
+            "pass": true
+        },
+        {
+            "name": "plus_zoom",
+            "pass": true
+        },
+        {
+            "name": "wheel_zoom",
+            "pass": true
+        },
+        {
+            "name": "minus_button_zoom",
+            "pass": true
+        },
+        {
+            "name": "drag_pan",
+            "pass": true
+        },
+        {
+            "name": "drag_does_not_fill",
+            "pass": true
+        },
+        {
+            "name": "fit_button",
+            "pass": true
+        },
+        {
+            "name": "all_13_spools_select_via_raycast",
+            "pass": true
+        },
+        {
+            "name": "select_auto_focus",
+            "pass": true
+        },
+        {
+            "name": "nonblank_capture_02_selected_zoom.png",
+            "pass": true
+        },
+        {
+            "name": "wrong_color_rejected",
+            "pass": true
+        },
+        {
+            "name": "cell_pointer_hit",
+            "pass": true
+        },
+        {
+            "name": "color_locked_during_fill",
+            "pass": true
+        },
+        {
+            "name": "thread_visible_during_fill",
+            "pass": true
+        },
+        {
+            "name": "nonblank_capture_03_thread_in_progress.png",
+            "pass": true
+        },
+        {
+            "name": "connected_region_count",
+            "pass": true
+        },
+        {
+            "name": "nonblank_capture_04_region_filled.png",
+            "pass": true
+        },
+        {
+            "name": "region_count_1",
+            "pass": true
+        },
+        {
+            "name": "region_count_2",
+            "pass": true
+        },
+        {
+            "name": "region_count_3",
+            "pass": true
+        },
+        {
+            "name": "region_count_4",
+            "pass": true
+        },
+        {
+            "name": "region_count_5",
+            "pass": true
+        },
+        {
+            "name": "region_count_6",
+            "pass": true
+        },
+        {
+            "name": "region_count_7",
+            "pass": true
+        },
+        {
+            "name": "region_count_8",
+            "pass": true
+        },
+        {
+            "name": "region_count_9",
+            "pass": true
+        },
+        {
+            "name": "region_count_10",
+            "pass": true
+        },
+        {
+            "name": "region_count_11",
+            "pass": true
+        },
+        {
+            "name": "region_count_12",
+            "pass": true
+        },
+        {
+            "name": "region_count_13",
+            "pass": true
+        },
+        {
+            "name": "region_count_14",
+            "pass": true
+        },
+        {
+            "name": "region_count_15",
+            "pass": true
+        },
+        {
+            "name": "region_count_16",
+            "pass": true
+        },
+        {
+            "name": "region_count_17",
+            "pass": true
+        },
+        {
+            "name": "region_count_18",
+            "pass": true
+        },
+        {
+            "name": "region_count_19",
+            "pass": true
+        },
+        {
+            "name": "region_count_20",
+            "pass": true
+        },
+        {
+            "name": "region_count_21",
+            "pass": true
+        },
+        {
+            "name": "region_count_22",
+            "pass": true
+        },
+        {
+            "name": "region_count_23",
+            "pass": true
+        },
+        {
+            "name": "region_count_24",
+            "pass": true
+        },
+        {
+            "name": "region_count_25",
+            "pass": true
+        },
+        {
+            "name": "region_count_26",
+            "pass": true
+        },
+        {
+            "name": "region_count_27",
+            "pass": true
+        },
+        {
+            "name": "region_count_28",
+            "pass": true
+        },
+        {
+            "name": "region_count_29",
+            "pass": true
+        },
+        {
+            "name": "region_count_30",
+            "pass": true
+        },
+        {
+            "name": "region_count_31",
+            "pass": true
+        },
+        {
+            "name": "full_level_completed_by_pointer_events",
+            "pass": true
+        },
+        {
+            "name": "completion_overlay_shown",
+            "pass": true
+        },
+        {
+            "name": "nonblank_capture_05_completion.png",
+            "pass": true
+        },
+        {
+            "name": "nonblank_capture_06_finished_art.png",
+            "pass": true
+        },
+        {
+            "name": "nonblank_capture_07_yarn_material_closeup.png",
+            "pass": true
+        },
+        {
+            "name": "soft_fiber_coat_active",
+            "pass": true
+        },
+        {
+            "name": "neighbor_aware_recessed_bed_active",
+            "pass": true
+        },
+        {
+            "name": "geometry_cells_match_progress",
+            "pass": true
+        },
+        {
+            "name": "reset_clears_board_and_thread",
+            "pass": true
+        },
+        {
+            "name": "reset_fits_board",
+            "pass": true
+        },
+        {
+            "name": "nonblank_capture_09_reset.png",
+            "pass": true
+        },
+        {
+            "name": "reset_clears_geometry",
+            "pass": true
+        },
+        {
+            "name": "restored_geometry_matches_count",
+            "pass": true
+        },
+        {
+            "name": "progress_file_unchanged",
+            "pass": true
+        }
+    ],
+    "errors": []
+}

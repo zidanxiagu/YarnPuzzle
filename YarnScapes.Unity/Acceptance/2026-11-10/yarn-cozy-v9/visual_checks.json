@@ -1,0 +1,17 @@
+{
+  "resetMeanDifference": 0.0,
+  "restoreMeanDifference": 0.029523611068725586,
+  "restoreMaxDifference": 29,
+  "restorePixelsOver10": 850,
+  "checks": 70,
+  "filled": 1334,
+  "oldVertices": 4326572,
+  "vertices": 5699400,
+  "vertexReductionPercent": -31.730154958706347,
+  "boundaryFibers": 43424,
+  "geometryGenerationMilliseconds": 2435.6670000000013,
+  "meshUploadMilliseconds": 1548.8746999999964,
+  "managedHeapMiBAfterCollection": 104.109375,
+  "unityAllocatedMiB": 105.26806163787842,
+  "levelSha256": "c7338c3adbbe2b8e96f29fdc826221e0ce60bc18d95120d2464eb99c01049251"
+}

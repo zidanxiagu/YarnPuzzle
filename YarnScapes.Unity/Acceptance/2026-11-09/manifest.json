@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-09",
+  "overall": "FAILED",
+  "artifacts": [
+    {
+      "file": "original_offline_core.png",
+      "sha256": "77a306b7ea21cbd51229bc961459c8efa9bf55aa165972a85a47ca414c8e5f8b",
+      "bytes": 51721,
+      "status": "observed"
+    },
+    {
+      "file": "original_color_selected.png",
+      "sha256": "d0f6c12959b3f48f34be33c86709f46ece28a1ca0fbf106d93b2788f82b9cc9b",
+      "bytes": 188187,
+      "status": "observed"
+    },
+    {
+      "file": "original_fill_in_progress.png",
+      "sha256": "77ca81b7d697985499bfec4fdbcb5f058caa56c8611d74691ef49a6a22bed277",
+      "bytes": 255105,
+      "status": "observed"
+    },
+    {
+      "file": "original_after_single_click.png",
+      "sha256": "042eaa89e7f2b60d01fe3bc044f9ba1b7c55d1b8be70aa1140f2434d7fac53f4",
+      "bytes": 350456,
+      "status": "observed"
+    },
+    {
+      "file": "before/unity_unfilled.png",
+      "sha256": "febbf37fc8a9fec308bce6b741f86350cbbe575046f26dc88d27127d716c0feb",
+      "bytes": 374933,
+      "status": "reimplemented_or_analysis"
+    },
+    {
+      "file": "after/unity_unfilled.png",
+      "sha256": "3147abf994d8e42a81c961f5c1d994aaa32dee4c627ccfe4352577404ef3022a",
+      "bytes": 315742,
+      "status": "reimplemented_or_analysis"
+    },
+    {
+      "file": "after/unity_filled.png",
+      "sha256": "319c3ba31e25afe803c251ef51f13b321f15fb9f3cfbd7296fc5c14b3870b39b",
+      "bytes": 422424,
+      "status": "reimplemented_or_analysis"
+    },
+    {
+      "file": "after/unity_capture.json",
+      "sha256": "3f1a8049f4d5eb88f197da9175f2b6e2509fa2a02fbf4961cae7fd5235fcc238",
+      "bytes": 1364,
+      "status": "reimplemented_or_analysis"
+    },
+    {
+      "file": "level_data_audit_before.json",
+      "sha256": "a5fc0ef25cc69ddb60d3d52b66ea2ffe92e6b35a66c719c375de666bb889f3de",
+      "bytes": 3058,
+      "status": "reimplemented_or_analysis"
+    },
+    {
+      "file": "level_data_audit_after.json",
+      "sha256": "ce7f7b8d2c395ae5256ec8d480f944845afa4687d3e0e16783e5a317605e62c6",
+      "bytes": 2820,
+      "status": "reimplemented_or_analysis"
+    },
+    {
+      "file": "comparison.png",
+      "sha256": "ef5f3ff8b43a1281382d2895cc84e49bfa64c3b09b11ec2352dfcd02273059cc",
+      "bytes": 496853,
+      "status": "reimplemented_or_analysis"
+    },
+    {
+      "file": "REPORT.md",
+      "sha256": "c78e1324f00e3dfaaf3673ba78774f3a47c687f6f393b6c06db56f4ff2fb6d70",
+      "bytes": 5388,
+      "status": "reimplemented_or_analysis"
+    }
+  ]
+}

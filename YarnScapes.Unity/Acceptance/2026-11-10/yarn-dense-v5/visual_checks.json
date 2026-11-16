@@ -1,0 +1,19 @@
+{
+  "passed": 58,
+  "total": 58,
+  "regions": 32,
+  "filled": 1334,
+  "stitchesPerCell": 9,
+  "stitches": 12006,
+  "densityRatioToV4": 2.25,
+  "nominalStrandScaleToV4": 0.6666666666666666,
+  "vertices": 7663316,
+  "boundaryFibers": 77808,
+  "resetMeanChannelDifference": 0.0,
+  "restoreMeanChannelDifference": 0.004804074764251709,
+  "restoreMaxChannelDifference": 167,
+  "restoreChangedPixels": 15308,
+  "restorePixelsOver10": 975,
+  "platform": "Windows / Unity 2022.3.62f2 / D3D11",
+  "levelJsonUnchanged": true
+}

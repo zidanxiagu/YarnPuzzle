@@ -1,0 +1,2466 @@
+{
+  "source": "base.apk",
+  "sha256": "c909842f7eb44d2b7874553cd527e7ffb5fc848f65e2b5ebe6713084d3a8f6f2",
+  "files": [
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/bg_library_tab_selected.webp",
+      "size": 14070
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/compose-multiplatform.xml",
+      "size": 1536
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/gem_fly_bg.png",
+      "size": 2031
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/gem_fly_mask.png",
+      "size": 9931
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/gem_fly_mask_light.png",
+      "size": 8733
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/guide_finger_click.webp",
+      "size": 7826
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/guide_finger_normal.webp",
+      "size": 7602
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/jigsaw_mask_144.png",
+      "size": 356826
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/jigsaw_mask_225.png",
+      "size": 424934
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/jigsaw_mask_400.png",
+      "size": 472467
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/pixel_sparkle.png",
+      "size": 642
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/play_background_tile_texture.png",
+      "size": 361681
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/yarn_piece.png",
+      "size": 845
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable/yarn_piece_dark.png",
+      "size": 1053
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/app_name_img.webp",
+      "size": 21880
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_ai_creation_header_image.webp",
+      "size": 46090
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_community_tag.webp",
+      "size": 1010
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_creation_error.webp",
+      "size": 101660
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_daily_screen.webp",
+      "size": 152906
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_daily_shadow_large.webp",
+      "size": 4846
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_daily_shadow_small.webp",
+      "size": 638
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_daily_shine.webp",
+      "size": 21974
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_daily_today.webp",
+      "size": 17224
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_daily_today_color.webp",
+      "size": 10234
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_daily_today_color_pad.webp",
+      "size": 21076
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_daily_today_pad.webp",
+      "size": 29086
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_frame.webp",
+      "size": 64412
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_frame_texture.webp",
+      "size": 63284
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_game_streak_shine.webp",
+      "size": 148108
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_grid.webp",
+      "size": 122294
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_image_to_image_cover.webp",
+      "size": 196476
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_image_to_image_cover_pad.webp",
+      "size": 533726
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_image_to_image_new_year_cover.webp",
+      "size": 274868
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_image_to_image_xmas_cover.webp",
+      "size": 286056
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_my_tab.webp",
+      "size": 5294
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_photo_to_photo_small.webp",
+      "size": 12642
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_progress_small.webp",
+      "size": 720
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_prop_item.webp",
+      "size": 3480
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_prop_item_chp_style.webp",
+      "size": 4222
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_rate_us_texture.webp",
+      "size": 83274
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_setting_subscribe.webp",
+      "size": 254032
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_shining.webp",
+      "size": 14434
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_shining_yellow.webp",
+      "size": 76572
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_subs_header_image.webp",
+      "size": 63408
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_subscribe_pattern.webp",
+      "size": 231664
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_text_to_image_cover.webp",
+      "size": 97266
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_text_to_image_cover_pad.webp",
+      "size": 261484
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_text_to_photo_small.webp",
+      "size": 17210
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_top_hint.webp",
+      "size": 7126
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_white_dot.webp",
+      "size": 1898
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_white_grid.webp",
+      "size": 4060
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_xmas_event_common.webp",
+      "size": 257414
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/bg_xmas_event_zh.webp",
+      "size": 256700
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/btn_bg_large.webp",
+      "size": 4932
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/btn_subscribe_disable.webp",
+      "size": 65620
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/btn_subscribe_enable.webp",
+      "size": 78230
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/check_thumb.webp",
+      "size": 254
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/check_track.webp",
+      "size": 394
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/collection_pic_icon.webp",
+      "size": 310
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/common_btn_bg_h48.webp",
+      "size": 8074
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/common_btn_bg_h73.webp",
+      "size": 15036
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/common_header_img.webp",
+      "size": 296882
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/corner_type_new.webp",
+      "size": 1414
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/game_streak_bomb_reward.webp",
+      "size": 3504
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/game_streak_brush_reward.webp",
+      "size": 3440
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/game_streak_day_completed.webp",
+      "size": 3014
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/game_streak_day_not_completed.webp",
+      "size": 2422
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/game_streak_day_reward_not_claimed.webp",
+      "size": 2214
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/game_streak_entrance_bg.webp",
+      "size": 10960
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/game_streak_final_reward.webp",
+      "size": 924
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/game_streak_final_reward_opened.webp",
+      "size": 1194
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/game_streak_hint_reward.webp",
+      "size": 3570
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/game_streak_magic_wand_reward.webp",
+      "size": 3874
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/gem_fly_mask_shadow.webp",
+      "size": 5844
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_1_credit.webp",
+      "size": 6800
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_2_credit.webp",
+      "size": 7720
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_3_credit.webp",
+      "size": 8234
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_add_credits.webp",
+      "size": 406
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_add_large.webp",
+      "size": 218
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_add_primary_color.webp",
+      "size": 184
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_add_trans.webp",
+      "size": 338
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_ai_normal.webp",
+      "size": 750
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_ai_selected.webp",
+      "size": 676
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_album_white.webp",
+      "size": 288
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_arrow_right_black_alpha30.webp",
+      "size": 94
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_arrow_right_gray.webp",
+      "size": 142
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_arrow_right_large.webp",
+      "size": 108
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_arrow_right_primary_color.webp",
+      "size": 156
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_arrow_right_white_small.webp",
+      "size": 108
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_arrow_up_gray.webp",
+      "size": 128
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_back_chp_mode.webp",
+      "size": 4364
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_back_circle.webp",
+      "size": 3320
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_best_value.webp",
+      "size": 1462
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_bird_photo_to_pixel.webp",
+      "size": 14570
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_bird_text_to_pixel.webp",
+      "size": 14730
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_boom.webp",
+      "size": 19188
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_bottom_nav_new_year.webp",
+      "size": 1106
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_bottom_nav_xmas.webp",
+      "size": 3912
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_brush.webp",
+      "size": 23334
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_bubble_shadow.webp",
+      "size": 4806
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_busy.webp",
+      "size": 1318
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_button_1.webp",
+      "size": 10410
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_camera.webp",
+      "size": 1406
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_cancel.webp",
+      "size": 210
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_celebrate.webp",
+      "size": 5010
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_check_normal.webp",
+      "size": 388
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_check_selected.webp",
+      "size": 460
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_chp_app_name.webp",
+      "size": 117718
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_chp_main_btn.webp",
+      "size": 29364
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_chp_map_setting.webp",
+      "size": 4918
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_circle.webp",
+      "size": 942
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_circle_background.webp",
+      "size": 1454
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_circle_primary_color_normal.webp",
+      "size": 1860
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_circle_primary_color_selected.webp",
+      "size": 1768
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_clear_message.webp",
+      "size": 14800
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_comments.webp",
+      "size": 222
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_community_normal.webp",
+      "size": 832
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_community_selected.webp",
+      "size": 1340
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_community_tag_image_error.webp",
+      "size": 4472
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_confirm.webp",
+      "size": 176
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_credits.webp",
+      "size": 1812
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_credits_star_title.webp",
+      "size": 54596
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_crown.webp",
+      "size": 584
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_debug_finish_color.webp",
+      "size": 2464
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_delete.webp",
+      "size": 350
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_delete_circle.webp",
+      "size": 1262
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_delete_close.webp",
+      "size": 352
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_delete_light_gray.webp",
+      "size": 198
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_delete_simple.webp",
+      "size": 294
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_delete_simple_light.webp",
+      "size": 296
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_delete_simple_light_2.webp",
+      "size": 198
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_delete_simple_small.webp",
+      "size": 230
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_dialog_close.webp",
+      "size": 662
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_edit.webp",
+      "size": 290
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_error_bird.webp",
+      "size": 27834
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_fail.webp",
+      "size": 1266
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_fail_small.webp",
+      "size": 288
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_free.webp",
+      "size": 454
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_get_video.webp",
+      "size": 928
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_gif.webp",
+      "size": 834
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_heart.webp",
+      "size": 4162
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_hint.webp",
+      "size": 22270
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_hint_chp_style.webp",
+      "size": 4748
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_how_to_color.webp",
+      "size": 598
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_image_to_image.webp",
+      "size": 924
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_in_use.webp",
+      "size": 808
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_infinite.webp",
+      "size": 166
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_library_vip_entry.webp",
+      "size": 5908
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_like.webp",
+      "size": 272
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_loading.webp",
+      "size": 1272
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_magic.webp",
+      "size": 27308
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_message.webp",
+      "size": 346
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_message_new_tag.webp",
+      "size": 1518
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_message_new_tag_pad.webp",
+      "size": 2112
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_my_creation_shortcut.webp",
+      "size": 402
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_new_message_alert.webp",
+      "size": 10966
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_no_more.webp",
+      "size": 3426
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_ok_btn.webp",
+      "size": 754
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_pause_primary_color.webp",
+      "size": 3378
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_photo_to_image_active_small.webp",
+      "size": 380
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_photo_to_image_normal_small.webp",
+      "size": 372
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_pixel_watermark_show.webp",
+      "size": 19926
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_play.webp",
+      "size": 924
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_play_primary_color.webp",
+      "size": 3364
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_plus_4.webp",
+      "size": 1240
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_post_coloring.webp",
+      "size": 426
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_post_comment.webp",
+      "size": 356
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_post_like.webp",
+      "size": 384
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_privacy.webp",
+      "size": 290
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_pro.webp",
+      "size": 17940
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_rate_us_jewel.webp",
+      "size": 48502
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_rate_us_title.webp",
+      "size": 82516
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_refresh.webp",
+      "size": 418
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_remove_watermark.webp",
+      "size": 29784
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_remove_watermark_ad.webp",
+      "size": 2534
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_reset.webp",
+      "size": 456
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_ring.webp",
+      "size": 250
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_rotate_refreshing.webp",
+      "size": 1280
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_rotate_refreshing_white.webp",
+      "size": 1194
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_rotate_white.webp",
+      "size": 1878
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_save_primary_color.webp",
+      "size": 4932
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_select_style.webp",
+      "size": 4136
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_service.webp",
+      "size": 304
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_setting.webp",
+      "size": 408
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_setting_rate.webp",
+      "size": 562
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_share_primary_color.webp",
+      "size": 4964
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_show_finished.png",
+      "size": 1149
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_skip.webp",
+      "size": 626
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_star.webp",
+      "size": 196
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_star_tiny_black.webp",
+      "size": 154
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_stars.webp",
+      "size": 2306
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_stars_light.webp",
+      "size": 384
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_stars_light_white.webp",
+      "size": 270
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_stop.webp",
+      "size": 980
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_style_lego.webp",
+      "size": 1754
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_style_love_diamond.webp",
+      "size": 3472
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_style_round_diamond.webp",
+      "size": 2350
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_style_shimmer.webp",
+      "size": 934
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_style_square_diamond.webp",
+      "size": 1916
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_style_weave.webp",
+      "size": 4140
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_subscribe_check.webp",
+      "size": 160
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_subscribe_logo.webp",
+      "size": 184416
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_switch_style.webp",
+      "size": 4050
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_tab_daily_normal.webp",
+      "size": 4538
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_tab_daily_selected.webp",
+      "size": 11384
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_tab_library_normal.webp",
+      "size": 5478
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_tab_library_selected.webp",
+      "size": 16610
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_tab_my_normal.webp",
+      "size": 4848
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_tab_my_selected.webp",
+      "size": 11552
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_tab_town_normal.webp",
+      "size": 5042
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_tab_town_selected.webp",
+      "size": 12318
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_text_restore.webp",
+      "size": 1314
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_text_to_image.webp",
+      "size": 364
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_text_to_image_active_small.webp",
+      "size": 430
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_text_to_image_normal_small.webp",
+      "size": 426
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_three_dots.webp",
+      "size": 1308
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_tick.webp",
+      "size": 174
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_tick_primary_color_small.webp",
+      "size": 176
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_to_like.webp",
+      "size": 352
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_today.webp",
+      "size": 2724
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_today_large.webp",
+      "size": 4648
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_trash.webp",
+      "size": 254
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_trash_1.webp",
+      "size": 268
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_trash_large.webp",
+      "size": 748
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_triangle.webp",
+      "size": 304
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_triangle_shadow.webp",
+      "size": 702
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_use.webp",
+      "size": 780
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_user_follower.webp",
+      "size": 372
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_user_paint.webp",
+      "size": 408
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_video_primary_color.webp",
+      "size": 17374
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_video_primary_color_blue.webp",
+      "size": 550
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_wifi_error.webp",
+      "size": 2448
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_zoom_in.webp",
+      "size": 2328
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/icon_zoom_out.webp",
+      "size": 1406
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/image_cartoon_example.webp",
+      "size": 21036
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/image_comic_example.webp",
+      "size": 28148
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/image_detailed_example.webp",
+      "size": 39276
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/image_faithful_example.webp",
+      "size": 38784
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/image_new_year_example.webp",
+      "size": 50918
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/image_oil_pastel_example.webp",
+      "size": 34644
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/image_xmas_example.webp",
+      "size": 47596
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/img_daily_header.webp",
+      "size": 5050
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/img_library_header.webp",
+      "size": 5562
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/img_my_head.webp",
+      "size": 8284
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/img_new_user_guide_arrow.webp",
+      "size": 1508
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/img_version_update_dialog_bg.webp",
+      "size": 52194
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/indicator_large.webp",
+      "size": 60
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/indicator_small.webp",
+      "size": 62
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/ion_play_setting.webp",
+      "size": 1166
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/logo_watermask.webp",
+      "size": 4044
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/main_top_bg.webp",
+      "size": 7848
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/my_page_empty_completed_icon.webp",
+      "size": 7454
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/my_page_empty_creation_icon.webp",
+      "size": 25696
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/my_page_empty_finish_icon.webp",
+      "size": 34014
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/my_page_empty_following_icon.webp",
+      "size": 22768
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/my_page_empty_icon.webp",
+      "size": 31562
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/my_page_empty_in_progress_icon.webp",
+      "size": 22826
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/my_page_empty_loved_icon.webp",
+      "size": 31948
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/my_page_empty_theme_icon.webp",
+      "size": 30468
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/place_holder_banner.webp",
+      "size": 212
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/place_holder_item.webp",
+      "size": 574
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/placeholder_collection_head.webp",
+      "size": 238
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/placeholder_collection_item.webp",
+      "size": 216
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/placeholder_image.webp",
+      "size": 1830
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/play_icon_remove_ads.webp",
+      "size": 3414
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/progress_finished.webp",
+      "size": 1686
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/rate_header_bg_img.webp",
+      "size": 265518
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/rate_us_star_normal.webp",
+      "size": 4086
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/rate_us_star_selected.webp",
+      "size": 5098
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/red_dot_guide.webp",
+      "size": 262
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/settings_icon_account.webp",
+      "size": 474
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/settings_icon_drag_coloring.webp",
+      "size": 418
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/settings_icon_highlight.webp",
+      "size": 538
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/settings_icon_music.webp",
+      "size": 728
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/settings_icon_remove_ads.webp",
+      "size": 768
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/settings_icon_sound.webp",
+      "size": 436
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/settings_icon_switch.webp",
+      "size": 526
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/settings_icon_vibrate.webp",
+      "size": 452
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/settings_large_brush.webp",
+      "size": 346
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/splash_app_icon.webp",
+      "size": 86158
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/splash_screen_background.webp",
+      "size": 21660
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/spool_bottom.webp",
+      "size": 1502
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/spool_stick.webp",
+      "size": 1442
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/spool_top.webp",
+      "size": 1824
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/static_gray_fire.webp",
+      "size": 2928
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/sub_button_bg_bur.webp",
+      "size": 54694
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/subs_period_item_checked.webp",
+      "size": 502
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/subs_period_item_uncheck.webp",
+      "size": 596
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/subscribe_continue.webp",
+      "size": 9064
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/subscribe_header_img.webp",
+      "size": 297294
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/triangle_down.webp",
+      "size": 356
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/uncheck_track.webp",
+      "size": 372
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-hdpi/warning_btn_bg_h90.webp",
+      "size": 17064
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/app_name_img.webp",
+      "size": 41414
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_ai_creation_header_image.webp",
+      "size": 87932
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_community_tag.webp",
+      "size": 1750
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_creation_error.webp",
+      "size": 149354
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_daily_screen.webp",
+      "size": 286960
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_daily_shadow_large.webp",
+      "size": 7388
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_daily_shadow_small.webp",
+      "size": 1696
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_daily_shine.webp",
+      "size": 45856
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_daily_today.webp",
+      "size": 31380
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_daily_today_color.webp",
+      "size": 17158
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_daily_today_color_pad.webp",
+      "size": 36380
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_daily_today_pad.webp",
+      "size": 47706
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_frame.webp",
+      "size": 128134
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_frame_texture.webp",
+      "size": 133018
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_game_streak_shine.webp",
+      "size": 275698
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_grid.webp",
+      "size": 199018
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_image_to_image_cover.webp",
+      "size": 387164
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_image_to_image_cover_pad.webp",
+      "size": 1015868
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_image_to_image_new_year_cover.webp",
+      "size": 552314
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_image_to_image_xmas_cover.webp",
+      "size": 581758
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_my_tab.webp",
+      "size": 7782
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_photo_to_photo_small.webp",
+      "size": 23934
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_progress_small.webp",
+      "size": 1252
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_prop_item.webp",
+      "size": 6572
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_prop_item_chp_style.webp",
+      "size": 8686
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_rate_us_texture.webp",
+      "size": 158840
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_setting_subscribe.webp",
+      "size": 414102
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_shining.webp",
+      "size": 69994
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_shining_yellow.webp",
+      "size": 136336
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_subs_header_image.webp",
+      "size": 106330
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_subscribe_pattern.webp",
+      "size": 231664
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_text_to_image_cover.webp",
+      "size": 172000
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_text_to_image_cover_pad.webp",
+      "size": 461186
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_text_to_photo_small.webp",
+      "size": 34462
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_top_hint.webp",
+      "size": 13282
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_white_dot.webp",
+      "size": 2914
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_white_grid.webp",
+      "size": 7774
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_xmas_event_common.webp",
+      "size": 479420
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/bg_xmas_event_zh.webp",
+      "size": 475904
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/btn_bg_large.webp",
+      "size": 7718
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/btn_subscribe_disable.webp",
+      "size": 77184
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/btn_subscribe_enable.webp",
+      "size": 159596
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/check_thumb.webp",
+      "size": 348
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/check_track.webp",
+      "size": 540
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/collection_pic_icon.webp",
+      "size": 418
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/common_btn_bg_h48.webp",
+      "size": 14070
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/common_btn_bg_h73.webp",
+      "size": 24734
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/common_header_img.webp",
+      "size": 577384
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/corner_type_new.webp",
+      "size": 1946
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/game_streak_bomb_reward.webp",
+      "size": 5760
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/game_streak_brush_reward.webp",
+      "size": 5522
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/game_streak_day_completed.webp",
+      "size": 5680
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/game_streak_day_not_completed.webp",
+      "size": 4172
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/game_streak_day_reward_not_claimed.webp",
+      "size": 3260
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/game_streak_entrance_bg.webp",
+      "size": 20954
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/game_streak_final_reward.webp",
+      "size": 1106
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/game_streak_final_reward_opened.webp",
+      "size": 1518
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/game_streak_hint_reward.webp",
+      "size": 5846
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/game_streak_magic_wand_reward.webp",
+      "size": 6224
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/gem_fly_mask_shadow.webp",
+      "size": 11416
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_1_credit.webp",
+      "size": 13420
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_2_credit.webp",
+      "size": 14842
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_3_credit.webp",
+      "size": 15750
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_add_credits.webp",
+      "size": 530
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_add_large.webp",
+      "size": 258
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_add_primary_color.webp",
+      "size": 212
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_add_trans.webp",
+      "size": 478
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_ai_normal.webp",
+      "size": 1042
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_ai_selected.webp",
+      "size": 912
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_album_white.webp",
+      "size": 396
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_arrow_right_black_alpha30.webp",
+      "size": 92
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_arrow_right_gray.webp",
+      "size": 160
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_arrow_right_large.webp",
+      "size": 124
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_arrow_right_primary_color.webp",
+      "size": 176
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_arrow_right_white_small.webp",
+      "size": 126
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_arrow_up_gray.webp",
+      "size": 160
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_back_chp_mode.webp",
+      "size": 9038
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_back_circle.webp",
+      "size": 6018
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_best_value.webp",
+      "size": 2336
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_bird_photo_to_pixel.webp",
+      "size": 28178
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_bird_text_to_pixel.webp",
+      "size": 28448
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_boom.webp",
+      "size": 37028
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_bottom_nav_new_year.webp",
+      "size": 1590
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_bottom_nav_xmas.webp",
+      "size": 7072
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_brush.webp",
+      "size": 44934
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_bubble_shadow.webp",
+      "size": 9506
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_busy.webp",
+      "size": 1934
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_button_1.webp",
+      "size": 24466
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_camera.webp",
+      "size": 2514
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_cancel.webp",
+      "size": 266
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_celebrate.webp",
+      "size": 9998
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_check_normal.webp",
+      "size": 546
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_check_selected.webp",
+      "size": 570
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_chp_app_name.webp",
+      "size": 227316
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_chp_main_btn.webp",
+      "size": 48946
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_chp_map_setting.webp",
+      "size": 10044
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_circle.webp",
+      "size": 1474
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_circle_background.webp",
+      "size": 2574
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_circle_primary_color_normal.webp",
+      "size": 2976
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_circle_primary_color_selected.webp",
+      "size": 2894
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_clear_message.webp",
+      "size": 30730
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_comments.webp",
+      "size": 304
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_community_normal.webp",
+      "size": 1150
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_community_selected.webp",
+      "size": 1868
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_community_tag_image_error.webp",
+      "size": 7516
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_confirm.webp",
+      "size": 206
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_credits.webp",
+      "size": 3154
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_credits_star_title.webp",
+      "size": 101972
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_crown.webp",
+      "size": 806
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_debug_finish_color.webp",
+      "size": 4170
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_delete.webp",
+      "size": 470
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_delete_circle.webp",
+      "size": 1896
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_delete_close.webp",
+      "size": 430
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_delete_light_gray.webp",
+      "size": 232
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_delete_simple.webp",
+      "size": 366
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_delete_simple_light.webp",
+      "size": 364
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_delete_simple_light_2.webp",
+      "size": 232
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_delete_simple_small.webp",
+      "size": 254
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_dialog_close.webp",
+      "size": 934
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_edit.webp",
+      "size": 368
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_error_bird.webp",
+      "size": 54380
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_fail.webp",
+      "size": 1918
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_fail_small.webp",
+      "size": 424
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_free.webp",
+      "size": 552
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_get_video.webp",
+      "size": 1266
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_gif.webp",
+      "size": 1192
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_heart.webp",
+      "size": 8428
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_hint.webp",
+      "size": 42074
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_hint_chp_style.webp",
+      "size": 8914
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_how_to_color.webp",
+      "size": 758
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_image_to_image.webp",
+      "size": 1188
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_in_use.webp",
+      "size": 1114
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_infinite.webp",
+      "size": 226
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_library_vip_entry.webp",
+      "size": 9778
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_like.webp",
+      "size": 370
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_loading.webp",
+      "size": 2094
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_magic.webp",
+      "size": 52838
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_message.webp",
+      "size": 482
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_message_new_tag.webp",
+      "size": 2544
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_message_new_tag_pad.webp",
+      "size": 3578
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_my_creation_shortcut.webp",
+      "size": 564
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_new_message_alert.webp",
+      "size": 21486
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_no_more.webp",
+      "size": 6016
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_ok_btn.webp",
+      "size": 1034
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_pause_primary_color.webp",
+      "size": 5252
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_photo_to_image_active_small.webp",
+      "size": 516
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_photo_to_image_normal_small.webp",
+      "size": 508
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_pixel_watermark_show.webp",
+      "size": 40950
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_play.webp",
+      "size": 1302
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_play_primary_color.webp",
+      "size": 5238
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_plus_4.webp",
+      "size": 1824
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_post_coloring.webp",
+      "size": 580
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_post_comment.webp",
+      "size": 472
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_post_like.webp",
+      "size": 536
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_privacy.webp",
+      "size": 364
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_pro.webp",
+      "size": 31214
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_rate_us_jewel.webp",
+      "size": 89848
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_rate_us_title.webp",
+      "size": 150584
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_refresh.webp",
+      "size": 570
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_remove_watermark.webp",
+      "size": 59512
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_remove_watermark_ad.webp",
+      "size": 4592
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_reset.webp",
+      "size": 636
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_ring.webp",
+      "size": 346
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_rotate_refreshing.webp",
+      "size": 2284
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_rotate_refreshing_white.webp",
+      "size": 2078
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_rotate_white.webp",
+      "size": 3170
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_save_primary_color.webp",
+      "size": 7924
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_select_style.webp",
+      "size": 6880
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_service.webp",
+      "size": 404
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_setting.webp",
+      "size": 588
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_setting_rate.webp",
+      "size": 748
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_share_primary_color.webp",
+      "size": 7976
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_show_finished.png",
+      "size": 1571
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_skip.webp",
+      "size": 878
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_star.webp",
+      "size": 252
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_star_tiny_black.webp",
+      "size": 222
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_stars.webp",
+      "size": 3922
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_stars_light.webp",
+      "size": 564
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_stars_light_white.webp",
+      "size": 462
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_stop.webp",
+      "size": 1274
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_style_lego.webp",
+      "size": 3108
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_style_love_diamond.webp",
+      "size": 5736
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_style_round_diamond.webp",
+      "size": 3434
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_style_shimmer.webp",
+      "size": 1534
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_style_square_diamond.webp",
+      "size": 2768
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_style_weave.webp",
+      "size": 8380
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_subscribe_check.webp",
+      "size": 204
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_subscribe_logo.webp",
+      "size": 374528
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_switch_style.webp",
+      "size": 6526
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_tab_daily_normal.webp",
+      "size": 8702
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_tab_daily_selected.webp",
+      "size": 22866
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_tab_library_normal.webp",
+      "size": 12040
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_tab_library_selected.webp",
+      "size": 34066
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_tab_my_normal.webp",
+      "size": 9802
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_tab_my_selected.webp",
+      "size": 22766
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_tab_town_normal.webp",
+      "size": 8624
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_tab_town_selected.webp",
+      "size": 22820
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_text_restore.webp",
+      "size": 1950
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_text_to_image.webp",
+      "size": 492
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_text_to_image_active_small.webp",
+      "size": 588
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_text_to_image_normal_small.webp",
+      "size": 576
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_three_dots.webp",
+      "size": 2370
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_tick.webp",
+      "size": 206
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_tick_primary_color_small.webp",
+      "size": 206
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_to_like.webp",
+      "size": 492
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_today.webp",
+      "size": 4660
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_today_large.webp",
+      "size": 8282
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_trash.webp",
+      "size": 310
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_trash_1.webp",
+      "size": 336
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_trash_large.webp",
+      "size": 978
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_triangle.webp",
+      "size": 376
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_triangle_shadow.webp",
+      "size": 1224
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_use.webp",
+      "size": 1076
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_user_follower.webp",
+      "size": 550
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_user_paint.webp",
+      "size": 574
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_video_primary_color.webp",
+      "size": 42664
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_video_primary_color_blue.webp",
+      "size": 810
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_wifi_error.webp",
+      "size": 3632
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_zoom_in.webp",
+      "size": 3336
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/icon_zoom_out.webp",
+      "size": 2290
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/image_cartoon_example.webp",
+      "size": 24106
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/image_comic_example.webp",
+      "size": 38462
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/image_detailed_example.webp",
+      "size": 61646
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/image_faithful_example.webp",
+      "size": 71858
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/image_new_year_example.webp",
+      "size": 71068
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/image_oil_pastel_example.webp",
+      "size": 47950
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/image_xmas_example.webp",
+      "size": 67300
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/img_daily_header.webp",
+      "size": 8380
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/img_library_header.webp",
+      "size": 9924
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/img_my_head.webp",
+      "size": 14814
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/img_new_user_guide_arrow.webp",
+      "size": 2480
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/img_version_update_dialog_bg.webp",
+      "size": 91846
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/indicator_large.webp",
+      "size": 56
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/indicator_small.webp",
+      "size": 76
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/ion_play_setting.webp",
+      "size": 1708
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/logo_watermask.webp",
+      "size": 5486
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/main_top_bg.webp",
+      "size": 13310
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/my_page_empty_completed_icon.webp",
+      "size": 10866
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/my_page_empty_creation_icon.webp",
+      "size": 51448
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/my_page_empty_finish_icon.webp",
+      "size": 70892
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/my_page_empty_following_icon.webp",
+      "size": 43224
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/my_page_empty_icon.webp",
+      "size": 58110
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/my_page_empty_in_progress_icon.webp",
+      "size": 42884
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/my_page_empty_loved_icon.webp",
+      "size": 62384
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/my_page_empty_theme_icon.webp",
+      "size": 61452
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/place_holder_banner.webp",
+      "size": 290
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/place_holder_item.webp",
+      "size": 1022
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/placeholder_collection_head.webp",
+      "size": 406
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/placeholder_collection_item.webp",
+      "size": 314
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/placeholder_image.webp",
+      "size": 2634
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/play_icon_remove_ads.webp",
+      "size": 5514
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/progress_finished.webp",
+      "size": 3044
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/rate_header_bg_img.webp",
+      "size": 536280
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/rate_us_star_normal.webp",
+      "size": 7288
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/rate_us_star_selected.webp",
+      "size": 8908
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/red_dot_guide.webp",
+      "size": 392
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/settings_icon_account.webp",
+      "size": 642
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/settings_icon_drag_coloring.webp",
+      "size": 582
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/settings_icon_highlight.webp",
+      "size": 728
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/settings_icon_music.webp",
+      "size": 1128
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/settings_icon_remove_ads.webp",
+      "size": 1044
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/settings_icon_sound.webp",
+      "size": 592
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/settings_icon_switch.webp",
+      "size": 770
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/settings_icon_vibrate.webp",
+      "size": 564
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/settings_large_brush.webp",
+      "size": 406
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/splash_app_icon.webp",
+      "size": 178670
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/splash_screen_background.webp",
+      "size": 35672
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/spool_bottom.webp",
+      "size": 2478
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/spool_stick.webp",
+      "size": 2744
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/spool_top.webp",
+      "size": 3052
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/static_gray_fire.webp",
+      "size": 4310
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/sub_button_bg_bur.webp",
+      "size": 90852
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/subs_period_item_checked.webp",
+      "size": 720
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/subs_period_item_uncheck.webp",
+      "size": 802
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/subscribe_continue.webp",
+      "size": 13648
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/subscribe_header_img.webp",
+      "size": 582476
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/triangle_down.webp",
+      "size": 470
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/uncheck_track.webp",
+      "size": 506
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/drawable-xxhdpi/warning_btn_bg_h90.webp",
+      "size": 28752
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/chapter_map_index.json",
+      "size": 28
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_ar.json",
+      "size": 163438
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_de.json",
+      "size": 118831
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_en.json",
+      "size": 110256
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_es-419.json",
+      "size": 124217
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_es-ES.json",
+      "size": 124177
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_fil.json",
+      "size": 121693
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_fr.json",
+      "size": 125959
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_hi.json",
+      "size": 243446
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_id.json",
+      "size": 119409
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_it.json",
+      "size": 125650
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_ja.json",
+      "size": 140914
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_ko.json",
+      "size": 132168
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_pt-BR.json",
+      "size": 124228
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_pt-PT.json",
+      "size": 124125
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_ru.json",
+      "size": 195115
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_th.json",
+      "size": 238949
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_vi.json",
+      "size": 139514
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_zh-HK.json",
+      "size": 99387
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/json/keyword/keyword_zh.json",
+      "size": 99896
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/amazing.lottie",
+      "size": 26379
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/celebration.lottie",
+      "size": 11941
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/confetti.lottie",
+      "size": 3825
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/creating.lottie",
+      "size": 820923
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/easter.lottie",
+      "size": 12073
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/encourage.lottie",
+      "size": 1972
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/father.lottie",
+      "size": 10165
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/fire.lottie",
+      "size": 41035
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/fire_first_completion.lottie",
+      "size": 50406
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/like.lottie",
+      "size": 1496
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/mother.lottie",
+      "size": 12755
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/progressing.json",
+      "size": 6722
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/progressing_gray.json",
+      "size": 6787
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/lottie/small_fire.lottie",
+      "size": 7533
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/music/background_music.mp3",
+      "size": 2290398
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/render/pixel_style_mask.png",
+      "size": 30585
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/sound/cluster.wav",
+      "size": 248876
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/sound/complete_wave.wav",
+      "size": 345644
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/sound/sound_finished.mp3",
+      "size": 26379
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/sound/sound_jewel_win.mp3",
+      "size": 51710
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/sound/thread_end.mp3",
+      "size": 8409
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/sound/thread_middle.mp3",
+      "size": 64415
+    },
+    {
+      "archive": "assets/composeResources/yarnscapes.shared.generated.resources/files/sound/thread_start.wav",
+      "size": 53284
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "levelId": "level_0001",
+  "displayName": "Starter Pixel",
+  "width": 8,
+  "height": 8,
+  "palette": [
+    { "r": 0.91, "g": 0.28, "b": 0.32, "a": 1.0 },
+    { "r": 0.98, "g": 0.72, "b": 0.24, "a": 1.0 },
+    { "r": 0.25, "g": 0.70, "b": 0.55, "a": 1.0 },
+    { "r": 0.30, "g": 0.52, "b": 0.92, "a": 1.0 }
+  ],
+  "cells": [
+    0,0,0,1,1,0,0,0,
+    0,0,1,1,1,1,0,0,
+    0,1,1,2,2,1,1,0,
+    1,1,2,2,2,2,1,1,
+    1,2,2,3,3,2,2,1,
+    0,1,2,3,3,2,1,0,
+    0,0,1,2,2,1,0,0,
+    0,0,0,1,1,0,0,0
+  ],
+  "fillAnimationSeconds": 0.12,
+  "completionDelaySeconds": 0.6,
+  "rewardGems": 10,
+  "starThreshold": 100,
+  "sourceNote": "Fixture for the offline vertical slice. Replace with recovered level payload after runtime capture."
+}

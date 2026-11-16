@@ -1,0 +1,6 @@
+{
+  "name": "WeaveKit.Unity",
+  "rootNamespace": "WeaveKit.Unity",
+  "references": ["WeaveKit.Core", "Unity.ugui"],
+  "autoReferenced": true
+}

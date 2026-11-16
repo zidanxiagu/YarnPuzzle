@@ -1,0 +1,10 @@
+{
+  "checks": 55,
+  "passed": 55,
+  "filled": 1334,
+  "paintable": 1334,
+  "regions": 32,
+  "plushVertices": 3601800,
+  "resetMeanPixelDifference": 0.0,
+  "levelJsonUnchanged": true
+}

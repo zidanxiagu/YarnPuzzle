@@ -1,0 +1,56 @@
+[
+  {
+    "view": "fit",
+    "stage": 1,
+    "meanChannelDifference": 15.254010695187166,
+    "pixelsOver3": 2734
+  },
+  {
+    "view": "fit",
+    "stage": 2,
+    "meanChannelDifference": 4.025088250126071,
+    "pixelsOver3": 2116
+  },
+  {
+    "view": "fit",
+    "stage": 3,
+    "meanChannelDifference": 6.604765506807867,
+    "pixelsOver3": 3224
+  },
+  {
+    "view": "normal",
+    "stage": 1,
+    "meanChannelDifference": 11.92152291203828,
+    "pixelsOver3": 21301
+  },
+  {
+    "view": "normal",
+    "stage": 2,
+    "meanChannelDifference": 3.7904899031278614,
+    "pixelsOver3": 16284
+  },
+  {
+    "view": "normal",
+    "stage": 3,
+    "meanChannelDifference": 7.296731167767121,
+    "pixelsOver3": 35987
+  },
+  {
+    "view": "close",
+    "stage": 1,
+    "meanChannelDifference": 11.624358301375723,
+    "pixelsOver3": 486146
+  },
+  {
+    "view": "close",
+    "stage": 2,
+    "meanChannelDifference": 3.3360746732038615,
+    "pixelsOver3": 316938
+  },
+  {
+    "view": "close",
+    "stage": 3,
+    "meanChannelDifference": 7.567465804588614,
+    "pixelsOver3": 795435
+  }
+]

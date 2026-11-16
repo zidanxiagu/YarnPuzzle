@@ -1,0 +1,157 @@
+[
+  {
+    "path": "Assets\\Scripts\\Presentation\\PlushYarnBoard.cs",
+    "bytes": 15665,
+    "sha256": "42bc7022ab6545cda7b364c61d792a11eb6ceb1a104c74af55fde00988de5047"
+  },
+  {
+    "path": "Assets\\Scripts\\Presentation\\PixelBoardRenderer.cs",
+    "bytes": 12793,
+    "sha256": "549ca266b5c2374d345f584b0d386c15feab038b57e61ddfc59b18a3e012adfa"
+  },
+  {
+    "path": "Assets\\Scripts\\Presentation\\PixelCellView.cs",
+    "bytes": 3985,
+    "sha256": "b935f5b8fa43440facd88ed20de7554276339108a6858e0197771e8295e53d9b"
+  },
+  {
+    "path": "Assets\\Scripts\\Presentation\\YarnThreadGraphic.cs",
+    "bytes": 5223,
+    "sha256": "be0e6628a71409b35c1c4e6d677cb5e6ea091f4c9cd0570f425dc6fde673927d"
+  },
+  {
+    "path": "Assets\\Scripts\\Presentation\\RuntimeAcceptanceCapture.cs",
+    "bytes": 13794,
+    "sha256": "8e4e77c277bcb3b15164ec8a36944a578a6cc4f19576af6a91a75115bd15acff"
+  },
+  {
+    "path": "Assets\\Scripts\\YarnScapesRuntime.cs",
+    "bytes": 26462,
+    "sha256": "21c84e68a625af4af33a476719510dea2382bce582464c4da4753f9112f7e3f5"
+  },
+  {
+    "path": "Assets\\Editor\\YarnMaterialImport.cs",
+    "bytes": 1306,
+    "sha256": "a993433cf70977c9f8f9ce27938790e90463cf2c85aff7b54884b901fbc9850c"
+  },
+  {
+    "path": "Tools\\PreparePlushAssets.py",
+    "bytes": 2225,
+    "sha256": "2c133eca24413becc9b8b2bb0870a6e457987eef7f0a8659b2f7ff33332c7134"
+  },
+  {
+    "path": "Tools\\CreatePlushPreview.py",
+    "bytes": 7799,
+    "sha256": "39b15f0ecad8653111b1b4ee98afd7a8e9648a12fe6b90153badaed4ed1b0dd2"
+  },
+  {
+    "path": "Assets\\Resources\\Levels\\level_326863.json",
+    "bytes": 33650,
+    "sha256": "c7338c3adbbe2b8e96f29fdc826221e0ce60bc18d95120d2464eb99c01049251"
+  },
+  {
+    "path": "Builds\\YarnScapesOffline_Data\\Managed\\Assembly-CSharp.dll",
+    "bytes": 62464,
+    "sha256": "271d85f7e411d07400860e6d679972dfd5d120289e24e8c34ac4bffdc79ba6a8"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV2\\fiber_roughness.png",
+    "bytes": 178959,
+    "sha256": "793c3c3ce87b75979331cae0ac315441bc62a8fcc4644ad3b2c0e49d8c5e3212"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV2\\PlushComposite.shader",
+    "bytes": 2217,
+    "sha256": "49527f084cc1bb1a0fd7f0ab1543172865c3d07ff2707b8dc4db5256423e5407"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV2\\PlushFiber.shader",
+    "bytes": 1499,
+    "sha256": "5b39a257c8306746b4a4ae1d86345962a334f249d9f53886d5025a55957a2083"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV2\\PlushStrand.shader",
+    "bytes": 3493,
+    "sha256": "49f5fc3e24423951fc8bf0f4b5dea5e60668b299f66771c9bac62ed574b2d0b2"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV2\\spool_wrap.png",
+    "bytes": 119290,
+    "sha256": "ed05afa7161fa3625138708afb503e758e25907144563827605b0cfa94eacf34"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV2\\thread_strip.png",
+    "bytes": 112089,
+    "sha256": "ccb0561f97dbfff46b522d0c270e50ccea78ae365d3f379e78afe360a2e2be3f"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\soft-runtime\\01_fit.png",
+    "bytes": 314449,
+    "sha256": "1e6b96592a1b217427d05af045e7c74046293c0f14d1c79f969cc7fd592de4ca"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\soft-runtime\\02_selected_zoom.png",
+    "bytes": 339790,
+    "sha256": "20a372514c1fff21e7264de58515235b90a8f3af69852e143099eb471497772e"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\soft-runtime\\03_thread_in_progress.png",
+    "bytes": 351305,
+    "sha256": "0a4bc79e2cb3c1f162d29d22a8fa4bfbf4d2656c382664681e699c5316512cbf"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\soft-runtime\\04_region_filled.png",
+    "bytes": 362873,
+    "sha256": "22c074925024b981aafa3e68ce55940d9a0b832ceafeefd4fa9510f118464ca9"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\soft-runtime\\05_completion.png",
+    "bytes": 153561,
+    "sha256": "84494334d9fdde362b92525cbb38e5f23fd5ee89239157872d52ede8c331e068"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\soft-runtime\\06_finished_art.png",
+    "bytes": 473982,
+    "sha256": "3a416317ca24f31c78584b25d805f090a6e8e9c9a942158e5da4263b9961bf5e"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\soft-runtime\\07_yarn_material_closeup.png",
+    "bytes": 709680,
+    "sha256": "94c7c49168524193a23d1b789a38c92bfbab4ccd60feb2d78003febbbcecd576"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\soft-runtime\\08_geometry_oblique.png",
+    "bytes": 6419492,
+    "sha256": "c15f3362ab494411a4f1fa26e05ff777025f20653afa12edb179f0f63bc5de08"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\soft-runtime\\09_reset.png",
+    "bytes": 310438,
+    "sha256": "922e496521f941608da9fdd6d5d08a9c2a06d416866fd3069a160fc971006878"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\soft-runtime\\interaction_report.json",
+    "bytes": 5303,
+    "sha256": "71cd3cb6b27f79ba312e42e7b48cba7b72fcc45db7b760aae3dbac71dc168eab"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\plush-v2-preview.png",
+    "bytes": 963083,
+    "sha256": "817e372bdf8347732022c6e7fb6bfd580a3134f01bc3c865fed389aad58e88f0"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\v1-v2-comparison.png",
+    "bytes": 941080,
+    "sha256": "ac9a66228b411658780397f74a95af9d56d44d8b0d0343ddc3dffbd939281d44"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\visual_checks.json",
+    "bytes": 192,
+    "sha256": "6364181c52d6800ed230e0bcfbac5bedc3e6fabba1b434a7b70ab50ae976dc5f"
+  },
+  {
+    "path": "Acceptance\\2026-11-09\\yarn-material-v2\\REPORT.md",
+    "bytes": 2984,
+    "sha256": "c7d2d06c8b24d53ec1ddd6cc6572af9e29c8798ce7eb40b4473577fea444fbab"
+  }
+]

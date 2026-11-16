@@ -1,0 +1,97 @@
+"""Record V9 compact stitches and coordinated display dyes from real captures."""
+import hashlib
+import json
+from pathlib import Path
+
+ROOT=Path(__file__).resolve().parents[1]
+OUT=ROOT/'Acceptance/2026-11-10/yarn-cozy-v9'
+RUN=OUT/'runtime'
+r=json.loads((RUN/'interaction_report.json').read_text(encoding='utf-8-sig'))
+v=json.loads((OUT/'visual_checks.json').read_text(encoding='utf-8-sig'))
+coverage=json.loads((OUT/'geometry_coverage.json').read_text(encoding='utf-8-sig'))
+swatch=json.loads((OUT/'swatch/interaction_report.json').read_text(encoding='utf-8-sig'))
+assert r['failed']==0 and not r['errors'] and r['fullPlaythrough']
+assert r['filledCells']==r['paintableCells']==1334 and not r['writesProgress']
+assert r['stitchesPerCell']==12 and r['plushVertices']==5699400
+assert len(set(r['displayPalette']))==13
+assert all(c['pass'] for c in r['checks'])
+assert swatch['failed']==0 and not swatch['errors'] and not swatch['fullPlaythrough']
+assert coverage['v9']['exposedBedFraction']<coverage['v8']['exposedBedFraction']
+assert 'Windows player result: Succeeded, errors=0' in (OUT/'build-final.log').read_text(encoding='utf-8-sig',errors='replace')
+assert 'INTERACTION_ACCEPTANCE PASS' in (OUT/'runtime.log').read_text(encoding='utf-8-sig',errors='replace')
+names=['暖杏橙','浅玫瑰粉','奶油黄','暖米白','蓝灰','可可棕','鼠尾草绿','灰苔绿','雾蓝','牛仔蓝','烟紫','丁香紫','浅薰衣草']
+palette='\n'.join(f'| {i+1} | {name} | `{color}` |' for i,(name,color) in enumerate(zip(names,r['displayPalette'])))
+body=f'''# 毛线 V9：短针密织与柔和配色
+
+2026-11-10。按用户要求，继续收短针脚、缩小开口，并参考提供的图片选择柔和舒服的颜色。
+
+## 改动
+
+- 每个逻辑格的针脚从 3 列×3 行改为 3 列×4 行，纵向间距从 1/3 降到 1/4，缩短 25%。线脚的曲线按新行距压缩，行数同步增加，避免只压短针脚却留下横向空隙。
+- 两侧线脚更早靠拢，线股名义半径从 .080×2/3 调至 .093×2/3；适度增加织面覆盖，保留弯回下层的线头、局部松紧、倾斜和交叠深度。
+- 保留 V8 的实际几何高度场、接触遮蔽、软阴影与短绒。此轮没有通过模糊或调暗遮盖开口，也没有修改 V8 shader。
+- 新增统一的 CozyYarnPalette 显示配色，以奶油黄、暖米白、浅粉、雾蓝、暖杏橙为主，辅以低饱和鼠尾草绿和紫色，蓝灰作为轮廓色。线团、牵线、线圈及底层使用同一套色号映射。
+- 原版 13 个色组、逐格布局、填色算法和关卡 JSON 保留。新颜色是用户授权的显示设计，不宣称为原版精确色值。
+
+## 实机证据
+
+- [常用倍率游戏画面、近景及配色](runtime-preview.png)
+- [中性灰同倍率针脚对照](neutral-density-comparison.png)
+- [V8/V9 同镜头颜色与针脚对照](runtime-stitch-comparison.png)
+- [外轮廓对照](runtime-outer-comparison.png)
+- [颜色交界对照](runtime-edge-comparison.png)
+- [完整关卡](runtime/06_finished_art.png)
+- [实际牵线填色](runtime/03_thread_in_progress.png)
+
+均为 Unity Windows player 直接渲染，只裁切、缩放、排版及合成透明背景。色样是光照前的显示色，实机颜色受阴影、毛绒和材质受光影响。中性灰小样使用与 V8 一样的布局和相机，排除颜色变化对密实程度判断的影响。preview1 是外观夹具，不代表游玩；最终完整回放为 runtime。
+
+## 密实程度复核
+
+同一中性灰样本内部 4×4 逻辑格区域，从实际几何高度场的覆盖通道统计：
+
+| 指标 | V8 | V9 |
+|---|---:|---:|
+| 不透明线圈覆盖 | {coverage['v8']['opaqueLoopCoverage']:.2%} | {coverage['v9']['opaqueLoopCoverage']:.2%} |
+| 可见底层比例 | {coverage['v8']['exposedBedFraction']:.2%} | {coverage['v9']['exposedBedFraction']:.2%} |
+
+此统计证明开口区域实际减少，不等于蓬松度评分或最终美术通过。正常倍率、近景及外轮廓仍需一起看；列方向仍存在，外露顶部仍保留小回环。
+
+## 配色
+
+| 色号 | 名称 | 显示 RGB |
+|---|---|---|
+{palette}
+
+## 验证
+
+- Unity 2022.3.62f2 Windows 构建：Succeeded，errors=0。
+- {len(r['checks'])}/{len(r['checks'])} 项检查通过，运行错误 0；通过线团和格子指针事件完成 {r['regionsPlayed']} 个区域、{r['filledCells']}/1334 格。
+- 覆盖全部线团选色、缩放、拖动、异色拒绝、连续编织、完成、重置和恢复画面；新增验证实际线团与底层染色一致、13 色保持独立、牵线颜色与选中线团一致。
+- 重置与初始棋盘平均通道差 {v['resetMeanDifference']:.8f}/255。
+- 改变填充顺序恢复后，同镜头平均通道差 {v['restoreMeanDifference']:.8f}/255；最大差 {v['restoreMaxDifference']}/255；差值超过 10 的像素 {v['restorePixelsOver10']}。透明毛丝与绒层仍有局部混合顺序差异。
+- 验收未写用户存档。关卡 JSON SHA-256 仍为 `{v['levelSha256']}`。
+- 完成后 16,008 个针脚、{r['plushVertices']:,} 个独立顶点；相比 V8 的 4,326,572 个顶点增加约 31.7%。网格块仍采用 16 格，每个主体网格 45,696 顶点，低于 16 位索引上限。这里不把重复毛层渲染再计入顶点总数。
+
+## 判断与边界
+
+同倍率对照里长三角开口收小，线圈更短、更饱满，配色由高饱和彩虹色改为柔和暖冷组合。毛绒和接触阴影保留，但不据此宣称已经完全达到参考图最终美术品质。
+
+针脚密度提高增加了生成和 GPU 处理量，Android 性能未验证。原版 Lottie、同关原版运行对照、镜头与音画时序、实体双指操作仍是之前保留的独立未完成项。
+'''
+(OUT/'REPORT.md').write_text(body,encoding='utf-8')
+paths=[ROOT/p for p in ['Assets/Scripts/Presentation/PlushYarnBoard.cs',
+    'Assets/Scripts/Presentation/CozyYarnPalette.cs','Assets/Scripts/Presentation/PixelBoardRenderer.cs',
+    'Assets/Scripts/Presentation/YarnThreadGraphic.cs','Assets/Scripts/YarnScapesRuntime.cs',
+    'Assets/Scripts/Presentation/RuntimeAcceptanceCapture.cs','Assets/Resources/Levels/level_326863.json',
+    'Tools/ReviewCozyKnit.py','Tools/RecordCozyKnitDelivery.py','README.md',
+    'Builds/YarnScapesOffline.exe','Builds/YarnScapesOffline_Data/Managed/Assembly-CSharp.dll',
+    'Builds/YarnScapesOffline_Data/resources.assets']]
+for folder in [ROOT/'Assets/Resources/YarnMaterialsV8',RUN,OUT/'swatch']:
+    paths.extend(p for p in folder.iterdir() if p.is_file())
+paths.extend(OUT/p for p in ['REPORT.md','visual_checks.json','geometry_coverage.json','build-final.log',
+    'runtime.log','swatch.log','neutral-density-comparison.png','runtime-preview.png',
+    'runtime-stitch-comparison.png','runtime-edge-comparison.png','runtime-outer-comparison.png'])
+manifest=[dict(path=str(p.relative_to(ROOT)),bytes=p.stat().st_size,
+               sha256=hashlib.sha256(p.read_bytes()).hexdigest()) for p in paths]
+(OUT/'manifest.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False),encoding='utf-8')
+print(OUT/'REPORT.md')

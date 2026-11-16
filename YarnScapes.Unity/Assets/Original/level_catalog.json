@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "326863",
+    "paintId": "f4d6df4e-2832-453a-a266-955b42530843",
+    "groupCategory": "For You",
+    "categories": "For You,Emoji,New",
+    "sourceResource": "LevelImages/Local/level_326863_source",
+    "finishedResource": "LevelImages/Local/level_326863_finished"
+  },
+  {
+    "id": "326861",
+    "paintId": "f83495ff-d0da-4423-8744-ec0362d7b995",
+    "groupCategory": "For You",
+    "categories": "For You,Animal,New",
+    "sourceResource": "LevelImages/Local/level_326861_source",
+    "finishedResource": "LevelImages/Local/level_326861_finished"
+  },
+  {
+    "id": "326859",
+    "paintId": "647d52a6-c5cf-4af8-a659-fdbf544ac979",
+    "groupCategory": "For You",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326859_source",
+    "finishedResource": "LevelImages/Local/level_326859_finished"
+  },
+  {
+    "id": "326844",
+    "paintId": "2f63e7fb-120e-495d-b2b8-3d4e5f8b1dca",
+    "groupCategory": "For You",
+    "categories": "For You,Nature,New",
+    "sourceResource": "LevelImages/Local/level_326844_source",
+    "finishedResource": "LevelImages/Local/level_326844_finished"
+  },
+  {
+    "id": "326928",
+    "paintId": "50e2c5a8-8b0a-44dd-a378-0dc1b89fc070",
+    "groupCategory": "For You",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326928_source",
+    "finishedResource": "LevelImages/Local/level_326928_finished"
+  },
+  {
+    "id": "61636",
+    "paintId": "906767d5-d113-4b8f-861d-4946a189da9d",
+    "groupCategory": "For You",
+    "categories": "For You",
+    "sourceResource": "LevelImages/Local/level_61636_source",
+    "finishedResource": "LevelImages/Local/level_61636_finished"
+  },
+  {
+    "id": "61539",
+    "paintId": "ebf0369e-da22-4b6f-98f0-b31f14be0eb7",
+    "groupCategory": "For You",
+    "categories": "For You",
+    "sourceResource": "LevelImages/Local/level_61539_source",
+    "finishedResource": "LevelImages/Local/level_61539_finished"
+  },
+  {
+    "id": "326837",
+    "paintId": "b3bb4114-0091-4f7d-a977-183baf0d836e",
+    "groupCategory": "For You",
+    "categories": "For You,Mandala,New",
+    "sourceResource": "LevelImages/Local/level_326837_source",
+    "finishedResource": "LevelImages/Local/level_326837_finished"
+  },
+  {
+    "id": "207686",
+    "paintId": "1c5a636d-72cd-4351-962d-fd763e1358d5",
+    "groupCategory": "For You",
+    "categories": "For You",
+    "sourceResource": "LevelImages/Local/level_207686_source",
+    "finishedResource": "LevelImages/Local/level_207686_finished"
+  },
+  {
+    "id": "326943",
+    "paintId": "b64c433b-4cbe-4ed5-9af8-8d98e78feacd",
+    "groupCategory": "For You",
+    "categories": "For You,Food,New",
+    "sourceResource": "LevelImages/Local/level_326943_source",
+    "finishedResource": "LevelImages/Local/level_326943_finished"
+  },
+  {
+    "id": "326867",
+    "paintId": "e0daa6c8-99d9-4a63-89a0-c3a13f785b55",
+    "groupCategory": "For You",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326867_source",
+    "finishedResource": "LevelImages/Local/level_326867_finished"
+  },
+  {
+    "id": "61545",
+    "paintId": "8c3a670f-d560-4729-a89f-ff276f00141d",
+    "groupCategory": "For You",
+    "categories": "For You",
+    "sourceResource": "LevelImages/Local/level_61545_source",
+    "finishedResource": "LevelImages/Local/level_61545_finished"
+  },
+  {
+    "id": "62445",
+    "paintId": "08daab9d-77e3-4f90-9a01-d93acb1e0c8d",
+    "groupCategory": "For You",
+    "categories": "For You",
+    "sourceResource": "LevelImages/Local/level_62445_source",
+    "finishedResource": "LevelImages/Local/level_62445_finished"
+  },
+  {
+    "id": "326873",
+    "paintId": "d107d8eb-1c4d-4cb1-8588-949a6d811e4a",
+    "groupCategory": "For You",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326873_source",
+    "finishedResource": "LevelImages/Local/level_326873_finished"
+  },
+  {
+    "id": "326834",
+    "paintId": "99d22624-e545-444b-b84c-55d9a1f515fa",
+    "groupCategory": "For You",
+    "categories": "For You,Food,New",
+    "sourceResource": "LevelImages/Local/level_326834_source",
+    "finishedResource": "LevelImages/Local/level_326834_finished"
+  },
+  {
+    "id": "326839",
+    "paintId": "9f49944f-e4d3-473f-a969-372e6d229a12",
+    "groupCategory": "For You",
+    "categories": "For You,Animal,New",
+    "sourceResource": "LevelImages/Local/level_326839_source",
+    "finishedResource": "LevelImages/Local/level_326839_finished"
+  },
+  {
+    "id": "326865",
+    "paintId": "d3945219-35b0-408b-84dd-1e2203373e7c",
+    "groupCategory": "For You",
+    "categories": "For You,Emoji,New",
+    "sourceResource": "LevelImages/Local/level_326865_source",
+    "finishedResource": "LevelImages/Local/level_326865_finished"
+  },
+  {
+    "id": "326880",
+    "paintId": "72acd599-163b-4f0e-98e9-0d6557ece79f",
+    "groupCategory": "For You",
+    "categories": "For You,Nature,New",
+    "sourceResource": "LevelImages/Local/level_326880_source",
+    "finishedResource": "LevelImages/Local/level_326880_finished"
+  },
+  {
+    "id": "326866",
+    "paintId": "9006fc5e-d8ea-4ad5-b620-6dfe5975fd9b",
+    "groupCategory": "For You",
+    "categories": "For You,Animal,New",
+    "sourceResource": "LevelImages/Local/level_326866_source",
+    "finishedResource": "LevelImages/Local/level_326866_finished"
+  },
+  {
+    "id": "326929",
+    "paintId": "c707b1d4-62ae-432f-9279-ecbc864758a5",
+    "groupCategory": "For You",
+    "categories": "For You,Animal,New",
+    "sourceResource": "LevelImages/Local/level_326929_source",
+    "finishedResource": "LevelImages/Local/level_326929_finished"
+  },
+  {
+    "id": "315757",
+    "paintId": "3207722e-c87a-4c3c-9ed9-7bc34719f5a2",
+    "groupCategory": "For You",
+    "categories": "Nature,New,For You",
+    "sourceResource": "LevelImages/Local/level_315757_source",
+    "finishedResource": "LevelImages/Local/level_315757_finished"
+  },
+  {
+    "id": "338632",
+    "paintId": "92d28dc9-bbf6-4fe6-be5e-edde8e7df943",
+    "groupCategory": "For You",
+    "categories": "New,Animal,For You",
+    "sourceResource": "LevelImages/Local/level_338632_source",
+    "finishedResource": "LevelImages/Local/level_338632_finished"
+  },
+  {
+    "id": "324618",
+    "paintId": "c4bb23f8-a4e4-41e3-8cfc-59d5a032b2be",
+    "groupCategory": "For You",
+    "categories": "New,Emoji,For You",
+    "sourceResource": "LevelImages/Local/level_324618_source",
+    "finishedResource": "LevelImages/Local/level_324618_finished"
+  },
+  {
+    "id": "338639",
+    "paintId": "3e0d8273-ca65-4ab2-be04-96f363713143",
+    "groupCategory": "For You",
+    "categories": "New,Nature,For You",
+    "sourceResource": "LevelImages/Local/level_338639_source",
+    "finishedResource": "LevelImages/Local/level_338639_finished"
+  },
+  {
+    "id": "326874",
+    "paintId": "d3c8d253-94b9-4457-b806-b761d56ebce1",
+    "groupCategory": "For You",
+    "categories": "For You,Emoji,New",
+    "sourceResource": "LevelImages/Local/level_326874_source",
+    "finishedResource": "LevelImages/Local/level_326874_finished"
+  },
+  {
+    "id": "326848",
+    "paintId": "0fe20a1a-c8fd-4ce2-af22-c9f5f15fd7a6",
+    "groupCategory": "For You",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326848_source",
+    "finishedResource": "LevelImages/Local/level_326848_finished"
+  },
+  {
+    "id": "326862",
+    "paintId": "1f43a9fa-5123-4a75-b152-3363fe8fcdae",
+    "groupCategory": "For You",
+    "categories": "For You,Nature,New",
+    "sourceResource": "LevelImages/Local/level_326862_source",
+    "finishedResource": "LevelImages/Local/level_326862_finished"
+  },
+  {
+    "id": "326840",
+    "paintId": "f16a67a0-49a6-4fb9-8831-75776b176523",
+    "groupCategory": "For You",
+    "categories": "For You,People,New",
+    "sourceResource": "LevelImages/Local/level_326840_source",
+    "finishedResource": "LevelImages/Local/level_326840_finished"
+  },
+  {
+    "id": "326835",
+    "paintId": "7177d5b9-b4cb-4214-bb76-30960f152be5",
+    "groupCategory": "For You",
+    "categories": "For You,Cute,Animal,New",
+    "sourceResource": "LevelImages/Local/level_326835_source",
+    "finishedResource": "LevelImages/Local/level_326835_finished"
+  },
+  {
+    "id": "326845",
+    "paintId": "2f0f6d3d-8754-4774-91b7-75ada542ef3f",
+    "groupCategory": "For You",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326845_source",
+    "finishedResource": "LevelImages/Local/level_326845_finished"
+  },
+  {
+    "id": "326877",
+    "paintId": "c40f0050-0933-475f-9744-531feab8e07d",
+    "groupCategory": "For You",
+    "categories": "For You,New",
+    "sourceResource": "LevelImages/Local/level_326877_source",
+    "finishedResource": "LevelImages/Local/level_326877_finished"
+  },
+  {
+    "id": "326876",
+    "paintId": "09e7c5c3-58ec-4885-9d09-96df1e81b966",
+    "groupCategory": "For You",
+    "categories": "For You,Objects,Fashion,New",
+    "sourceResource": "LevelImages/Local/level_326876_source",
+    "finishedResource": "LevelImages/Local/level_326876_finished"
+  },
+  {
+    "id": "327005",
+    "paintId": "a0448019-ab04-4b68-9eea-a1354d22c4b8",
+    "groupCategory": "For You",
+    "categories": "Fashion,New,For You",
+    "sourceResource": "LevelImages/Local/level_327005_source",
+    "finishedResource": "LevelImages/Local/level_327005_finished"
+  },
+  {
+    "id": "337743",
+    "paintId": "2452079d-4237-4c2e-ae56-92aecb21f60a",
+    "groupCategory": "For You",
+    "categories": "New,Fashion,For You",
+    "sourceResource": "LevelImages/Local/level_337743_source",
+    "finishedResource": "LevelImages/Local/level_337743_finished"
+  },
+  {
+    "id": "326925",
+    "paintId": "7503c2bd-b586-412b-9825-2f7dfe911765",
+    "groupCategory": "For You",
+    "categories": "For You,Food,New",
+    "sourceResource": "LevelImages/Local/level_326925_source",
+    "finishedResource": "LevelImages/Local/level_326925_finished"
+  },
+  {
+    "id": "326855",
+    "paintId": "cca45acd-4c3e-47e7-95ff-fbdbf26a4913",
+    "groupCategory": "For You",
+    "categories": "For You,Mandala,New",
+    "sourceResource": "LevelImages/Local/level_326855_source",
+    "finishedResource": "LevelImages/Local/level_326855_finished"
+  },
+  {
+    "id": "326983",
+    "paintId": "8c09b4bc-e10d-46bd-9d59-89222ded884c",
+    "groupCategory": "For You",
+    "categories": "Festival,New,For You",
+    "sourceResource": "LevelImages/Local/level_326983_source",
+    "finishedResource": "LevelImages/Local/level_326983_finished"
+  },
+  {
+    "id": "326860",
+    "paintId": "98eac81f-be34-4102-ba66-2c8e904fcf46",
+    "groupCategory": "For You",
+    "categories": "For You,Fashion,New",
+    "sourceResource": "LevelImages/Local/level_326860_source",
+    "finishedResource": "LevelImages/Local/level_326860_finished"
+  },
+  {
+    "id": "326946",
+    "paintId": "5493cadc-2a23-4efc-9afe-7e9404d50810",
+    "groupCategory": "For You",
+    "categories": "For You,Festival,New",
+    "sourceResource": "LevelImages/Local/level_326946_source",
+    "finishedResource": "LevelImages/Local/level_326946_finished"
+  },
+  {
+    "id": "326878",
+    "paintId": "9dbb1aac-a670-4a03-b63c-19e77a16d753",
+    "groupCategory": "For You",
+    "categories": "For You,Animal,New",
+    "sourceResource": "LevelImages/Local/level_326878_source",
+    "finishedResource": "LevelImages/Local/level_326878_finished"
+  },
+  {
+    "id": "314544",
+    "paintId": "e683f886-8cc7-4b1f-bc5d-fcc91436ed60",
+    "groupCategory": "For You",
+    "categories": "New,Animal,For You",
+    "sourceResource": "LevelImages/Local/level_314544_source",
+    "finishedResource": "LevelImages/Local/level_314544_finished"
+  },
+  {
+    "id": "314646",
+    "paintId": "378b5b0b-7fbe-48a6-b1cc-1a3ba6074b32",
+    "groupCategory": "For You",
+    "categories": "Nature,New,For You",
+    "sourceResource": "LevelImages/Local/level_314646_source",
+    "finishedResource": "LevelImages/Local/level_314646_finished"
+  },
+  {
+    "id": "326879",
+    "paintId": "21a9d2c9-eb81-4b37-890e-53e7c9b5848c",
+    "groupCategory": "For You",
+    "categories": "For You,Nature,New",
+    "sourceResource": "LevelImages/Local/level_326879_source",
+    "finishedResource": "LevelImages/Local/level_326879_finished"
+  },
+  {
+    "id": "326927",
+    "paintId": "9fa42163-e10c-42ba-9055-d5f3061a1617",
+    "groupCategory": "For You",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326927_source",
+    "finishedResource": "LevelImages/Local/level_326927_finished"
+  },
+  {
+    "id": "326858",
+    "paintId": "95901fa5-c710-49b1-ab35-40be8d628287",
+    "groupCategory": "For You",
+    "categories": "For You,Emoji,New",
+    "sourceResource": "LevelImages/Local/level_326858_source",
+    "finishedResource": "LevelImages/Local/level_326858_finished"
+  },
+  {
+    "id": "326872",
+    "paintId": "e5e22182-0a9d-40dc-8279-6c5f3e11c251",
+    "groupCategory": "For You",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326872_source",
+    "finishedResource": "LevelImages/Local/level_326872_finished"
+  },
+  {
+    "id": "326852",
+    "paintId": "9921cf23-ef11-4e7b-a21b-2c54f18fdf64",
+    "groupCategory": "For You",
+    "categories": "For You,Nature,New",
+    "sourceResource": "LevelImages/Local/level_326852_source",
+    "finishedResource": "LevelImages/Local/level_326852_finished"
+  },
+  {
+    "id": "326963",
+    "paintId": "13b27f14-828c-404f-8885-66033369c831",
+    "groupCategory": "For You",
+    "categories": "New,Animal,For You",
+    "sourceResource": "LevelImages/Local/level_326963_source",
+    "finishedResource": "LevelImages/Local/level_326963_finished"
+  },
+  {
+    "id": "325092",
+    "paintId": "4ad877aa-2b13-40c7-b2b1-a11e6f99ad1f",
+    "groupCategory": "For You",
+    "categories": "New,Food,For You",
+    "sourceResource": "LevelImages/Local/level_325092_source",
+    "finishedResource": "LevelImages/Local/level_325092_finished"
+  },
+  {
+    "id": "328574",
+    "paintId": "3bc1821e-858b-4f6d-9ea1-e3d2be0eee5c",
+    "groupCategory": "For You",
+    "categories": "New,Animal,For You",
+    "sourceResource": "LevelImages/Local/level_328574_source",
+    "finishedResource": "LevelImages/Local/level_328574_finished"
+  },
+  {
+    "id": "331919",
+    "paintId": "462ebd12-6424-4f43-bd83-8a471b383a2b",
+    "groupCategory": "For You",
+    "categories": "New,Fashion,For You",
+    "sourceResource": "LevelImages/Local/level_331919_source",
+    "finishedResource": "LevelImages/Local/level_331919_finished"
+  },
+  {
+    "id": "326933",
+    "paintId": "37d2b956-8b98-4b6d-9a33-fbeae468d7eb",
+    "groupCategory": "For You",
+    "categories": "For You,Mandala,New",
+    "sourceResource": "LevelImages/Local/level_326933_source",
+    "finishedResource": "LevelImages/Local/level_326933_finished"
+  },
+  {
+    "id": "324615",
+    "paintId": "85ff05ac-00cd-4f74-9aab-f1052da40d6c",
+    "groupCategory": "For You",
+    "categories": "Fashion,New,Objects,For You",
+    "sourceResource": "LevelImages/Local/level_324615_source",
+    "finishedResource": "LevelImages/Local/level_324615_finished"
+  },
+  {
+    "id": "322381",
+    "paintId": "7afb7035-09af-42e0-a3f6-89c88e260376",
+    "groupCategory": "For You",
+    "categories": "Emoji,New,Cute,For You",
+    "sourceResource": "LevelImages/Local/level_322381_source",
+    "finishedResource": "LevelImages/Local/level_322381_finished"
+  },
+  {
+    "id": "326920",
+    "paintId": "80f4adb0-b363-41d1-8e99-64563c981fb2",
+    "groupCategory": "For You",
+    "categories": "For You,Food,Cute,New",
+    "sourceResource": "LevelImages/Local/level_326920_source",
+    "finishedResource": "LevelImages/Local/level_326920_finished"
+  },
+  {
+    "id": "326921",
+    "paintId": "88d36855-4e7c-4b14-a998-205d05843066",
+    "groupCategory": "For You",
+    "categories": "For You,Food,New",
+    "sourceResource": "LevelImages/Local/level_326921_source",
+    "finishedResource": "LevelImages/Local/level_326921_finished"
+  },
+  {
+    "id": "326932",
+    "paintId": "1eb83d87-d840-4bc2-97e3-f5352e3cbb81",
+    "groupCategory": "For You",
+    "categories": "For You,Nature,New",
+    "sourceResource": "LevelImages/Local/level_326932_source",
+    "finishedResource": "LevelImages/Local/level_326932_finished"
+  },
+  {
+    "id": "326850",
+    "paintId": "5b3a335d-0547-45db-afd2-4e035ab9e077",
+    "groupCategory": "For You",
+    "categories": "For You,Food,New",
+    "sourceResource": "LevelImages/Local/level_326850_source",
+    "finishedResource": "LevelImages/Local/level_326850_finished"
+  },
+  {
+    "id": "326944",
+    "paintId": "d79cb9ef-c486-42a8-baa0-bd8c8df26132",
+    "groupCategory": "For You",
+    "categories": "For You,Festival,People,New",
+    "sourceResource": "LevelImages/Local/level_326944_source",
+    "finishedResource": "LevelImages/Local/level_326944_finished"
+  },
+  {
+    "id": "326853",
+    "paintId": "433560c7-0c75-4ea0-8ce1-960d2ac04446",
+    "groupCategory": "For You",
+    "categories": "For You,New",
+    "sourceResource": "LevelImages/Local/level_326853_source",
+    "finishedResource": "LevelImages/Local/level_326853_finished"
+  },
+  {
+    "id": "374987",
+    "paintId": "fc805e20-c03a-453c-9bbf-241682589df8",
+    "groupCategory": "Fantasy",
+    "categories": "New,People,Fantasy",
+    "sourceResource": "LevelImages/Local/level_374987_source",
+    "finishedResource": "LevelImages/Local/level_374987_finished"
+  },
+  {
+    "id": "366393",
+    "paintId": "a513db20-5ea0-41d5-bbb6-bf7db92ec099",
+    "groupCategory": "Fantasy",
+    "categories": "New,Fantasy",
+    "sourceResource": "LevelImages/Local/level_366393_source",
+    "finishedResource": "LevelImages/Local/level_366393_finished"
+  },
+  {
+    "id": "331866",
+    "paintId": "30efb07a-55ea-4bca-bc5e-d417f1cebf69",
+    "groupCategory": "Fantasy",
+    "categories": "New,Fantasy",
+    "sourceResource": "LevelImages/Local/level_331866_source",
+    "finishedResource": "LevelImages/Local/level_331866_finished"
+  },
+  {
+    "id": "374964",
+    "paintId": "6d629eb3-5821-4fe8-9a30-f23217a8fab7",
+    "groupCategory": "Food",
+    "categories": "New,Food",
+    "sourceResource": "LevelImages/Local/level_374964_source",
+    "finishedResource": "LevelImages/Local/level_374964_finished"
+  },
+  {
+    "id": "356385",
+    "paintId": "57f5da71-3bfc-46ee-a868-6ff59eccd3c0",
+    "groupCategory": "Food",
+    "categories": "New,Food",
+    "sourceResource": "LevelImages/Local/level_356385_source",
+    "finishedResource": "LevelImages/Local/level_356385_finished"
+  },
+  {
+    "id": "335856",
+    "paintId": "814fdd24-04b9-4fcf-bb64-230ace5ef4a3",
+    "groupCategory": "Food",
+    "categories": "New,Food",
+    "sourceResource": "LevelImages/Local/level_335856_source",
+    "finishedResource": "LevelImages/Local/level_335856_finished"
+  },
+  {
+    "id": "332201",
+    "paintId": "6d4471ce-5751-487e-80e5-3773d42460a8",
+    "groupCategory": "Food",
+    "categories": "New,Food",
+    "sourceResource": "LevelImages/Local/level_332201_source",
+    "finishedResource": "LevelImages/Local/level_332201_finished"
+  },
+  {
+    "id": "374987",
+    "paintId": "fc805e20-c03a-453c-9bbf-241682589df8",
+    "groupCategory": "People",
+    "categories": "New,People,Fantasy",
+    "sourceResource": "LevelImages/Local/level_374987_source",
+    "finishedResource": "LevelImages/Local/level_374987_finished"
+  },
+  {
+    "id": "356393",
+    "paintId": "799ee7a1-d7db-4b3d-a143-56de98486836",
+    "groupCategory": "People",
+    "categories": "New,People",
+    "sourceResource": "LevelImages/Local/level_356393_source",
+    "finishedResource": "LevelImages/Local/level_356393_finished"
+  },
+  {
+    "id": "356382",
+    "paintId": "14c7f9b3-0d87-409a-9dcf-dfb49888ecfd",
+    "groupCategory": "People",
+    "categories": "New,People",
+    "sourceResource": "LevelImages/Local/level_356382_source",
+    "finishedResource": "LevelImages/Local/level_356382_finished"
+  },
+  {
+    "id": "356377",
+    "paintId": "e5c8ef2d-22b4-4d2e-a0e6-209b246ba413",
+    "groupCategory": "People",
+    "categories": "New,People",
+    "sourceResource": "LevelImages/Local/level_356377_source",
+    "finishedResource": "LevelImages/Local/level_356377_finished"
+  },
+  {
+    "id": "326944",
+    "paintId": "d79cb9ef-c486-42a8-baa0-bd8c8df26132",
+    "groupCategory": "People",
+    "categories": "For You,Festival,People,New",
+    "sourceResource": "LevelImages/Local/level_326944_source",
+    "finishedResource": "LevelImages/Local/level_326944_finished"
+  },
+  {
+    "id": "322381",
+    "paintId": "7afb7035-09af-42e0-a3f6-89c88e260376",
+    "groupCategory": "Cute",
+    "categories": "Emoji,New,Cute,For You",
+    "sourceResource": "LevelImages/Local/level_322381_source",
+    "finishedResource": "LevelImages/Local/level_322381_finished"
+  },
+  {
+    "id": "326920",
+    "paintId": "80f4adb0-b363-41d1-8e99-64563c981fb2",
+    "groupCategory": "Cute",
+    "categories": "For You,Food,Cute,New",
+    "sourceResource": "LevelImages/Local/level_326920_source",
+    "finishedResource": "LevelImages/Local/level_326920_finished"
+  },
+  {
+    "id": "326835",
+    "paintId": "7177d5b9-b4cb-4214-bb76-30960f152be5",
+    "groupCategory": "Cute",
+    "categories": "For You,Cute,Animal,New",
+    "sourceResource": "LevelImages/Local/level_326835_source",
+    "finishedResource": "LevelImages/Local/level_326835_finished"
+  },
+  {
+    "id": "325102",
+    "paintId": "9d641fc6-a6b6-47e7-bd46-4aedcf484d6c",
+    "groupCategory": "Cute",
+    "categories": "New,Animal,Cute",
+    "sourceResource": "LevelImages/Local/level_325102_source",
+    "finishedResource": "LevelImages/Local/level_325102_finished"
+  },
+  {
+    "id": "366411",
+    "paintId": "dfe350d6-949d-4426-850e-25f50a94400a",
+    "groupCategory": "House",
+    "categories": "New,House",
+    "sourceResource": "LevelImages/Local/level_366411_source",
+    "finishedResource": "LevelImages/Local/level_366411_finished"
+  },
+  {
+    "id": "334497",
+    "paintId": "fd1e7e90-c2a0-494a-a288-655c827c6c87",
+    "groupCategory": "House",
+    "categories": "New,House",
+    "sourceResource": "LevelImages/Local/level_334497_source",
+    "finishedResource": "LevelImages/Local/level_334497_finished"
+  },
+  {
+    "id": "375000",
+    "paintId": "2a955f48-c273-4bf1-bddf-11fee01c4043",
+    "groupCategory": "Faith",
+    "categories": "New,Faith",
+    "sourceResource": "LevelImages/Local/level_375000_source",
+    "finishedResource": "LevelImages/Local/level_375000_finished"
+  },
+  {
+    "id": "374960",
+    "paintId": "d56e6c77-acc5-40ac-91c3-f65cb123f496",
+    "groupCategory": "Faith",
+    "categories": "New,Faith",
+    "sourceResource": "LevelImages/Local/level_374960_source",
+    "finishedResource": "LevelImages/Local/level_374960_finished"
+  },
+  {
+    "id": "374961",
+    "paintId": "38ad8549-8cf9-4718-bdb3-0f246aa54abf",
+    "groupCategory": "Fashion",
+    "categories": "New,Fashion",
+    "sourceResource": "LevelImages/Local/level_374961_source",
+    "finishedResource": "LevelImages/Local/level_374961_finished"
+  },
+  {
+    "id": "350979",
+    "paintId": "a83ee0b6-ed3d-4aaa-8802-9abf74e3d3a6",
+    "groupCategory": "Fashion",
+    "categories": "Fashion,New",
+    "sourceResource": "LevelImages/Local/level_350979_source",
+    "finishedResource": "LevelImages/Local/level_350979_finished"
+  },
+  {
+    "id": "329239",
+    "paintId": "63ce65c9-d4f0-4b90-82d5-fb622e81f31c",
+    "groupCategory": "Fashion",
+    "categories": "New,Fashion",
+    "sourceResource": "LevelImages/Local/level_329239_source",
+    "finishedResource": "LevelImages/Local/level_329239_finished"
+  },
+  {
+    "id": "337743",
+    "paintId": "2452079d-4237-4c2e-ae56-92aecb21f60a",
+    "groupCategory": "Fashion",
+    "categories": "New,Fashion,For You",
+    "sourceResource": "LevelImages/Local/level_337743_source",
+    "finishedResource": "LevelImages/Local/level_337743_finished"
+  },
+  {
+    "id": "324615",
+    "paintId": "85ff05ac-00cd-4f74-9aab-f1052da40d6c",
+    "groupCategory": "Fashion",
+    "categories": "Fashion,New,Objects,For You",
+    "sourceResource": "LevelImages/Local/level_324615_source",
+    "finishedResource": "LevelImages/Local/level_324615_finished"
+  },
+  {
+    "id": "327005",
+    "paintId": "a0448019-ab04-4b68-9eea-a1354d22c4b8",
+    "groupCategory": "Fashion",
+    "categories": "Fashion,New,For You",
+    "sourceResource": "LevelImages/Local/level_327005_source",
+    "finishedResource": "LevelImages/Local/level_327005_finished"
+  },
+  {
+    "id": "374985",
+    "paintId": "80cbcb7a-ff38-4255-a0b7-0c4bb79050ac",
+    "groupCategory": "Objects",
+    "categories": "Objects,New",
+    "sourceResource": "LevelImages/Local/level_374985_source",
+    "finishedResource": "LevelImages/Local/level_374985_finished"
+  },
+  {
+    "id": "374966",
+    "paintId": "b52bb05e-9cfb-41b3-8718-aef2a715d655",
+    "groupCategory": "Objects",
+    "categories": "New,Objects",
+    "sourceResource": "LevelImages/Local/level_374966_source",
+    "finishedResource": "LevelImages/Local/level_374966_finished"
+  },
+  {
+    "id": "340340",
+    "paintId": "9930bb0b-126d-4a36-a962-a8f59329afa3",
+    "groupCategory": "Objects",
+    "categories": "New,Objects",
+    "sourceResource": "LevelImages/Local/level_340340_source",
+    "finishedResource": "LevelImages/Local/level_340340_finished"
+  },
+  {
+    "id": "326927",
+    "paintId": "9fa42163-e10c-42ba-9055-d5f3061a1617",
+    "groupCategory": "Objects",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326927_source",
+    "finishedResource": "LevelImages/Local/level_326927_finished"
+  },
+  {
+    "id": "326928",
+    "paintId": "50e2c5a8-8b0a-44dd-a378-0dc1b89fc070",
+    "groupCategory": "Objects",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326928_source",
+    "finishedResource": "LevelImages/Local/level_326928_finished"
+  },
+  {
+    "id": "326872",
+    "paintId": "e5e22182-0a9d-40dc-8279-6c5f3e11c251",
+    "groupCategory": "Objects",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326872_source",
+    "finishedResource": "LevelImages/Local/level_326872_finished"
+  },
+  {
+    "id": "326876",
+    "paintId": "09e7c5c3-58ec-4885-9d09-96df1e81b966",
+    "groupCategory": "Objects",
+    "categories": "For You,Objects,Fashion,New",
+    "sourceResource": "LevelImages/Local/level_326876_source",
+    "finishedResource": "LevelImages/Local/level_326876_finished"
+  },
+  {
+    "id": "326845",
+    "paintId": "2f0f6d3d-8754-4774-91b7-75ada542ef3f",
+    "groupCategory": "Objects",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326845_source",
+    "finishedResource": "LevelImages/Local/level_326845_finished"
+  },
+  {
+    "id": "326848",
+    "paintId": "0fe20a1a-c8fd-4ce2-af22-c9f5f15fd7a6",
+    "groupCategory": "Objects",
+    "categories": "For You,Objects,New",
+    "sourceResource": "LevelImages/Local/level_326848_source",
+    "finishedResource": "LevelImages/Local/level_326848_finished"
+  },
+  {
+    "id": "314809",
+    "paintId": "6718eeec-f852-4d49-af34-2c58e8608347",
+    "groupCategory": "Mandala",
+    "categories": "Mandala,New",
+    "sourceResource": "LevelImages/Local/level_314809_source",
+    "finishedResource": "LevelImages/Local/level_314809_finished"
+  },
+  {
+    "id": "314787",
+    "paintId": "02643068-fddf-4d1b-bf96-8b57ddc0cc22",
+    "groupCategory": "Mandala",
+    "categories": "Mandala,New",
+    "sourceResource": "LevelImages/Local/level_314787_source",
+    "finishedResource": "LevelImages/Local/level_314787_finished"
+  },
+  {
+    "id": "374992",
+    "paintId": "7ed2812d-ce47-4ba4-9b75-8b010550d888",
+    "groupCategory": "New",
+    "categories": "New,Emoji",
+    "sourceResource": "LevelImages/Local/level_374992_source",
+    "finishedResource": "LevelImages/Local/level_374992_finished"
+  },
+  {
+    "id": "305683",
+    "paintId": "d2c0c72d-18bc-4a8f-9f80-bb50dbf428c3",
+    "groupCategory": "New",
+    "categories": "Mandala,New",
+    "sourceResource": "LevelImages/Local/level_305683_source",
+    "finishedResource": "LevelImages/Local/level_305683_finished"
+  },
+  {
+    "id": "338372",
+    "paintId": "0a0ea561-c4c0-4a0b-b212-2887cdcf9a36",
+    "groupCategory": "New",
+    "categories": "New,Nature",
+    "sourceResource": "LevelImages/Local/level_338372_source",
+    "finishedResource": "LevelImages/Local/level_338372_finished"
+  },
+  {
+    "id": "325102",
+    "paintId": "9d641fc6-a6b6-47e7-bd46-4aedcf484d6c",
+    "groupCategory": "New",
+    "categories": "New,Animal,Cute",
+    "sourceResource": "LevelImages/Local/level_325102_source",
+    "finishedResource": "LevelImages/Local/level_325102_finished"
+  },
+  {
+    "id": "374985",
+    "paintId": "80cbcb7a-ff38-4255-a0b7-0c4bb79050ac",
+    "groupCategory": "New",
+    "categories": "Objects,New",
+    "sourceResource": "LevelImages/Local/level_374985_source",
+    "finishedResource": "LevelImages/Local/level_374985_finished"
+  },
+  {
+    "id": "332201",
+    "paintId": "6d4471ce-5751-487e-80e5-3773d42460a8",
+    "groupCategory": "New",
+    "categories": "New,Food",
+    "sourceResource": "LevelImages/Local/level_332201_source",
+    "finishedResource": "LevelImages/Local/level_332201_finished"
+  },
+  {
+    "id": "334497",
+    "paintId": "fd1e7e90-c2a0-494a-a288-655c827c6c87",
+    "groupCategory": "New",
+    "categories": "New,House",
+    "sourceResource": "LevelImages/Local/level_334497_source",
+    "finishedResource": "LevelImages/Local/level_334497_finished"
+  },
+  {
+    "id": "375000",
+    "paintId": "2a955f48-c273-4bf1-bddf-11fee01c4043",
+    "groupCategory": "New",
+    "categories": "New,Faith",
+    "sourceResource": "LevelImages/Local/level_375000_source",
+    "finishedResource": "LevelImages/Local/level_375000_finished"
+  },
+  {
+    "id": "332207",
+    "paintId": "d3bec08e-2da9-499c-a5a7-b9d0b9770283",
+    "groupCategory": "New",
+    "categories": "New,Fantasy",
+    "sourceResource": "LevelImages/Local/level_332207_source",
+    "finishedResource": "LevelImages/Local/level_332207_finished"
+  },
+  {
+    "id": "329239",
+    "paintId": "63ce65c9-d4f0-4b90-82d5-fb622e81f31c",
+    "groupCategory": "New",
+    "categories": "New,Fashion",
+    "sourceResource": "LevelImages/Local/level_329239_source",
+    "finishedResource": "LevelImages/Local/level_329239_finished"
+  },
+  {
+    "id": "374987",
+    "paintId": "fc805e20-c03a-453c-9bbf-241682589df8",
+    "groupCategory": "New",
+    "categories": "New,People,Fantasy",
+    "sourceResource": "LevelImages/Local/level_374987_source",
+    "finishedResource": "LevelImages/Local/level_374987_finished"
+  },
+  {
+    "id": "375006",
+    "paintId": "da4eeeb1-17a6-4f61-b240-c6f7bc3257fe",
+    "groupCategory": "New",
+    "categories": "Festival,New",
+    "sourceResource": "LevelImages/Local/level_375006_source",
+    "finishedResource": "LevelImages/Local/level_375006_finished"
+  },
+  {
+    "id": "374961",
+    "paintId": "38ad8549-8cf9-4718-bdb3-0f246aa54abf",
+    "groupCategory": "New",
+    "categories": "New,Fashion",
+    "sourceResource": "LevelImages/Local/level_374961_source",
+    "finishedResource": "LevelImages/Local/level_374961_finished"
+  },
+  {
+    "id": "374967",
+    "paintId": "5659ea03-1301-4c1e-ade2-4ec3220730ef",
+    "groupCategory": "New",
+    "categories": "Festival,New",
+    "sourceResource": "LevelImages/Local/level_374967_source",
+    "finishedResource": "LevelImages/Local/level_374967_finished"
+  },
+  {
+    "id": "366408",
+    "paintId": "9c965745-a2bb-4f0f-a71a-cb0a2044fab6",
+    "groupCategory": "New",
+    "categories": "New,Emoji",
+    "sourceResource": "LevelImages/Local/level_366408_source",
+    "finishedResource": "LevelImages/Local/level_366408_finished"
+  },
+  {
+    "id": "335868",
+    "paintId": "785cba64-3a58-4079-8c73-1cb043820435",
+    "groupCategory": "New",
+    "categories": "New,Fantasy",
+    "sourceResource": "LevelImages/Local/level_335868_source",
+    "finishedResource": "LevelImages/Local/level_335868_finished"
+  },
+  {
+    "id": "374964",
+    "paintId": "6d629eb3-5821-4fe8-9a30-f23217a8fab7",
+    "groupCategory": "New",
+    "categories": "New,Food",
+    "sourceResource": "LevelImages/Local/level_374964_source",
+    "finishedResource": "LevelImages/Local/level_374964_finished"
+  },
+  {
+    "id": "374960",
+    "paintId": "d56e6c77-acc5-40ac-91c3-f65cb123f496",
+    "groupCategory": "New",
+    "categories": "New,Faith",
+    "sourceResource": "LevelImages/Local/level_374960_source",
+    "finishedResource": "LevelImages/Local/level_374960_finished"
+  },
+  {
+    "id": "374966",
+    "paintId": "b52bb05e-9cfb-41b3-8718-aef2a715d655",
+    "groupCategory": "New",
+    "categories": "New,Objects",
+    "sourceResource": "LevelImages/Local/level_374966_source",
+    "finishedResource": "LevelImages/Local/level_374966_finished"
+  },
+  {
+    "id": "356382",
+    "paintId": "14c7f9b3-0d87-409a-9dcf-dfb49888ecfd",
+    "groupCategory": "New",
+    "categories": "New,People",
+    "sourceResource": "LevelImages/Local/level_356382_source",
+    "finishedResource": "LevelImages/Local/level_356382_finished"
+  },
+  {
+    "id": "366413",
+    "paintId": "ffcd1acf-2626-4030-b7de-7b063c28bdfd",
+    "groupCategory": "New",
+    "categories": "New,Nature",
+    "sourceResource": "LevelImages/Local/level_366413_source",
+    "finishedResource": "LevelImages/Local/level_366413_finished"
+  },
+  {
+    "id": "366411",
+    "paintId": "dfe350d6-949d-4426-850e-25f50a94400a",
+    "groupCategory": "New",
+    "categories": "New,House",
+    "sourceResource": "LevelImages/Local/level_366411_source",
+    "finishedResource": "LevelImages/Local/level_366411_finished"
+  },
+  {
+    "id": "366407",
+    "paintId": "fb1f0b09-a359-4c39-ba27-cea131a613fc",
+    "groupCategory": "New",
+    "categories": "New,Animal",
+    "sourceResource": "LevelImages/Local/level_366407_source",
+    "finishedResource": "LevelImages/Local/level_366407_finished"
+  },
+  {
+    "id": "339695",
+    "paintId": "d6562dda-925c-49fe-832f-467270928c1b",
+    "groupCategory": "New",
+    "categories": "Festival,New",
+    "sourceResource": "LevelImages/Local/level_339695_source",
+    "finishedResource": "LevelImages/Local/level_339695_finished"
+  },
+  {
+    "id": "356377",
+    "paintId": "e5c8ef2d-22b4-4d2e-a0e6-209b246ba413",
+    "groupCategory": "New",
+    "categories": "New,People",
+    "sourceResource": "LevelImages/Local/level_356377_source",
+    "finishedResource": "LevelImages/Local/level_356377_finished"
+  },
+  {
+    "id": "356389",
+    "paintId": "d091a363-36de-4be5-9770-4216c91d9a57",
+    "groupCategory": "New",
+    "categories": "New,Objects",
+    "sourceResource": "LevelImages/Local/level_356389_source",
+    "finishedResource": "LevelImages/Local/level_356389_finished"
+  },
+  {
+    "id": "335856",
+    "paintId": "814fdd24-04b9-4fcf-bb64-230ace5ef4a3",
+    "groupCategory": "New",
+    "categories": "New,Food",
+    "sourceResource": "LevelImages/Local/level_335856_source",
+    "finishedResource": "LevelImages/Local/level_335856_finished"
+  },
+  {
+    "id": "331866",
+    "paintId": "30efb07a-55ea-4bca-bc5e-d417f1cebf69",
+    "groupCategory": "New",
+    "categories": "New,Fantasy",
+    "sourceResource": "LevelImages/Local/level_331866_source",
+    "finishedResource": "LevelImages/Local/level_331866_finished"
+  },
+  {
+    "id": "356380",
+    "paintId": "2321ddbe-c010-4cc3-a9e7-e8e0706a91f7",
+    "groupCategory": "New",
+    "categories": "New,Festival",
+    "sourceResource": "LevelImages/Local/level_356380_source",
+    "finishedResource": "LevelImages/Local/level_356380_finished"
+  },
+  {
+    "id": "356384",
+    "paintId": "1e9572c6-78c1-460b-897c-026279c10897",
+    "groupCategory": "New",
+    "categories": "New,Emoji",
+    "sourceResource": "LevelImages/Local/level_356384_source",
+    "finishedResource": "LevelImages/Local/level_356384_finished"
+  },
+  {
+    "id": "339696",
+    "paintId": "b4f3fcdb-0e1c-458a-a03d-fa31b1bac07f",
+    "groupCategory": "New",
+    "categories": "Festival,New",
+    "sourceResource": "LevelImages/Local/level_339696_source",
+    "finishedResource": "LevelImages/Local/level_339696_finished"
+  },
+  {
+    "id": "366393",
+    "paintId": "a513db20-5ea0-41d5-bbb6-bf7db92ec099",
+    "groupCategory": "New",
+    "categories": "New,Fantasy",
+    "sourceResource": "LevelImages/Local/level_366393_source",
+    "finishedResource": "LevelImages/Local/level_366393_finished"
+  },
+  {
+    "id": "332542",
+    "paintId": "668566ab-1c66-4b13-b261-890843135bab",
+    "groupCategory": "New",
+    "categories": "New,Nature",
+    "sourceResource": "LevelImages/Local/level_332542_source",
+    "finishedResource": "LevelImages/Local/level_332542_finished"
+  },
+  {
+    "id": "341538",
+    "paintId": "791f63b7-83d1-4ff4-a52d-befa648e629b",
+    "groupCategory": "New",
+    "categories": "New,Animal",
+    "sourceResource": "LevelImages/Local/level_341538_source",
+    "finishedResource": "LevelImages/Local/level_341538_finished"
+  },
+  {
+    "id": "350979",
+    "paintId": "a83ee0b6-ed3d-4aaa-8802-9abf74e3d3a6",
+    "groupCategory": "New",
+    "categories": "Fashion,New",
+    "sourceResource": "LevelImages/Local/level_350979_source",
+    "finishedResource": "LevelImages/Local/level_350979_finished"
+  },
+  {
+    "id": "314787",
+    "paintId": "02643068-fddf-4d1b-bf96-8b57ddc0cc22",
+    "groupCategory": "New",
+    "categories": "Mandala,New",
+    "sourceResource": "LevelImages/Local/level_314787_source",
+    "finishedResource": "LevelImages/Local/level_314787_finished"
+  },
+  {
+    "id": "340340",
+    "paintId": "9930bb0b-126d-4a36-a962-a8f59329afa3",
+    "groupCategory": "New",
+    "categories": "New,Objects",
+    "sourceResource": "LevelImages/Local/level_340340_source",
+    "finishedResource": "LevelImages/Local/level_340340_finished"
+  },
+  {
+    "id": "356394",
+    "paintId": "0efed9ed-88ff-4e26-8c35-299dada8fc5b",
+    "groupCategory": "New",
+    "categories": "New,Festival",
+    "sourceResource": "LevelImages/Local/level_356394_source",
+    "finishedResource": "LevelImages/Local/level_356394_finished"
+  },
+  {
+    "id": "356393",
+    "paintId": "799ee7a1-d7db-4b3d-a143-56de98486836",
+    "groupCategory": "New",
+    "categories": "New,People",
+    "sourceResource": "LevelImages/Local/level_356393_source",
+    "finishedResource": "LevelImages/Local/level_356393_finished"
+  },
+  {
+    "id": "356378",
+    "paintId": "55d28ef2-12d6-4013-a1c5-fe600d6f209c",
+    "groupCategory": "New",
+    "categories": "New,Nature",
+    "sourceResource": "LevelImages/Local/level_356378_source",
+    "finishedResource": "LevelImages/Local/level_356378_finished"
+  },
+  {
+    "id": "356385",
+    "paintId": "57f5da71-3bfc-46ee-a868-6ff59eccd3c0",
+    "groupCategory": "New",
+    "categories": "New,Food",
+    "sourceResource": "LevelImages/Local/level_356385_source",
+    "finishedResource": "LevelImages/Local/level_356385_finished"
+  },
+  {
+    "id": "356396",
+    "paintId": "67b5d61d-e35f-4305-8078-05df7a441a98",
+    "groupCategory": "New",
+    "categories": "New,Emoji",
+    "sourceResource": "LevelImages/Local/level_356396_source",
+    "finishedResource": "LevelImages/Local/level_356396_finished"
+  },
+  {
+    "id": "374992",
+    "paintId": "7ed2812d-ce47-4ba4-9b75-8b010550d888",
+    "groupCategory": "Emoji",
+    "categories": "New,Emoji",
+    "sourceResource": "LevelImages/Local/level_374992_source",
+    "finishedResource": "LevelImages/Local/level_374992_finished"
+  },
+  {
+    "id": "366408",
+    "paintId": "9c965745-a2bb-4f0f-a71a-cb0a2044fab6",
+    "groupCategory": "Emoji",
+    "categories": "New,Emoji",
+    "sourceResource": "LevelImages/Local/level_366408_source",
+    "finishedResource": "LevelImages/Local/level_366408_finished"
+  },
+  {
+    "id": "356396",
+    "paintId": "67b5d61d-e35f-4305-8078-05df7a441a98",
+    "groupCategory": "Emoji",
+    "categories": "New,Emoji",
+    "sourceResource": "LevelImages/Local/level_356396_source",
+    "finishedResource": "LevelImages/Local/level_356396_finished"
+  },
+  {
+    "id": "356384",
+    "paintId": "1e9572c6-78c1-460b-897c-026279c10897",
+    "groupCategory": "Emoji",
+    "categories": "New,Emoji",
+    "sourceResource": "LevelImages/Local/level_356384_source",
+    "finishedResource": "LevelImages/Local/level_356384_finished"
+  },
+  {
+    "id": "322381",
+    "paintId": "7afb7035-09af-42e0-a3f6-89c88e260376",
+    "groupCategory": "Emoji",
+    "categories": "Emoji,New,Cute,For You",
+    "sourceResource": "LevelImages/Local/level_322381_source",
+    "finishedResource": "LevelImages/Local/level_322381_finished"
+  },
+  {
+    "id": "326858",
+    "paintId": "95901fa5-c710-49b1-ab35-40be8d628287",
+    "groupCategory": "Emoji",
+    "categories": "For You,Emoji,New",
+    "sourceResource": "LevelImages/Local/level_326858_source",
+    "finishedResource": "LevelImages/Local/level_326858_finished"
+  },
+  {
+    "id": "326865",
+    "paintId": "d3945219-35b0-408b-84dd-1e2203373e7c",
+    "groupCategory": "Emoji",
+    "categories": "For You,Emoji,New",
+    "sourceResource": "LevelImages/Local/level_326865_source",
+    "finishedResource": "LevelImages/Local/level_326865_finished"
+  },
+  {
+    "id": "326874",
+    "paintId": "d3c8d253-94b9-4457-b806-b761d56ebce1",
+    "groupCategory": "Emoji",
+    "categories": "For You,Emoji,New",
+    "sourceResource": "LevelImages/Local/level_326874_source",
+    "finishedResource": "LevelImages/Local/level_326874_finished"
+  },
+  {
+    "id": "326863",
+    "paintId": "f4d6df4e-2832-453a-a266-955b42530843",
+    "groupCategory": "Emoji",
+    "categories": "For You,Emoji,New",
+    "sourceResource": "LevelImages/Local/level_326863_source",
+    "finishedResource": "LevelImages/Local/level_326863_finished"
+  },
+  {
+    "id": "324618",
+    "paintId": "c4bb23f8-a4e4-41e3-8cfc-59d5a032b2be",
+    "groupCategory": "Emoji",
+    "categories": "New,Emoji,For You",
+    "sourceResource": "LevelImages/Local/level_324618_source",
+    "finishedResource": "LevelImages/Local/level_324618_finished"
+  },
+  {
+    "id": "366413",
+    "paintId": "ffcd1acf-2626-4030-b7de-7b063c28bdfd",
+    "groupCategory": "Nature",
+    "categories": "New,Nature",
+    "sourceResource": "LevelImages/Local/level_366413_source",
+    "finishedResource": "LevelImages/Local/level_366413_finished"
+  },
+  {
+    "id": "356378",
+    "paintId": "55d28ef2-12d6-4013-a1c5-fe600d6f209c",
+    "groupCategory": "Nature",
+    "categories": "New,Nature",
+    "sourceResource": "LevelImages/Local/level_356378_source",
+    "finishedResource": "LevelImages/Local/level_356378_finished"
+  },
+  {
+    "id": "338639",
+    "paintId": "3e0d8273-ca65-4ab2-be04-96f363713143",
+    "groupCategory": "Nature",
+    "categories": "New,Nature,For You",
+    "sourceResource": "LevelImages/Local/level_338639_source",
+    "finishedResource": "LevelImages/Local/level_338639_finished"
+  },
+  {
+    "id": "332542",
+    "paintId": "668566ab-1c66-4b13-b261-890843135bab",
+    "groupCategory": "Nature",
+    "categories": "New,Nature",
+    "sourceResource": "LevelImages/Local/level_332542_source",
+    "finishedResource": "LevelImages/Local/level_332542_finished"
+  },
+  {
+    "id": "366407",
+    "paintId": "fb1f0b09-a359-4c39-ba27-cea131a613fc",
+    "groupCategory": "Animal",
+    "categories": "New,Animal",
+    "sourceResource": "LevelImages/Local/level_366407_source",
+    "finishedResource": "LevelImages/Local/level_366407_finished"
+  },
+  {
+    "id": "341538",
+    "paintId": "791f63b7-83d1-4ff4-a52d-befa648e629b",
+    "groupCategory": "Animal",
+    "categories": "New,Animal",
+    "sourceResource": "LevelImages/Local/level_341538_source",
+    "finishedResource": "LevelImages/Local/level_341538_finished"
+  },
+  {
+    "id": "338632",
+    "paintId": "92d28dc9-bbf6-4fe6-be5e-edde8e7df943",
+    "groupCategory": "Animal",
+    "categories": "New,Animal,For You",
+    "sourceResource": "LevelImages/Local/level_338632_source",
+    "finishedResource": "LevelImages/Local/level_338632_finished"
+  },
+  {
+    "id": "375006",
+    "paintId": "da4eeeb1-17a6-4f61-b240-c6f7bc3257fe",
+    "groupCategory": "Festival",
+    "categories": "Festival,New",
+    "sourceResource": "LevelImages/Local/level_375006_source",
+    "finishedResource": "LevelImages/Local/level_375006_finished"
+  },
+  {
+    "id": "374967",
+    "paintId": "5659ea03-1301-4c1e-ade2-4ec3220730ef",
+    "groupCategory": "Festival",
+    "categories": "Festival,New",
+    "sourceResource": "LevelImages/Local/level_374967_source",
+    "finishedResource": "LevelImages/Local/level_374967_finished"
+  },
+  {
+    "id": "339695",
+    "paintId": "d6562dda-925c-49fe-832f-467270928c1b",
+    "groupCategory": "Festival",
+    "categories": "Festival,New",
+    "sourceResource": "LevelImages/Local/level_339695_source",
+    "finishedResource": "LevelImages/Local/level_339695_finished"
+  },
+  {
+    "id": "339696",
+    "paintId": "b4f3fcdb-0e1c-458a-a03d-fa31b1bac07f",
+    "groupCategory": "Festival",
+    "categories": "Festival,New",
+    "sourceResource": "LevelImages/Local/level_339696_source",
+    "finishedResource": "LevelImages/Local/level_339696_finished"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "passed": 56,
+  "total": 56,
+  "regions": 32,
+  "filled": 1334,
+  "vertices": 4583624,
+  "resetMeanChannelDifference": 0.0,
+  "levelJsonUnchanged": true,
+  "platform": "Windows / Unity 2022.3.62f2 / D3D11"
+}

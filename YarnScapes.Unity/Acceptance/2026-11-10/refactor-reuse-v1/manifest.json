@@ -1,0 +1,328 @@
+{
+  "package": "com.weavekit.runtime",
+  "version": "0.1.0",
+  "unity": "2022.3.62f2",
+  "contract_checks": 30,
+  "random_route_oracle_cases": 600,
+  "runtime_checks": 70,
+  "standalone_checks": 22,
+  "level_sha256": "c7338c3adbbe2b8e96f29fdc826221e0ce60bc18d95120d2464eb99c01049251",
+  "filled_cells": 1334,
+  "regions": 32,
+  "vertices": 5699400,
+  "boundary_fibers": 43424,
+  "visual_comparison": [
+    {
+      "file": "01_fit.png",
+      "identical": true,
+      "mean_absolute_channel_delta_255": 0.0,
+      "changed_pixel_percent": 0.0
+    },
+    {
+      "file": "02_selected_zoom.png",
+      "identical": true,
+      "mean_absolute_channel_delta_255": 0.0,
+      "changed_pixel_percent": 0.0
+    },
+    {
+      "file": "06_finished_art.png",
+      "identical": true,
+      "mean_absolute_channel_delta_255": 0.0,
+      "changed_pixel_percent": 0.0
+    },
+    {
+      "file": "07_yarn_material_closeup.png",
+      "identical": true,
+      "mean_absolute_channel_delta_255": 0.0,
+      "changed_pixel_percent": 0.0
+    },
+    {
+      "file": "08_geometry_oblique.png",
+      "identical": false,
+      "mean_absolute_channel_delta_255": 0.0003508329391479492,
+      "changed_pixel_percent": 0.08444786071777344
+    },
+    {
+      "file": "10_fiber_edge.png",
+      "identical": false,
+      "mean_absolute_channel_delta_255": 8.684396743774414e-05,
+      "changed_pixel_percent": 0.02193450927734375
+    },
+    {
+      "file": "11_outer_edge.png",
+      "identical": false,
+      "mean_absolute_channel_delta_255": 6.639957427978516e-05,
+      "changed_pixel_percent": 0.016021728515625
+    },
+    {
+      "file": "12_restored_geometry.png",
+      "identical": false,
+      "mean_absolute_channel_delta_255": 0.00039905309677124023,
+      "changed_pixel_percent": 0.09815692901611328
+    },
+    {
+      "file": "13_geometry_height.png",
+      "identical": true,
+      "mean_absolute_channel_delta_255": 0.0,
+      "changed_pixel_percent": 0.0
+    }
+  ],
+  "package_files": [
+    {
+      "path": "Packages/com.weavekit.runtime/package.json",
+      "sha256": "b08eeb5017355f890156062325760e3c1b34a1d2fa446537de6d0c96d5b0b961"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/package.json.meta",
+      "sha256": "2cfc753d31f75149aa6d713ffae854f60cfae508f74bac1bd19a9150656f7dc7"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/README.md",
+      "sha256": "536100fdcd787d0ce0b40f64094ece12f7aae91376e2f79c575d28626190691c"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/README.md.meta",
+      "sha256": "605bea9d01488b3bc321f56e4485540c8c89cd59a6a72c984536aa6fde3ab0f2"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core/BoardState.cs",
+      "sha256": "44c4f80b124cf54029e7369be9a5cae073eeb1b696bfe06304b1ce5d7588028e"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core/BoardState.cs.meta",
+      "sha256": "a130c7467a0e4b7abb86c7c71e7957229cd2b27ca5ce270650f87a007662fa0e"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core/FillSession.cs",
+      "sha256": "c5dd673b48eaa3b87e491c3438d38b5bfada119ec9b37d7446e5bcb4aa57408a"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core/FillSession.cs.meta",
+      "sha256": "ccb0d0cea3b874aad0dcdf706fdac46bc4ebb769a606987966034cbdf8001048"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core/GridDefinition.cs",
+      "sha256": "cde0b9454385350c13875cf6b0f93be2ac7c24a61d69b143bd39120cc0292768"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core/GridDefinition.cs.meta",
+      "sha256": "5a07a575e1dd59a1d7bdc3e87c25dd2c5e104197456e8841db0155f1698c5879"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core/RegionRoutePlanner.cs",
+      "sha256": "91b2e3b81ac6fcf4c12119b1fd723db3cf0fef3a983aea72179bbbad815ee229"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core/RegionRoutePlanner.cs.meta",
+      "sha256": "cb368ff1f821e7f93d0a5064afffb6acaba983703c09b694bfa55c0432e63665"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core/WeaveKit.Core.asmdef",
+      "sha256": "bfd473ebd50ac00c4b9fc5df3049076d9149378dd0f881b0fe321b47eeef1743"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core/WeaveKit.Core.asmdef.meta",
+      "sha256": "6e9efbbc2a691020d458913951bf93beb78c3796ec4a88491d4354104a41b58c"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Core.meta",
+      "sha256": "322915bcbae7ae8b6c7944042da860446830fa6bd7c1a520e8962544e2bf38ab"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+      "sha256": "ccb0561f97dbfff46b522d0c270e50ccea78ae365d3f379e78afe360a2e2be3f"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png.meta",
+      "sha256": "d399cb6ab12eac0d8c9225b4318a291719d3e2e0611849bafa20e70c57b169d7"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/BoundaryWoolFiber.shader",
+      "sha256": "32eeb83b0f18f50991a6c07fb16cca64e1334803ccfd6aed1716b8fbabf51b80"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/BoundaryWoolFiber.shader.meta",
+      "sha256": "6f6c2581a92c32857b6cfc77bcee5b5e1d92eea3e458cdc5bc8fc071fd6bdd6f"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/PlushComposite.shader",
+      "sha256": "9edd607f89f26644ad776873f7c6c5ef942a45866235504c2056213411fc2143"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/PlushComposite.shader.meta",
+      "sha256": "f49b86fc25da78813a52df124587e22e0a6cede59b3099d77af848dc5866335e"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/RecessedWoolBed.shader",
+      "sha256": "bde0f4deb644ae8dd54b4db6a0b409849f6262ad29ed12eff0ff32e5e0684708"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/RecessedWoolBed.shader.meta",
+      "sha256": "2d359fa49eb890a0fe49db666733a9a690bdc2e3e46d6d8f8eeaa2f175eeaa76"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/SoftWool.cginc",
+      "sha256": "f995b6b5322f8d89e2aad2faa608113f78ed2e463f35e837f7a3e4dd5e1ac4b3"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/SoftWool.cginc.meta",
+      "sha256": "25a55372f550d9a7336ad31f8c54d90e28fdf4200889bebed8562b3982075d17"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/SoftWoolPile.shader",
+      "sha256": "f068033d467c62603de39e317809ab862b62f7b68883c21fd61b04ac5cd23145"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/SoftWoolPile.shader.meta",
+      "sha256": "9f2f37ae2edb22882e198e9b2c4e82049743d87afc12187856d094c1fa5ac586"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/SoftWoolStrand.shader",
+      "sha256": "4c786ad88e9d603b34e7570a01f5d1f0157146ec407765d209c793546fbe1f06"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/SoftWoolStrand.shader.meta",
+      "sha256": "3142327952bcba38f5e1da308f9583b92380317795bde93eba173b951d71e413"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/wool_filaments.png",
+      "sha256": "5e240e91e0340dd424d21181b408e1e2a2429a78051b502f7dc6707dbf73e33b"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/wool_filaments.png.meta",
+      "sha256": "8095692c312707162132787c11b774b3fce80c3db31c40d7c2767167bf62acd5"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/WoolHeight.shader",
+      "sha256": "a378ddf500b66ffd7a6ee9d07b7ec0821771435a6f2451e95260502e90692c2c"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/WoolHeight.shader.meta",
+      "sha256": "37927a0e45eed442251e6f5963f70b54e00e76c2b268a2bcb3a34e90b42d65f3"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/WoolOcclusion.cginc",
+      "sha256": "b54e4077c0e46e222c7129bf3c7a4c0f24ee7a212255a97c0fb05ff1d877ddf1"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool/WoolOcclusion.cginc.meta",
+      "sha256": "d19fe7d82eee124cefc730b6835ee39106497b915e8a58618146bc459340fc2e"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/Wool.meta",
+      "sha256": "220af29d97858e7b8cfcb4d0b78ae9a7e1b24b650d8fe65b5fe8ebe516c4b7ec"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit.meta",
+      "sha256": "099a8f22316ceb435e61393e06eba3d673c6aa7247ec0848684cb2b87d1831ec"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Resources.meta",
+      "sha256": "cc165a8aacfae8df19fb82269be2e5c48ef1a6f7ee1013c974f7f527bdd7c050"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/BoardViewportInput.cs",
+      "sha256": "1409528ded11b3a564cd03fceb8b6a90be693be5b254cdf6615a11cbd9eeaf5f"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/BoardViewportInput.cs.meta",
+      "sha256": "f5ad94da53b55fc4b87eaa3e75d6d08c499f77ae54873fc37a453286df5e07a8"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/CompletionBurst.cs",
+      "sha256": "8750a17f7484f4db64d02dde46b154b8f9911d64fcaa926f8c963343793fca60"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/CompletionBurst.cs.meta",
+      "sha256": "3d82222461922927302b3ecac08a57ae7bb2cc6022b42b8f0b0f1590bcffe1a3"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/PixelBoardRenderer.cs",
+      "sha256": "9cb200648cc7bdb88bf29ddccb8281ee491effc917c3829850965bd90b8640f0"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/PixelBoardRenderer.cs.meta",
+      "sha256": "2631367da68c2b568f5e7ad08fe862609ec7285222daaa3ce2dd2baa4d19cff2"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/PixelCellView.cs",
+      "sha256": "931f03ec990dbaa893825b8dae8674585be76606c9668af984a810acca0bef69"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/PixelCellView.cs.meta",
+      "sha256": "9f15005cf5c24be3933d0f4128da841146cbfe116b1d902d0f500a5c7852d876"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/PlushYarnBoard.cs",
+      "sha256": "9d0f6b5ab9bcbac1c62d14e5ed7d8be90dbe2706115ebd33a2084829340ff8b4"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/PlushYarnBoard.cs.meta",
+      "sha256": "564858ee879990818ac0af341f1b2f5245437b275d5b56ac895cfbdd3b967ac0"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/PresentationSettings.cs",
+      "sha256": "96b291eed5419f6082bd7487f156fc8fd6e1af5fd124aa23eae80a56c19e64d8"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/PresentationSettings.cs.meta",
+      "sha256": "86129948a3162f582ea9088d90db639fb72d255707d2447ee7bc2c207d27bf7a"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/RegionPlayback.cs",
+      "sha256": "c3a51e48ebef5e32cd1e2ce6c518e0d2b363caacbe9729a17a406cf510c7375c"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/RegionPlayback.cs.meta",
+      "sha256": "8ccbba2114b36ece1690b70ff77bb2dd6652d6cd0ea50608780e9d6620b5bd23"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/UiFeedbackAnimator.cs",
+      "sha256": "3432bff57148e670da905fa9286d86a3c51c7b5b337865576e63337bed878001"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/UiFeedbackAnimator.cs.meta",
+      "sha256": "88dd3008755429692485bbbc5b9cb2c2f1e2758c20deb05da821fd6c7bd5bea4"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/WeaveKit.Unity.asmdef",
+      "sha256": "795ff56ec956e630d18f01c0765605e77ff83cdf7e94be90d7ba373559d300d5"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/WeaveKit.Unity.asmdef.meta",
+      "sha256": "62f25cf286f3ad70dc172727b8fba3632849e7e3546eff98d4df48f632a77ffa"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/WeaveKitResources.cs",
+      "sha256": "252e0800440df60a6db5d9f127813ee8da7ee30edfe962788466aaef7d8c65ce"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/WeaveKitResources.cs.meta",
+      "sha256": "bfb5b206f3957893fbbad32615d46b0f08c4a9c33ae19566d380d358184fe5c0"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/YarnThreadGraphic.cs",
+      "sha256": "c42f20afef10f66b77ff713babfb4c781a32d3ba0c4554f297e58b065097a4d0"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity/YarnThreadGraphic.cs.meta",
+      "sha256": "c2c3569b5ed111fc81b38976d4657013ef1beb582c6917e46f6051dbeed8dbb8"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime/Unity.meta",
+      "sha256": "1ba4c9c1a2bf90ed6f39e17895a81863e54291abe0c36abcc4cce5fc7d5af06d"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Runtime.meta",
+      "sha256": "4bfd30f7ab3cc01a40e082d670908666e403e1d55128bf7e05a59edfc2f922c8"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Samples~/MinimalWeave/Editor/MinimalWeaveBuilder.cs",
+      "sha256": "1437f30b541be7b6376db310d45c7434f1fc3f15d3babcb222c4cff3353cd942"
+    },
+    {
+      "path": "Packages/com.weavekit.runtime/Samples~/MinimalWeave/MinimalWeaveDemo.cs",
+      "sha256": "21c3e842ef202470d43c074620d208e8b9de35f13079e10ff0d5636e6bd61165"
+    }
+  ]
+}

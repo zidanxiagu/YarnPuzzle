@@ -1,0 +1,7 @@
+{
+  "name": "WeaveKit.Core",
+  "rootNamespace": "WeaveKit.Core",
+  "references": [],
+  "autoReferenced": true,
+  "noEngineReferences": true
+}

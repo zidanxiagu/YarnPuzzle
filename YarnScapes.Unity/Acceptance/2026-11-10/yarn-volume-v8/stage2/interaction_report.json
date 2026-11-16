@@ -1,0 +1,50 @@
+{
+    "method": "Material rendering fixture via RestoreProgress; no gameplay coverage",
+    "screenWidth": 540,
+    "screenHeight": 960,
+    "paintableCells": 1334,
+    "filledCells": 0,
+    "firstRegionExpected": 0,
+    "firstRegionActual": 0,
+    "regionsPlayed": 0,
+    "failed": 0,
+    "plushVertices": 4326572,
+    "boundaryFibers": 38904,
+    "stitchesPerCell": 9,
+    "stitchVariation": 0.07525716722011566,
+    "geometryGenerationMilliseconds": 1985.109899999999,
+    "meshUploadMilliseconds": 340.5794000000001,
+    "managedHeapBytes": 107724800,
+    "managedHeapBytesBeforeCollection": 723283968,
+    "unityAllocatedBytes": 170647229,
+    "renderTextureWidth": 2048,
+    "graphicsDevice": "NVIDIA GeForce RTX 5060",
+    "graphicsApi": "Direct3D11",
+    "writesProgress": false,
+    "fullPlaythrough": false,
+    "originalVisualParityVerified": false,
+    "physicalTouchPinchVerified": false,
+    "checks": [
+        {
+            "name": "runtime_started",
+            "pass": true
+        },
+        {
+            "name": "reference_yarn_material_loaded",
+            "pass": true
+        },
+        {
+            "name": "plush_3d_geometry_active",
+            "pass": true
+        },
+        {
+            "name": "nonblank_capture_06_finished_art.png",
+            "pass": true
+        },
+        {
+            "name": "nonblank_capture_07_yarn_material_closeup.png",
+            "pass": true
+        }
+    ],
+    "errors": []
+}

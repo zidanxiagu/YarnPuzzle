@@ -1,0 +1,39 @@
+{
+    "method": "Deterministic 12x12 neutral wool swatch; appearance diagnostics only, no gameplay coverage",
+    "screenWidth": 0,
+    "screenHeight": 0,
+    "paintableCells": 0,
+    "filledCells": 0,
+    "firstRegionExpected": 0,
+    "firstRegionActual": 0,
+    "regionsPlayed": 0,
+    "failed": 0,
+    "plushVertices": 248400,
+    "boundaryFibers": 0,
+    "stitchesPerCell": 12,
+    "stitchVariation": 0.0,
+    "geometryGenerationMilliseconds": 0.0,
+    "meshUploadMilliseconds": 0.0,
+    "managedHeapBytes": 0,
+    "managedHeapBytesBeforeCollection": 0,
+    "unityAllocatedBytes": 0,
+    "renderTextureWidth": 0,
+    "graphicsDevice": "",
+    "graphicsApi": "",
+    "writesProgress": false,
+    "fullPlaythrough": false,
+    "originalVisualParityVerified": false,
+    "physicalTouchPinchVerified": false,
+    "checks": [
+        {
+            "name": "swatch_initializes",
+            "pass": true
+        },
+        {
+            "name": "swatch_contact_field_allocated",
+            "pass": true
+        }
+    ],
+    "errors": [],
+    "displayPalette": []
+}

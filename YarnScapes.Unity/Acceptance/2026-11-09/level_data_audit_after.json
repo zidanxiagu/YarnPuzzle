@@ -1,0 +1,211 @@
+{
+  "source": "C:\\Users\\TU\\Desktop\\YarnScapes_1.0.8\\YarnScapes.Unity\\Assets\\Resources\\LevelImages\\level_326863_finished.png",
+  "sourceSha256": "fcf1edfdf7bdfb9b8f60777b20eea7691c9ad6f9bb78f6626cbeb42b80403e19",
+  "sourceRole": "finished_url small PNG; one PNG pixel is one game cell",
+  "algorithmEvidence": "decoded/jadx/sources/defpackage/IlLlLl1IL.java:98-163,178-202,305-421",
+  "expectedSize": [
+    60,
+    60
+  ],
+  "actualSize": [
+    60,
+    60
+  ],
+  "expectedPaintableCells": 1334,
+  "actualPaintableCells": 1334,
+  "expectedColorGroups": 13,
+  "actualColorGroups": 13,
+  "expectedPaletteRgba": [
+    [
+      255,
+      147,
+      0,
+      255
+    ],
+    [
+      235,
+      16,
+      14,
+      255
+    ],
+    [
+      255,
+      232,
+      0,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      0,
+      0,
+      0,
+      255
+    ],
+    [
+      150,
+      54,
+      0,
+      255
+    ],
+    [
+      32,
+      148,
+      3,
+      255
+    ],
+    [
+      18,
+      82,
+      1,
+      255
+    ],
+    [
+      43,
+      65,
+      243,
+      255
+    ],
+    [
+      13,
+      28,
+      155,
+      255
+    ],
+    [
+      50,
+      0,
+      82,
+      255
+    ],
+    [
+      85,
+      0,
+      140,
+      255
+    ],
+    [
+      122,
+      16,
+      166,
+      255
+    ]
+  ],
+  "actualPaletteRgba": [
+    [
+      255,
+      147,
+      0,
+      255
+    ],
+    [
+      235,
+      16,
+      14,
+      255
+    ],
+    [
+      255,
+      232,
+      0,
+      255
+    ],
+    [
+      255,
+      255,
+      255,
+      255
+    ],
+    [
+      0,
+      0,
+      0,
+      255
+    ],
+    [
+      150,
+      54,
+      0,
+      255
+    ],
+    [
+      32,
+      148,
+      3,
+      255
+    ],
+    [
+      18,
+      82,
+      1,
+      255
+    ],
+    [
+      43,
+      65,
+      243,
+      255
+    ],
+    [
+      13,
+      28,
+      155,
+      255
+    ],
+    [
+      50,
+      0,
+      82,
+      255
+    ],
+    [
+      85,
+      0,
+      140,
+      255
+    ],
+    [
+      122,
+      16,
+      166,
+      255
+    ]
+  ],
+  "cellGroupMismatches": 0,
+  "expectedGroupCounts": {
+    "0": 313,
+    "1": 200,
+    "2": 155,
+    "3": 9,
+    "4": 133,
+    "5": 36,
+    "6": 195,
+    "7": 3,
+    "8": 109,
+    "9": 34,
+    "10": 24,
+    "11": 61,
+    "12": 62
+  },
+  "actualGroupCounts": {
+    "0": 313,
+    "1": 200,
+    "2": 155,
+    "3": 9,
+    "4": 133,
+    "5": 36,
+    "6": 195,
+    "7": 3,
+    "8": 109,
+    "9": 34,
+    "10": 24,
+    "11": 61,
+    "12": 62
+  },
+  "pass": true,
+  "evidenceStatus": "recovered algorithm; pending comparison with original runtime color_analysis_result cache"
+}

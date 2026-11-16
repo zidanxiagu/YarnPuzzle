@@ -1,0 +1,192 @@
+[
+  {
+    "path": "Assets\\Scripts\\Presentation\\PlushYarnBoard.cs",
+    "bytes": 17179,
+    "sha256": "aa88a7f3374c354eb8929393e8e6aba829a609caff2ae530a6ee8adbb60e252e"
+  },
+  {
+    "path": "Assets\\Scripts\\Presentation\\RuntimeAcceptanceCapture.cs",
+    "bytes": 15251,
+    "sha256": "140f64a0400ba3fdce256341d0208622c038b55577c87d0d9c02409264b11d88"
+  },
+  {
+    "path": "Assets\\Editor\\YarnMaterialImport.cs",
+    "bytes": 1611,
+    "sha256": "592de1483454236bc6885f0fdd797a1029d19923c83efbc1e36ddcd7d0251df4"
+  },
+  {
+    "path": "Tools\\PrepareSoftWoolAssets.py",
+    "bytes": 2562,
+    "sha256": "81a8444986923d0685ca5dd57213c074701f5a52f7c2354ef31542b598bebfbb"
+  },
+  {
+    "path": "Tools\\ReviewSoftWool.py",
+    "bytes": 2328,
+    "sha256": "e47c5abc496210247e2f4e50d780ad0c4541ffe0b33a794d707f963400d1c742"
+  },
+  {
+    "path": "Tools\\RecordSoftWoolDelivery.py",
+    "bytes": 6633,
+    "sha256": "0320cfa620a6806f48c96f0508a138f88785d64a3506d4f9edf9eefd1e63d7c7"
+  },
+  {
+    "path": "README.md",
+    "bytes": 8708,
+    "sha256": "9f211d26ef8d90d6756b561cc11200a861b5e8d065e12b0f98a275a6c78ca592"
+  },
+  {
+    "path": "Assets\\Resources\\Levels\\level_326863.json",
+    "bytes": 33650,
+    "sha256": "c7338c3adbbe2b8e96f29fdc826221e0ce60bc18d95120d2464eb99c01049251"
+  },
+  {
+    "path": "Builds\\YarnScapesOffline_Data\\Managed\\Assembly-CSharp.dll",
+    "bytes": 64000,
+    "sha256": "3c336f8fc03d59e929c42a44261f8585c8fa89bcc01b8856c3a09ce960315650"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV3\\SoftWool.cginc",
+    "bytes": 2019,
+    "sha256": "3ffd1897e732965684d9ccbed0f89e3628cd2baa749c6b173a624b870b7bae7d"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV3\\SoftWool.cginc.meta",
+    "bytes": 161,
+    "sha256": "7e6337d3f0d2ceb5cd984a7680a9f64a1825451103ac82db0a73375d042e0e58"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV3\\SoftWoolFiber.shader",
+    "bytes": 1433,
+    "sha256": "b5cf296ee5e26a4a989db396f580c91884d9f00fb2e067d25e77269882bc9091"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV3\\SoftWoolFiber.shader.meta",
+    "bytes": 204,
+    "sha256": "58656088718d047f1903f713d5e90e4a3c52be814044105fca19c7f6d680e5d9"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV3\\SoftWoolPile.shader",
+    "bytes": 1585,
+    "sha256": "36cb4daabdef7ec2bd2c07edf88857f913dfeab2a2a7af0d45ae3223b1324668"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV3\\SoftWoolPile.shader.meta",
+    "bytes": 204,
+    "sha256": "04e569cb37e2a70cf9c5d53737c83134ba4eb877140ffdba168a85337fdee4e8"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV3\\SoftWoolStrand.shader",
+    "bytes": 684,
+    "sha256": "c5aeaf5787bf7e8362756ed769a4c6f414189c31dcd44a5cd80ecdf5ad0cda8b"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV3\\SoftWoolStrand.shader.meta",
+    "bytes": 204,
+    "sha256": "9dd6966d336a1be3b999d859f8e221c2bd69211df4f8e73dee50f884feefa58d"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV3\\wool_filaments.png",
+    "bytes": 3140491,
+    "sha256": "5e240e91e0340dd424d21181b408e1e2a2429a78051b502f7dc6707dbf73e33b"
+  },
+  {
+    "path": "Assets\\Resources\\YarnMaterialsV3\\wool_filaments.png.meta",
+    "bytes": 2948,
+    "sha256": "8095692c312707162132787c11b774b3fce80c3db31c40d7c2767167bf62acd5"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\01_fit.png",
+    "bytes": 314449,
+    "sha256": "1e6b96592a1b217427d05af045e7c74046293c0f14d1c79f969cc7fd592de4ca"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\02_selected_zoom.png",
+    "bytes": 339790,
+    "sha256": "20a372514c1fff21e7264de58515235b90a8f3af69852e143099eb471497772e"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\03_thread_in_progress.png",
+    "bytes": 350245,
+    "sha256": "aa8e8bf278f0d30f1cdb25c7ba1cae07ff6ca72afac67d66025258ecd26ff96f"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\04_region_filled.png",
+    "bytes": 360047,
+    "sha256": "528751dd4f020d3733de06d3ae7a4f2a231798df2e480171ed0487ab15f3c570"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\05_completion.png",
+    "bytes": 143972,
+    "sha256": "80db52a7ca25f55f1314bf80119f1bd9644b12f1d2b9ec657b6d94f819624a18"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\06_finished_art.png",
+    "bytes": 455387,
+    "sha256": "aba18a4546cf4ef4a7fb907d1f228aea70f0cef38488a21675d94082d777fbfe"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\07_yarn_material_closeup.png",
+    "bytes": 608146,
+    "sha256": "0e912bbecba222edf97ad1a792f1f2b046f1ce052653c7202909b31b92a7b4d4"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\08_geometry_oblique.png",
+    "bytes": 5423168,
+    "sha256": "9a13bbea350e472c02e5395dff6eac59f1936c945e3cf049dcaa15d63e1b13b3"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\09_reset.png",
+    "bytes": 310438,
+    "sha256": "922e496521f941608da9fdd6d5d08a9c2a06d416866fd3069a160fc971006878"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\10_fiber_edge.png",
+    "bytes": 3917437,
+    "sha256": "aff13da554f38d7489f2db43b7b89bdeff3828cc18a5bbcfae8c93cb1ab58a1d"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime\\interaction_report.json",
+    "bytes": 5395,
+    "sha256": "94dee693fad9d2ad6f0199d1bf8203cc6c3098906e46f4cca701fa9a333cd76d"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\soft-wool-v3-preview.png",
+    "bytes": 739392,
+    "sha256": "1a723796ccee590c2a5bdafda163164e41c41b08fa88a6c35cc2cda35d1696eb"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime-comparison.png",
+    "bytes": 1590641,
+    "sha256": "fd51490bab8e0bea768b6f1a210cd9f96c34098a39fc928ff5d224a8624e4c03"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime-fiber-detail.png",
+    "bytes": 696591,
+    "sha256": "a1d96fbd67fa636335d07b7c8ae7f9540b87741307707a4040e01f95bc1aee8c"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\runtime-edge-detail.png",
+    "bytes": 639752,
+    "sha256": "c5510c8b8b212969cbc36ea960875d9c5282cc35998f6de0847fc1cdd2bb4d6e"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\visual_checks.json",
+    "bytes": 220,
+    "sha256": "284b5c12ee132be8796415779635df4948819668365283102d6002307cb284bf"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\REPORT.md",
+    "bytes": 2852,
+    "sha256": "8f0a865af00d9d1d42ccb52b166ed903bca68094395e5641b3784688c00e6789"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\build-final.log",
+    "bytes": 188035,
+    "sha256": "ac9a91775a14079c00e97ea87b5d9e11c45046615f45293b469ea8a0e409c66e"
+  },
+  {
+    "path": "Acceptance\\2026-11-10\\yarn-material-v3\\player-runtime.log",
+    "bytes": 13250,
+    "sha256": "9258cc9ca8793648b7ff9c87ce0e8894d42acb4dd0a4cd7150370aedf400f486"
+  }
+]
