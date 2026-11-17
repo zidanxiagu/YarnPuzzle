@@ -1,0 +1,1134 @@
+{
+    "unity": "2022.3.62f2",
+    "operatingSystem": "Windows 11  (10.0.28000) 64bit",
+    "graphicsDevice": "NVIDIA GeForce RTX 5060",
+    "graphicsApi": "Direct3D11",
+    "threadAsset": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png: 112089 bytes; imported=True",
+    "tipAsset": "Assets/Resources/Textures/pixel_sparkle_tintable.png: 603 bytes; imported=True",
+    "notes": [],
+    "samples": [
+        {
+            "frame": 33,
+            "threadCount": 1,
+            "targetIndex": 0,
+            "meshVertices": 0,
+            "tipMeshVertices": 0,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": false,
+            "hasSource": false,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": false,
+            "tipCulled": false,
+            "tipShaderSupported": false,
+            "opacity": 0.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "none",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "sourceScreen": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "tipScreen": {
+                "x": 320.0,
+                "y": 240.0
+            },
+            "destinationScreen": {
+                "x": 0.0,
+                "y": 0.0
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Playback is running but the thread has no source spool; Begin has not retained its source.",
+                "Playback is running but thread opacity is zero; Begin has not run, or Clear has reset it.",
+                "Canvas visibility or renderer alpha prevents drawing."
+            ]
+        },
+        {
+            "frame": 36,
+            "threadCount": 1,
+            "targetIndex": 379,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -207.34405517578126,
+                "y": 346.14556884765627
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 268.16400146484377,
+                "y": 326.536376953125
+            },
+            "destinationScreen": {
+                "x": 277.2825012207031,
+                "y": 368.0058288574219
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 39,
+            "threadCount": 1,
+            "targetIndex": 439,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -178.71348571777345,
+                "y": 465.31829833984377
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 275.3216247558594,
+                "y": 356.32958984375
+            },
+            "destinationScreen": {
+                "x": 277.2825012207031,
+                "y": 363.9375
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 43,
+            "threadCount": 1,
+            "targetIndex": 498,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -182.83314514160157,
+                "y": 480.96710205078127
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 274.2917175292969,
+                "y": 360.24176025390627
+            },
+            "destinationScreen": {
+                "x": 273.21417236328127,
+                "y": 359.8691711425781
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 46,
+            "threadCount": 1,
+            "targetIndex": 557,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -194.50987243652345,
+                "y": 471.60333251953127
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 271.3725280761719,
+                "y": 357.90081787109377
+            },
+            "destinationScreen": {
+                "x": 269.14581298828127,
+                "y": 355.80084228515627
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 48,
+            "threadCount": 1,
+            "targetIndex": 618,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -187.25656127929688,
+                "y": 447.3093566894531
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 273.18585205078127,
+                "y": 351.82733154296877
+            },
+            "destinationScreen": {
+                "x": 273.21417236328127,
+                "y": 351.7325134277344
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 51,
+            "threadCount": 1,
+            "targetIndex": 679,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -173.92459106445313,
+                "y": 433.76092529296877
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 276.51885986328127,
+                "y": 348.44024658203127
+            },
+            "destinationScreen": {
+                "x": 277.2825012207031,
+                "y": 347.6641845703125
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 54,
+            "threadCount": 1,
+            "targetIndex": 620,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -160.81619262695313,
+                "y": 442.116943359375
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 279.79595947265627,
+                "y": 350.52923583984377
+            },
+            "destinationScreen": {
+                "x": 281.350830078125,
+                "y": 351.7325134277344
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 57,
+            "threadCount": 1,
+            "targetIndex": 561,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -145.88577270507813,
+                "y": 455.9238586425781
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 283.528564453125,
+                "y": 353.98095703125
+            },
+            "destinationScreen": {
+                "x": 285.4191589355469,
+                "y": 355.80084228515627
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 60,
+            "threadCount": 1,
+            "targetIndex": 500,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -149.814453125,
+                "y": 471.6993408203125
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 282.54638671875,
+                "y": 357.9248352050781
+            },
+            "destinationScreen": {
+                "x": 281.350830078125,
+                "y": 359.8691711425781
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 64,
+            "threadCount": 1,
+            "targetIndex": 561,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -141.60499572753907,
+                "y": 466.113525390625
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 284.5987548828125,
+                "y": 356.52838134765627
+            },
+            "destinationScreen": {
+                "x": 285.4191589355469,
+                "y": 355.80084228515627
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 67,
+            "threadCount": 1,
+            "targetIndex": 620,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -152.3727569580078,
+                "y": 450.2138977050781
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 281.90679931640627,
+                "y": 352.553466796875
+            },
+            "destinationScreen": {
+                "x": 281.350830078125,
+                "y": 351.7325134277344
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 70,
+            "threadCount": 1,
+            "targetIndex": 679,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -167.13523864746095,
+                "y": 434.6054992675781
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 278.2161865234375,
+                "y": 348.6513671875
+            },
+            "destinationScreen": {
+                "x": 277.2825012207031,
+                "y": 347.6641845703125
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 74,
+            "threadCount": 1,
+            "targetIndex": 739,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -170.35166931152345,
+                "y": 417.1898498535156
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 277.4120788574219,
+                "y": 344.2974548339844
+            },
+            "destinationScreen": {
+                "x": 277.2825012207031,
+                "y": 343.5958251953125
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 77,
+            "threadCount": 1,
+            "targetIndex": 679,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -170.78138732910157,
+                "y": 428.35455322265627
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 277.3046569824219,
+                "y": 347.088623046875
+            },
+            "destinationScreen": {
+                "x": 277.2825012207031,
+                "y": 347.6641845703125
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 80,
+            "threadCount": 1,
+            "targetIndex": 618,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -183.22877502441407,
+                "y": 442.48590087890627
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 274.19281005859377,
+                "y": 350.6214599609375
+            },
+            "destinationScreen": {
+                "x": 273.21417236328127,
+                "y": 351.7325134277344
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        },
+        {
+            "frame": 84,
+            "threadCount": 1,
+            "targetIndex": 557,
+            "meshVertices": 0,
+            "tipMeshVertices": 4,
+            "rectMaskCount": 0,
+            "maskCount": 0,
+            "filling": true,
+            "active": true,
+            "enabled": true,
+            "weaving": true,
+            "hasSource": true,
+            "canvasActive": true,
+            "culled": false,
+            "shaderSupported": false,
+            "tipEnabled": true,
+            "tipCulled": false,
+            "tipShaderSupported": true,
+            "opacity": 1.0,
+            "rendererAlpha": 0.0,
+            "tipRendererAlpha": 1.0,
+            "minimumGroupAlpha": 1.0,
+            "path": "FlightEditorSession/Canvas/PortraitFrame/YarnThread",
+            "texture": "Packages/com.weavekit.runtime/Runtime/Resources/WeaveKit/thread_strip.png",
+            "renderMode": "ScreenSpaceOverlay",
+            "shader": "none",
+            "tipSprite": "Assets/Resources/Textures/pixel_sparkle_tintable.png",
+            "tipShader": "UI/Default",
+            "rect": {
+                "serializedVersion": "2",
+                "x": -540.0,
+                "y": -960.0,
+                "width": 1080.0,
+                "height": 1920.0
+            },
+            "scale": {
+                "x": 0.25,
+                "y": 0.25,
+                "z": 0.25
+            },
+            "localTip": {
+                "x": -201.01187133789063,
+                "y": 460.73541259765627
+            },
+            "sourceScreen": {
+                "x": 216.4499969482422,
+                "y": 91.35000610351563
+            },
+            "tipScreen": {
+                "x": 269.7470397949219,
+                "y": 355.183837890625
+            },
+            "destinationScreen": {
+                "x": 269.14581298828127,
+                "y": 355.80084228515627
+            },
+            "screenSize": {
+                "x": 640.0,
+                "y": 480.0
+            },
+            "findings": [
+                "Canvas visibility or renderer alpha prevents drawing.",
+                "Thread has opacity but no uploaded mesh (the first sample can precede canvas rebuild)."
+            ]
+        }
+    ]
+}

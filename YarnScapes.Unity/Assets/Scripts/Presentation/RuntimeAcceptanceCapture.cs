@@ -149,6 +149,16 @@ namespace YarnScapes.Presentation
             Check("thread_visible_during_fill", FindObjectOfType<YarnThreadGraphic>().IsVisible);
             Check("thread_matches_selected_spool_dye",SameRgb(FindObjectOfType<YarnThreadGraphic>().color,board.GetColor(selectedDuringFill)));
             yield return new WaitForEndOfFrame(); Capture("03_thread_in_progress.png");
+            var threadGraphic = FindObjectOfType<YarnThreadGraphic>();
+            var threadRenderer = threadGraphic.GetComponent<CanvasRenderer>();
+            var threadMesh = threadRenderer == null ? null : threadRenderer.GetMesh();
+            Check("thread_has_uploaded_visible_mesh", threadRenderer != null && !threadRenderer.cull && threadRenderer.GetAlpha() > .05f
+                && threadRenderer.materialCount > 0 && threadMesh != null && threadMesh.vertexCount > 0);
+            var tipImage = threadGraphic.transform.Find("ThreadTip").GetComponent<Image>();
+            var tipRenderer = tipImage.GetComponent<CanvasRenderer>();
+            var tipMesh = tipRenderer == null ? null : tipRenderer.GetMesh();
+            Check("thread_tip_has_uploaded_visible_mesh", tipImage.isActiveAndEnabled && tipImage.color.a > .05f
+                && tipRenderer != null && !tipRenderer.cull && tipRenderer.GetAlpha() > .05f && tipMesh != null && tipMesh.vertexCount > 0);
             while (board.IsFilling) yield return null;
             report.firstRegionExpected = expected; report.firstRegionActual = board.FilledCount;
             Check("connected_region_count", board.FilledCount == expected && expected > 1);

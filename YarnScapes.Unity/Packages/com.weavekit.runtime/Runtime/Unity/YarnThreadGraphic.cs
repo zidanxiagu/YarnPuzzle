@@ -6,6 +6,8 @@ namespace WeaveKit.Unity
 {
     // Presentation approximation using a shaded UI thread and the original tip sprite.
     // This is not a port of the original GLES thread shader.
+    // Create the renderer before UGUI registers this graphic, including in Editor Play Mode.
+    [RequireComponent(typeof(CanvasRenderer))]
     public sealed class YarnThreadGraphic : MaskableGraphic
     {
         private RectTransform source;

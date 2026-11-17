@@ -26,6 +26,11 @@ namespace YarnScapes.Editor
         public static void Verify()
         {
             checks = 0; results.Clear();
+            // Do not access Graphic.canvasRenderer here: its lazy getter can hide
+            // a missing dependency that prevents rendering in Editor Play Mode.
+            var threadObject = new GameObject("ThreadDependencyCheck", typeof(RectTransform), typeof(WeaveKit.Unity.YarnThreadGraphic));
+            try { Check("thread_creates_canvas_renderer_before_canvas_rebuild", threadObject.GetComponent<CanvasRenderer>() != null); }
+            finally { UnityEngine.Object.DestroyImmediate(threadObject); }
             var input = new[] { 0, -1, 1, -1, 0, 1, 1, 1, 0 };
             var grid = new GridDefinition(3, 3, 2, input);
             input[0] = 1;
